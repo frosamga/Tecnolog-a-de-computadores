@@ -1,0 +1,72 @@
+[project]
+name=morpra1
+netlist=morpra1
+contents=morpra1
+date=11/29/05
+time=11:16:35
+version=3.1.5.00.33
+generics=MAX
+Type=F21i
+FndType=F3.1i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+directory=C:\FNDTN\ACTIVE\PROJECTS\MORPRA1
+lib_order=1001 133 161
+pdf_dir=c:\fndtn\active\projects\
+[libraries]
+1001= 
+133=c:\fndtn\active\syslib\simprims
+161=c:\fndtn\active\syslib\xc9500
+[xilinx]
+libraries=unified
+family=5
+xact9=On
+xfam=XC9500
+[device]
+xilinx=9572-15PC44
+part=9572PC44-15
+[netlist]
+external=FALSE
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+[sheets]
+morpra11=
+[Log]
+netlist.log=Simulator Netlist Log
+exp_EDIF.log=Export netlist to EDIF 200
+[timings]
+morpra1=
+[sim_config]
+Lower Bound=2048
+Upper Bound=2048
+B0 Period=50
+Transport Delay=On
+Enable Global Netlist Analysis=On
+Forced State=Default
+Output Waveform=Overwrite
+Global Reset=On
+Keep Comments=Off
+Execute Preset=Off
+Models Stabilization=On
+Pulse Global Reset Net Enabled=On
+Pulse Global Reset Net=1000
+[implement_HDL]
+family=5
+xfam=XC9500
+part=9572PC44-15
+xilinx=9572-15PC44
+[APP_95]
+lid=0
+oid=0
+source=C:\XILINX\ACTIVE\PROJECTS\MORPRA1\MORPRA11.SCH
+[sc_desk]
+desk01=C:\XILINX\ACTIVE\PROJECTS\MORPRA1\MORPRA11.SCH, 0, 0, 620, 354, 1
+[FILE7]
+scan_time=1134506750
+[implement_XIE]
+version=ver1
+revision=rev1

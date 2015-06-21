@@ -1,0 +1,178 @@
+**** Interact v3.0.2.22 ****
+C Pcm #### Start Xilinx Foundation F2.1i - Messages -  Mon Dec 19 16:50:50 2005  
+0 Pcm #### ---------- Opening project: morpra1 ----------
+0 Pcm #### Design Type Schematic
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Opening Xilinx project
+0 Pcm #### Reading Xilinx project
+0 Pcm #### Execute c:\fndtn\active\exe\simul.exe -p
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### Loading - C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\morpra1.alb
+1 Simul ####    Loading library default timing values
+1 Simul 9239 The following node is loadless:
+1 Simul ####    NODE: N1, $I18.O.
+1 Simul #### ===============================
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 22 (0)
+1 Simul ####     Total number of memory reallocations: 3
+1 Simul ####     Total length of memory used to load the netlist: 256 kB (0)
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 0 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [morpra1]
+0 Pcm #### Execute c:\fndtn\active\exe\simul.exe -p
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### Loading - C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\morpra1.alb
+1 Simul ####    Loading library default timing values
+1 Simul 9239 The following node is loadless:
+1 Simul ####    NODE: N1, $I18.O.
+1 Simul #### ===============================
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 22 (0)
+1 Simul ####     Total number of memory reallocations: 3
+1 Simul ####     Total length of memory used to load the netlist: 256 kB (0)
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 0 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [morpra1]
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 1
+1 Simul #### Total number of cell types: 11
+1 Simul #### Total number of cell instances: 41
+1 Simul #### Total number of EDIF blocks: 0
+1 Simul #### Total number of models taken from libraries: 3
+1 Simul #### Total number of automatic/internal models: 7
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 38
+1 Simul #### Total number of labels: 31
+1 Simul #### Total number of nets: 38
+1 Simul #### Total number of net elements: 129
+1 Simul #### Total number of generic values: 20
+1 Simul #### Total number of port generic values: 13
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 533 (38)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 512 kB (0)
+1 Simul ####     Total length of memory used by EDIF parser: 256 kB
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 1 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 1
+1 Simul #### Total number of cell types: 11
+1 Simul #### Total number of cell instances: 41
+1 Simul #### Total number of EDIF blocks: 0
+1 Simul #### Total number of models taken from libraries: 3
+1 Simul #### Total number of automatic/internal models: 7
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 38
+1 Simul #### Total number of labels: 31
+1 Simul #### Total number of nets: 38
+1 Simul #### Total number of net elements: 129
+1 Simul #### Total number of generic values: 20
+1 Simul #### Total number of port generic values: 13
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 533 (38)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 512 kB (0)
+1 Simul ####     Total length of memory used by EDIF parser: 256 kB
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 0 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\morpra1\xproj\ver1\rev1\time_sim.edn
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 1
+1 Simul #### Total number of cell types: 11
+1 Simul #### Total number of cell instances: 41
+1 Simul #### Total number of EDIF blocks: 0
+1 Simul #### Total number of models taken from libraries: 3
+1 Simul #### Total number of automatic/internal models: 7
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 38
+1 Simul #### Total number of labels: 31
+1 Simul #### Total number of nets: 38
+1 Simul #### Total number of net elements: 129
+1 Simul #### Total number of generic values: 20
+1 Simul #### Total number of port generic values: 13
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 533 (38)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 512 kB (0)
+1 Simul ####     Total length of memory used by EDIF parser: 256 kB
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 0 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+0 Pcm #### Execute c:\fndtn\active\exe\simul.exe -p
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### Loading - C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\morpra1.alb
+1 Simul ####    Loading library default timing values
+1 Simul 9239 The following node is loadless:
+1 Simul ####    NODE: N1, $I18.O.
+1 Simul #### ===============================
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 22 (0)
+1 Simul ####     Total number of memory reallocations: 3
+1 Simul ####     Total length of memory used to load the netlist: 256 kB (0)
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+1 Simul #### Test vectors: C:\FNDTN\ACTIVE\PROJECTS\MORPRA1\MORPRA1.TVE loaded.
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [morpra1]
+0 Pcm #### Execute: zip32.exe R
+W ?? #### ZIP32: Operation cancelled.
+0 Pcm #### Execute: zip32.exe A "C:\FNDTN\ACTIVE\PROJECTS\MORPRA1.pdf"
+W ?? #### ZIP32: User break.
+0 Pcm #### Execute: zip32.exe A "C:\FNDTN\ACTIVE\PROJECTS\MORPRA1.pdf"
+W ?? #### ZIP32: User break.
+0 Pcm #### Execute: zip32.exe R
+W ?? #### ZIP32: Operation cancelled.
+0 Pcm #### Execute: zip32.exe A "C:\FNDTN\ACTIVE\PROJECTS\MORPRA1.pdf"
+W ?? #### ZIP32: User break.
+0 Pcm #### Execute: zip32.exe R
+W ?? #### ZIP32: Operation cancelled.
+0 Pcm #### Execute: zip32.exe A "C:\FNDTN\ACTIVE\PROJECTS\MORPRA1.pdf"

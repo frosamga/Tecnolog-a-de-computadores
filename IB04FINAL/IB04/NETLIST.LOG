@@ -1,0 +1,120 @@
+Loading - C:\FNDTN\ACTIVE\PROJECTS\IB04\ib04.alb
+   Loading library default timing values
+Loading - TG00CPU
+   Loading library default timing values
+Loading - TG00CONTROL
+   Loading library default timing values
+Loading - ROMPRO
+   Loading library default timing values
+Loading - M8_1E
+   Loading library default timing values
+Loading - M2_1
+   Loading library default timing values
+Loading - M2_1E
+   Loading library default timing values
+Loading - MICROPC
+   Forcing zero-delay default timing values
+Info 9240: The following node is sourceless:
+   NODE: carry2/AND3_B_0_INV.IN, carry2/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry4/AND3_B_0_INV.IN, carry4/ADD.
+Info 9239: The following node is loadless:
+   NODE: carry4/COUT.OUT, carry4/COUT.
+Info 9240: The following node is sourceless:
+   NODE: carryINIT/AND3_B_0_INV.IN, carryINIT/ADD.
+Info 9239: The following node is loadless:
+   NODE: CB.OUT, CB_OUT.
+Info 9240: The following node is sourceless:
+   NODE: FLOP0.RST, FLOP1.RST, FLOP2.RST, FLOP3.RST, FLOP4.RST, FLOP5.RST, GSR.
+Loading - ROMPRIN
+   Loading library default timing values
+Loading - MUX2X6
+   Loading library default timing values
+Loading - BUFFER
+   Loading library default timing values
+Loading - TG00UDATOS
+   Loading library default timing values
+Loading - MUX2X16
+   Loading library default timing values
+Loading - TG00REG16
+   Loading library default timing values
+Loading - REG16
+   Forcing zero-delay default timing values
+Info 9240: The following node is sourceless:
+   NODE: FLOP0.GSR.OR.IN1, FLOP1.GSR.OR.IN1, FLOP2.GSR.OR.IN1, FLOP3.GSR.OR.IN1, FLOP4.GSR.OR.IN1, FLOP5.GSR.OR.IN1, FLOP6.GSR.OR.IN1, FLOP7.GSR.OR.IN1, FLOP8.GSR.OR.IN1, FLOP9.GSR.OR.IN1, FLOP10.GSR.OR.IN1, FLOP11.GSR.OR.IN1, FLOP12.GSR.OR.IN1, FLOP13.GSR.OR.IN1, FLOP14.GSR.OR.IN1, FLOP15.GSR.OR.IN1...
+Loading - TBUFF16
+   Forcing zero-delay default timing values
+Loading - MUX4X8
+   Forcing zero-delay default timing values
+Loading - MUX4X16
+   Forcing zero-delay default timing values
+Loading - TG00BR
+   Forcing zero-delay default timing values
+Info 9239: The following node is loadless:
+   NODE: NADA, $I2.D0.
+Loading - MUX8X16
+   Forcing zero-delay default timing values
+Loading - CERO16
+   Forcing zero-delay default timing values
+Loading - D3_8E
+   Forcing zero-delay default timing values
+Loading - MUX2X3
+   Forcing zero-delay default timing values
+Loading - TG00ALU
+   Forcing zero-delay default timing values
+Loading - ADD16
+   Forcing zero-delay default timing values
+Info 9240: The following node is sourceless:
+   NODE: carry0/AND3_B_0_INV.IN, carry0/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry10/AND3_B_0_INV.IN, carry10/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry12/AND3_B_0_INV.IN, carry12/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry14/AND3_B_0_INV.IN, carry14/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry16/AND3_B_0_INV.IN, carry16/ADD.
+Info 9239: The following node is loadless:
+   NODE: carry16/COUT.OUT, carry16/COUT.
+Info 9240: The following node is sourceless:
+   NODE: carry2/AND3_B_0_INV.IN, carry2/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry4/AND3_B_0_INV.IN, carry4/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry6/AND3_B_0_INV.IN, carry6/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carry8/AND3_B_0_INV.IN, carry8/ADD.
+Info 9240: The following node is sourceless:
+   NODE: carryINIT/AND3_B_0_INV.IN, carryINIT/ADD.
+Loading - XOR1X16
+   Forcing zero-delay default timing values
+Loading - AND2X16
+   Forcing zero-delay default timing values
+Loading - OR2X16
+   Forcing zero-delay default timing values
+Loading - BARRELSHIFTER
+   Forcing zero-delay default timing values
+Loading - AND1X16
+   Forcing zero-delay default timing values
+Loading - NOR12
+   Forcing zero-delay default timing values
+Loading - NOR16
+   Forcing zero-delay default timing values
+Loading - RELLENA
+   Forcing zero-delay default timing values
+Loading - TG00MEM
+   Forcing zero-delay default timing values
+Loading - ROM64X16
+   Forcing zero-delay default timing values
+Loading - RAM256X16
+   Forcing zero-delay default timing values
+Info 9239: The following node is loadless:
+   NODE:       CPU/DATOS/BR/NADA,       CPU/DATOS/BR/$I2/D0
+===============================
+Memory usage statistics:
+    Total number of allocated memory blocks: 697 (0)
+    Total number of memory reallocations: 4
+    Total length of memory used to load the netlist: 3115 kB (0)
+    Number of system memory blocks (total/long): 11/1
+Netlist loaded in: 13 seconds
+===============================

@@ -1,0 +1,89 @@
+;
+; memfile rom.mem for LogiBLOX symbol rom64x16
+; Created on Thursday, February 18, 2010 13:08:15
+;
+; Header Section
+RADIX 10
+DEPTH 128
+WIDTH 16
+DEFAULT 0
+;
+; Data Section
+; Specifies data to be stored in different addresses
+; e.g., DATA 0:A, 1:0
+RADIX 16
+DATA
+4920,
+4A40,
+4B60,
+4C80,
+4DA0,
+4EC0,
+0070,
+0019,
+CF56,
+4FE0,
+0700,
+FFFD,
+CF57,
+4FE0,
+0070,
+FFFA,
+CF58,
+4FE0,
+0700,
+0001,
+CF59,
+4FE0,
+0700,
+0017,
+CF5A,
+4FE0,
+0700,
+FFFF,
+CF5B,
+4FE0,
+0700,
+FFFC,
+CF5C,
+4FE0,
+0700,
+FFFF,
+CF5D,
+4FE0,
+0700,
+0004,
+CF5E,
+4FE0,
+0700,
+0036,
+CF5F,
+4FE0,
+0700,
+0001,
+C23E,
+C33F,
+0B00,
+0001,
+C43F,
+C43E,
+853F,
+4440,
+CC3F,
+8D3F,
+EFA0,
+003E,
+41A0,
+E040,
+49A0,
+E040,
+4C60,
+CC3F,
+0E00,
+0001,
+EFC0,
+0047,
+E036,
+C940,
+D900
+; end of LogiBLOX memfile

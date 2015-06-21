@@ -1,0 +1,2449 @@
+**** Interact v3.0.2.22 ****
+C Pcm #### Start Xilinx Foundation F2.1i - Messages -  Fri May 27 02:09:51 2011  
+0 Pcm #### ---------- Opening project: ib04 ----------
+W Pcm #### Library XC3100 not found in C:\FNDTN\ACTIVE\SYSLIB\
+0 Pcm #### Creating project: ib04
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Reading Xilinx project
+0 Pcm #### ---------- Opening project: ib04 ----------
+W Pcm #### Library XC3100 not found in C:\FNDTN\ACTIVE\SYSLIB\
+0 Pcm #### Design Type Schematic
+0 Pcm #### Reading Xilinx project
+0 Pcm #### Execute: zip32.exe R
+0 ?? #### ZIP32: Project IB04 has been successfully restored from C:\Users\pc\Desktop\Xilinx\IB04.ZIP to C:\FNDTN\ACTIVE\PROJECTS.
+3 Pcm #### Application ZIP32 send message Open Project
+0 Pcm #### ---------- Opening project: IB04 ----------
+W Pcm #### Library XC3100 not found in C:\FNDTN\ACTIVE\SYSLIB\
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Opening Xilinx project
+0 Pcm #### Design Type Schematic
+0 Pcm #### Reading Xilinx project
+0 Pcm #### Execute c:\fndtn\active\exe\sc.exe
+0 Pcm #### START: Schematic Editor
+3 Pcm #### Application SC send message Add Sheet to Project
+0 Pcm #### Document C:\FNDTN\ACTIVE\PROJECTS\IB04\IB041.SCH added
+3 Pcm #### Application SC send message Update Sheet
+0 Pcm #### EXIT: Schematic Editor
+0 Pcm #### Execute: zip32.exe R
+0 ?? #### ZIP32: Project IB04 has been successfully restored from C:\Users\pc\Desktop\Xilinx\IB04.ZIP to C:\FNDTN\ACTIVE\PROJECTS.
+3 Pcm #### Application ZIP32 send message Open Project
+0 Pcm #### ---------- Opening project: IB04 ----------
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Opening Xilinx project
+0 Pcm #### Design Type Schematic
+0 Pcm #### Reading Xilinx project
+0 Pcm #### Execute c:\fndtn\active\exe\sc.exe
+0 Pcm #### START: Schematic Editor
+C Sc #### Loading sheet : C:\FNDTN\ACTIVE\PROJECTS\IB04\IB041.SCH
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+C Sc #### Loading sheet : C:\FNDTN\ACTIVE\PROJECTS\IB04\IB041.SCH
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+0 Pcm #### EXIT: Schematic Editor
+0 Pcm #### Creating project: hola
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Reading Xilinx project
+0 Pcm #### Execute c:\fndtn\active\exe\sc.exe
+0 Pcm #### START: Schematic Editor
+3 Pcm #### Application SC send message Add Sheet to Project
+0 Pcm #### Document C:\FNDTN\ACTIVE\PROJECTS\HOLA\HOLA1.SCH added
+3 Pcm #### Application SC send message Update Sheet
+0 Pcm #### EXIT: Schematic Editor
+0 Pcm #### Execute: zip32.exe R
+0 ?? #### ZIP32: Project IB04 has been successfully restored from C:\Users\pc\Desktop\Xilinx\IB04.ZIP to C:\FNDTN\ACTIVE\PROJECTS.
+3 Pcm #### Application ZIP32 send message Open Project
+0 Pcm #### ---------- Opening project: IB04 ----------
+3 Pcm #### Library C:\FNDTN\ACTIVE\PROJECTS\IB04\lib\IB04: old 1012 new 1001
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Opening Xilinx project
+0 Pcm #### Design Type Schematic
+0 Pcm #### Reading Xilinx project
+C Conv #### Scanning design for HDL macros and LogiBLOX symbols
+C Conv #### C:\FNDTN\ACTIVE\PROJECTS\IB04\IB04.alb
+C Conv #### TG00MEM
+C Conv #### TG00CPU
+C Conv #### TG00UDATOS
+C Conv #### TG00CONTROL
+C Conv #### TG00ALU
+C Conv #### TG00BR
+C Conv #### TG00REG16
+C Conv #### BARRELSHIFTER
+C Xie #### Flow Engine: ver1->rev1 (Mapped OK)
+C Xie #### Flow Engine: ver1->rev1 (Translated OK)
+E Xie #### Flow Engine: ver1->rev1 (Translated ERRORS)
+E Xie #### Flow Engine: ver1->rev1 (Mapped ERRORS)
+E Xie #### Flow Engine ver1->rev1 Completed with Errors.
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\ib04\xproj\ver1\rev1\fe.log
+0 Pcm #### Execute c:\fndtn\active\exe\sc.exe
+0 Pcm #### START: Schematic Editor
+C Sc #### Loading sheet : C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH
+2 Sc #### Symbol [TG00CPU] from library # 1012 found in library # 1001
+2 Sc #### Symbol [TG00MEM] from library # 1012 found in library # 1001
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+C Sc #### Loading sheet : SHEET - /C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH/CPU - TG00CPU
+2 Sc #### Symbol [TG00CONTROL] from library # 1012 found in library # 1001
+2 Sc #### Symbol [TG00UDATOS] from library # 1012 found in library # 1001
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+C Sc #### Loading sheet : SHEET - /C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH/CPU/CONTROL - TG00CONTROL
+2 Sc #### Symbol [ROMPRO] from library # 1012 found in library # 1001
+2 Sc #### Symbol [MICROPC] from library # 1012 found in library # 1001
+2 Sc #### Symbol [ROMPRIN] from library # 1012 found in library # 1001
+2 Sc #### Symbol [MUX2X6] from library # 1012 found in library # 1001
+2 Sc #### Symbol [BUFFER] from library # 1012 found in library # 1001
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f MICROPC
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'micropc'....
+0 ?? #### WARNING:LBEngine:75 - micropc LogiBLOX DRC: The "SYNC_CTRL" pin is connected,
+0 ?? ####    but no value has been specified for the attribute "SYNC_VAL".  LOGIBLOX will
+0 ?? ####    use the default value of "0" for the attribute "SYNC_VAL".
+0 ?? #### Running LogiBLOX DRC for Module 'micropc'....
+0 ?? #### Creating VHDL Simulation Model 'micropc.vhd'....
+0 ?? #### Creating NGC Netlist 'micropc.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "micropc"...
+0 ?? #### Creating EDIF Simulation Model 'micropc.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? #### WARNING:NgdHelpers:333 - NOTE: This design contains the undriven net "GSR"
+0 ?? ####    which you could drive during simulation to get valid results.
+0 ?? ####    writing  EDIF file to 'micropc.edn' ...
+0 ?? #### Creating Module File 'micropc.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'micropc' created successfully
+0 ?? #### EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\micropc.edn' conversion
+C Conv #### Import EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\micropc.edn'
+C Conv #### Symbol 'micropc', port 'D_IN<0>' has been renamed to 'D_IN0'
+C Conv #### Symbol 'micropc', port 'D_IN<1>' has been renamed to 'D_IN1'
+C Conv #### Symbol 'micropc', port 'D_IN<2>' has been renamed to 'D_IN2'
+C Conv #### Symbol 'micropc', port 'D_IN<3>' has been renamed to 'D_IN3'
+C Conv #### Symbol 'micropc', port 'D_IN<4>' has been renamed to 'D_IN4'
+C Conv #### Symbol 'micropc', port 'D_IN<5>' has been renamed to 'D_IN5'
+C Conv #### Symbol 'micropc', port 'Q_OUT<0>' has been renamed to 'Q_OUT0'
+C Conv #### Symbol 'micropc', port 'Q_OUT<1>' has been renamed to 'Q_OUT1'
+C Conv #### Symbol 'micropc', port 'Q_OUT<2>' has been renamed to 'Q_OUT2'
+C Conv #### Symbol 'micropc', port 'Q_OUT<3>' has been renamed to 'Q_OUT3'
+C Conv #### Symbol 'micropc', port 'Q_OUT<4>' has been renamed to 'Q_OUT4'
+C Conv #### Symbol 'micropc', port 'Q_OUT<5>' has been renamed to 'Q_OUT5'
+C Conv #### Symbol 'micropc', port 'D_IN<0>' has been renamed to 'D_IN0'
+C Conv #### Symbol 'micropc', port 'D_IN<1>' has been renamed to 'D_IN1'
+C Conv #### Symbol 'micropc', port 'D_IN<2>' has been renamed to 'D_IN2'
+C Conv #### Symbol 'micropc', port 'D_IN<3>' has been renamed to 'D_IN3'
+C Conv #### Symbol 'micropc', port 'D_IN<4>' has been renamed to 'D_IN4'
+C Conv #### Symbol 'micropc', port 'D_IN<5>' has been renamed to 'D_IN5'
+C Conv #### Symbol 'micropc', port 'Q_OUT<0>' has been renamed to 'Q_OUT0'
+C Conv #### Symbol 'micropc', port 'Q_OUT<1>' has been renamed to 'Q_OUT1'
+C Conv #### Symbol 'micropc', port 'Q_OUT<2>' has been renamed to 'Q_OUT2'
+C Conv #### Symbol 'micropc', port 'Q_OUT<3>' has been renamed to 'Q_OUT3'
+C Conv #### Symbol 'micropc', port 'Q_OUT<4>' has been renamed to 'Q_OUT4'
+C Conv #### Symbol 'micropc', port 'Q_OUT<5>' has been renamed to 'Q_OUT5'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'micropc' successfully created/updated
+1 ?? #### File C:\FNDTN\ACTIVE\PROJECTS\IB04\micropc.edn extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+E Sc #### Macro [TG00CONTROL]: some symbols have changed. Creating hanging wires.
+E Sc #### There are some hanging wires on schematic
+E Sc #### Wire ending in point (9.1,7.8) connected to symbol MICROPC pin CLOCK
+E Sc #### Data structure has been corrected
+E Sc #### Previous file was saved as [C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00CONTROL.ERR]
+C Sc #### Loading sheet : SHEET - /C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH/MEMORIA - TG00MEM
+2 Sc #### Symbol [ROM64X16] from library # 1012 found in library # 1001
+2 Sc #### Symbol [RAM256X16] from library # 1012 found in library # 1001
+2 Sc #### Symbol [MUX2X16] from library # 1012 found in library # 1001
+2 Sc #### Symbol [TBUFF16] from library # 1012 found in library # 1001
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X16
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'rom64x16'....
+0 ?? #### ERROR:LBEngine:10 - LogiBLOX Memfile: A problem has been detected with the
+0 ?? ####    memory definition file (Memfile) "rom".  There is an illegal Address "64" in
+0 ?? ####    the data section, the address is out of range, and the data after address
+0 ?? ####    "63" is not allowed.  Please check the memory definition file to ensure that
+0 ?? ####    the data section is defined correctly.  For more information on the syntax
+0 ?? ####    for the data section consult the "Memory Definition File Data" section of the
+0 ?? ####    LogiBLOX Reference/User Guide.
+0 ?? #### ERROR:LBEngine:68 - rom64x16 LogiBLOX DRC: Due to previously reported errors
+0 ?? ####    the memory definition file (Memfile) rom could not be parsed, please correct
+0 ?? ####    the errors and regenerate the module.
+0 ?? #### Running LogiBLOX DRC for Module 'rom64x16'....
+0 ?? #### Creating VHDL Simulation Model 'rom64x16.vhd'....
+0 ?? #### Creating NGC Netlist 'rom64x16.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "rom64x16"...
+0 ?? #### Creating EDIF Simulation Model 'rom64x16.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'rom64x16.edn' ...
+0 ?? #### Creating Module File 'rom64x16.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'rom64x16' created successfully
+0 ?? #### EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom64x16.edn' conversion
+C Conv #### Import EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom64x16.edn'
+C Conv #### Symbol 'rom64x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom64x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom64x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom64x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom64x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom64x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom64x16', port 'DO<0>' has been renamed to 'DO0'
+C Conv #### Symbol 'rom64x16', port 'DO<1>' has been renamed to 'DO1'
+C Conv #### Symbol 'rom64x16', port 'DO<2>' has been renamed to 'DO2'
+C Conv #### Symbol 'rom64x16', port 'DO<3>' has been renamed to 'DO3'
+C Conv #### Symbol 'rom64x16', port 'DO<4>' has been renamed to 'DO4'
+C Conv #### Symbol 'rom64x16', port 'DO<5>' has been renamed to 'DO5'
+C Conv #### Symbol 'rom64x16', port 'DO<6>' has been renamed to 'DO6'
+C Conv #### Symbol 'rom64x16', port 'DO<7>' has been renamed to 'DO7'
+C Conv #### Symbol 'rom64x16', port 'DO<8>' has been renamed to 'DO8'
+C Conv #### Symbol 'rom64x16', port 'DO<9>' has been renamed to 'DO9'
+C Conv #### Symbol 'rom64x16', port 'DO<10>' has been renamed to 'DO10'
+C Conv #### Symbol 'rom64x16', port 'DO<11>' has been renamed to 'DO11'
+C Conv #### Symbol 'rom64x16', port 'DO<12>' has been renamed to 'DO12'
+C Conv #### Symbol 'rom64x16', port 'DO<13>' has been renamed to 'DO13'
+C Conv #### Symbol 'rom64x16', port 'DO<14>' has been renamed to 'DO14'
+C Conv #### Symbol 'rom64x16', port 'DO<15>' has been renamed to 'DO15'
+C Conv #### Symbol 'rom64x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom64x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom64x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom64x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom64x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom64x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'rom64x16' successfully created/updated
+1 ?? #### File C:\FNDTN\ACTIVE\PROJECTS\IB04\rom64x16.edn extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X16
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'rom64x16'....
+0 ?? #### ERROR:LBEngine:10 - LogiBLOX Memfile: A problem has been detected with the
+0 ?? ####    memory definition file (Memfile) "rom".  There is an illegal Address "64" in
+0 ?? ####    the data section, the address is out of range, and the data after address
+0 ?? ####    "63" is not allowed.  Please check the memory definition file to ensure that
+0 ?? ####    the data section is defined correctly.  For more information on the syntax
+0 ?? ####    for the data section consult the "Memory Definition File Data" section of the
+0 ?? ####    LogiBLOX Reference/User Guide.
+0 ?? #### ERROR:LBEngine:68 - rom64x16 LogiBLOX DRC: Due to previously reported errors
+0 ?? ####    the memory definition file (Memfile) rom could not be parsed, please correct
+0 ?? ####    the errors and regenerate the module.
+0 ?? #### Running LogiBLOX DRC for Module 'rom64x16'....
+0 ?? #### ERROR:LBEngine:6 - LogiBLOX Memfile: A problem has been detected with the
+0 ?? ####    memory definition file (Memfile) "rom".  A mismatch in the value of Depth
+0 ?? ####    specified on the module "128" and the value defined in the memory definition
+0 ?? ####    file "64" has been detected.  Both values must be equal in order for this
+0 ?? ####    module to be generated.  Please check the memory definition file and the
+0 ?? ####    module to ensure that the Depth is specified correctly.
+0 ?? #### ERROR:LBEngine:68 - rom64x16 LogiBLOX DRC: Due to previously reported errors
+0 ?? ####    the memory definition file (Memfile) rom could not be parsed, please correct
+0 ?? ####    the errors and regenerate the module.
+0 ?? #### Running LogiBLOX DRC for Module 'rom64x16'....
+0 ?? #### Creating VHDL Simulation Model 'rom64x16.vhd'....
+0 ?? #### Creating NGC Netlist 'rom64x16.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "rom64x16"...
+0 ?? #### Creating EDIF Simulation Model 'rom64x16.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'rom64x16.edn' ...
+0 ?? #### Creating Module File 'rom64x16.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'rom64x16' created successfully
+0 ?? #### EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom64x16.edn' conversion
+C Conv #### Import EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom64x16.edn'
+C Conv #### Symbol 'rom64x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom64x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom64x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom64x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom64x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom64x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom64x16', port 'A<6>' has been renamed to 'A6'
+C Conv #### Symbol 'rom64x16', port 'DO<0>' has been renamed to 'DO0'
+C Conv #### Symbol 'rom64x16', port 'DO<1>' has been renamed to 'DO1'
+C Conv #### Symbol 'rom64x16', port 'DO<2>' has been renamed to 'DO2'
+C Conv #### Symbol 'rom64x16', port 'DO<3>' has been renamed to 'DO3'
+C Conv #### Symbol 'rom64x16', port 'DO<4>' has been renamed to 'DO4'
+C Conv #### Symbol 'rom64x16', port 'DO<5>' has been renamed to 'DO5'
+C Conv #### Symbol 'rom64x16', port 'DO<6>' has been renamed to 'DO6'
+C Conv #### Symbol 'rom64x16', port 'DO<7>' has been renamed to 'DO7'
+C Conv #### Symbol 'rom64x16', port 'DO<8>' has been renamed to 'DO8'
+C Conv #### Symbol 'rom64x16', port 'DO<9>' has been renamed to 'DO9'
+C Conv #### Symbol 'rom64x16', port 'DO<10>' has been renamed to 'DO10'
+C Conv #### Symbol 'rom64x16', port 'DO<11>' has been renamed to 'DO11'
+C Conv #### Symbol 'rom64x16', port 'DO<12>' has been renamed to 'DO12'
+C Conv #### Symbol 'rom64x16', port 'DO<13>' has been renamed to 'DO13'
+C Conv #### Symbol 'rom64x16', port 'DO<14>' has been renamed to 'DO14'
+C Conv #### Symbol 'rom64x16', port 'DO<15>' has been renamed to 'DO15'
+C Conv #### Symbol 'rom64x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom64x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom64x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom64x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom64x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom64x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom64x16', port 'A<6>' has been renamed to 'A6'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'rom64x16' successfully created/updated
+1 ?? #### File C:\FNDTN\ACTIVE\PROJECTS\IB04\rom64x16.edn extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X16
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'rom128x16'....
+0 ?? #### Creating VHDL Simulation Model 'rom128x16.vhd'....
+0 ?? #### Creating NGC Netlist 'rom128x16.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "rom128x16"...
+0 ?? #### Creating EDIF Simulation Model 'rom128x16.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'rom128x16.edn' ...
+0 ?? #### Creating Module File 'rom128x16.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'rom128x16' created successfully
+0 ?? #### EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom128x16.edn' conversion
+C Conv #### Import EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom128x16.edn'
+C Conv #### Symbol 'rom128x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom128x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom128x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom128x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom128x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom128x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom128x16', port 'A<6>' has been renamed to 'A6'
+C Conv #### Symbol 'rom128x16', port 'DO<0>' has been renamed to 'DO0'
+C Conv #### Symbol 'rom128x16', port 'DO<1>' has been renamed to 'DO1'
+C Conv #### Symbol 'rom128x16', port 'DO<2>' has been renamed to 'DO2'
+C Conv #### Symbol 'rom128x16', port 'DO<3>' has been renamed to 'DO3'
+C Conv #### Symbol 'rom128x16', port 'DO<4>' has been renamed to 'DO4'
+C Conv #### Symbol 'rom128x16', port 'DO<5>' has been renamed to 'DO5'
+C Conv #### Symbol 'rom128x16', port 'DO<6>' has been renamed to 'DO6'
+C Conv #### Symbol 'rom128x16', port 'DO<7>' has been renamed to 'DO7'
+C Conv #### Symbol 'rom128x16', port 'DO<8>' has been renamed to 'DO8'
+C Conv #### Symbol 'rom128x16', port 'DO<9>' has been renamed to 'DO9'
+C Conv #### Symbol 'rom128x16', port 'DO<10>' has been renamed to 'DO10'
+C Conv #### Symbol 'rom128x16', port 'DO<11>' has been renamed to 'DO11'
+C Conv #### Symbol 'rom128x16', port 'DO<12>' has been renamed to 'DO12'
+C Conv #### Symbol 'rom128x16', port 'DO<13>' has been renamed to 'DO13'
+C Conv #### Symbol 'rom128x16', port 'DO<14>' has been renamed to 'DO14'
+C Conv #### Symbol 'rom128x16', port 'DO<15>' has been renamed to 'DO15'
+C Conv #### Symbol 'rom128x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom128x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom128x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom128x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom128x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom128x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom128x16', port 'A<6>' has been renamed to 'A6'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'rom128x16' successfully created/updated
+1 ?? #### File C:\FNDTN\ACTIVE\PROJECTS\IB04\ROM128~1.EDN extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X16
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'rom128x16'....
+0 ?? #### Creating VHDL Simulation Model 'rom128x16.vhd'....
+0 ?? #### Creating NGC Netlist 'rom128x16.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "rom128x16"...
+0 ?? #### Creating EDIF Simulation Model 'rom128x16.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'rom128x16.edn' ...
+0 ?? #### Creating Module File 'rom128x16.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'rom128x16' created successfully
+0 ?? #### EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom128x16.edn' conversion
+C Conv #### Import EDIF netlist 'C:\FNDTN\ACTIVE\PROJECTS\IB04\rom128x16.edn'
+C Conv #### Symbol 'rom128x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom128x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom128x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom128x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom128x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom128x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom128x16', port 'A<6>' has been renamed to 'A6'
+C Conv #### Symbol 'rom128x16', port 'DO<0>' has been renamed to 'DO0'
+C Conv #### Symbol 'rom128x16', port 'DO<1>' has been renamed to 'DO1'
+C Conv #### Symbol 'rom128x16', port 'DO<2>' has been renamed to 'DO2'
+C Conv #### Symbol 'rom128x16', port 'DO<3>' has been renamed to 'DO3'
+C Conv #### Symbol 'rom128x16', port 'DO<4>' has been renamed to 'DO4'
+C Conv #### Symbol 'rom128x16', port 'DO<5>' has been renamed to 'DO5'
+C Conv #### Symbol 'rom128x16', port 'DO<6>' has been renamed to 'DO6'
+C Conv #### Symbol 'rom128x16', port 'DO<7>' has been renamed to 'DO7'
+C Conv #### Symbol 'rom128x16', port 'DO<8>' has been renamed to 'DO8'
+C Conv #### Symbol 'rom128x16', port 'DO<9>' has been renamed to 'DO9'
+C Conv #### Symbol 'rom128x16', port 'DO<10>' has been renamed to 'DO10'
+C Conv #### Symbol 'rom128x16', port 'DO<11>' has been renamed to 'DO11'
+C Conv #### Symbol 'rom128x16', port 'DO<12>' has been renamed to 'DO12'
+C Conv #### Symbol 'rom128x16', port 'DO<13>' has been renamed to 'DO13'
+C Conv #### Symbol 'rom128x16', port 'DO<14>' has been renamed to 'DO14'
+C Conv #### Symbol 'rom128x16', port 'DO<15>' has been renamed to 'DO15'
+C Conv #### Symbol 'rom128x16', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom128x16', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom128x16', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom128x16', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom128x16', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom128x16', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom128x16', port 'A<6>' has been renamed to 'A6'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'rom128x16' successfully created/updated
+1 ?? #### File C:\FNDTN\ACTIVE\PROJECTS\IB04\ROM128~1.EDN extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+C Sc #### Creating netlist for [TG00MEM] macro
+W Sc #### Warnning: multiple drivers or sourceless/loadless nets detected
+W Sc #### Multiple drivers for net: DATOS15
+W Sc #### Multiple drivers for net: DATOS14
+W Sc #### Multiple drivers for net: DATOS13
+W Sc #### Multiple drivers for net: DATOS12
+W Sc #### Multiple drivers for net: DATOS11
+W Sc #### Multiple drivers for net: DATOS10
+W Sc #### Multiple drivers for net: DATOS9
+W Sc #### Multiple drivers for net: DATOS8
+W Sc #### Multiple drivers for net: DATOS7
+W Sc #### Multiple drivers for net: DATOS6
+W Sc #### Multiple drivers for net: DATOS5
+W Sc #### Multiple drivers for net: DATOS4
+W Sc #### Multiple drivers for net: DATOS3
+W Sc #### Multiple drivers for net: DATOS2
+W Sc #### Multiple drivers for net: DATOS1
+W Sc #### Multiple drivers for net: DATOS0
+W Sc #### --------------------------
+W Sc #### Warning: connection width mismatch detected
+W Sc #### Check connection: pin A[6:0] (ROM) to DIR[5:0]
+C Sc #### Netlist created successfully
+3 Pcm #### Application SC send message Update Sheet
+3 Pcm #### Application SC send message Update Sheet
+C Sc #### Creating netlist for [TG00CONTROL] macro
+C Sc #### Netlist created successfully
+C Sc #### Netlist generation in progress
+3 Pcm #### Application SC send message Update Sheet
+3 Pcm #### Application SC send message Update Sheet
+C Sc #### Creating netlist from schematic [C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH]
+W Sc #### Warning: hierarchy connectors on top level schematic detected
+W Sc #### Terminal: IN
+W Sc #### Terminal: OUT
+W Sc #### Terminal: CLK
+W Sc #### Terminal: RESET
+W Sc #### --------------------------
+W Sc #### Warnning: multiple drivers or sourceless/loadless nets detected
+W Sc #### Multiple drivers for net: BUSIO15
+W Sc #### Loadless net: BUSIO15
+W Sc #### Multiple drivers for net: BUSIO14
+W Sc #### Loadless net: BUSIO14
+W Sc #### Multiple drivers for net: BUSIO13
+W Sc #### Loadless net: BUSIO13
+W Sc #### Multiple drivers for net: BUSIO12
+W Sc #### Loadless net: BUSIO12
+W Sc #### Multiple drivers for net: BUSIO11
+W Sc #### Loadless net: BUSIO11
+W Sc #### Multiple drivers for net: BUSIO10
+W Sc #### Loadless net: BUSIO10
+W Sc #### Multiple drivers for net: BUSIO9
+W Sc #### Loadless net: BUSIO9
+W Sc #### Multiple drivers for net: BUSIO8
+W Sc #### Loadless net: BUSIO8
+W Sc #### Multiple drivers for net: BUSIO7
+W Sc #### Loadless net: BUSIO7
+W Sc #### Multiple drivers for net: BUSIO6
+W Sc #### Loadless net: BUSIO6
+W Sc #### Multiple drivers for net: BUSIO5
+W Sc #### Loadless net: BUSIO5
+W Sc #### Multiple drivers for net: BUSIO4
+W Sc #### Loadless net: BUSIO4
+W Sc #### Multiple drivers for net: BUSIO3
+W Sc #### Loadless net: BUSIO3
+W Sc #### Multiple drivers for net: BUSIO2
+W Sc #### Loadless net: BUSIO2
+W Sc #### Multiple drivers for net: BUSIO1
+W Sc #### Loadless net: BUSIO1
+W Sc #### Multiple drivers for net: BUSIO0
+W Sc #### Loadless net: BUSIO0
+W Sc #### Multiple drivers for net: DATOS15
+W Sc #### Loadless net: DATOS15
+W Sc #### Multiple drivers for net: DATOS14
+W Sc #### Loadless net: DATOS14
+W Sc #### Multiple drivers for net: DATOS13
+W Sc #### Loadless net: DATOS13
+W Sc #### Multiple drivers for net: DATOS12
+W Sc #### Loadless net: DATOS12
+W Sc #### Multiple drivers for net: DATOS11
+W Sc #### Loadless net: DATOS11
+W Sc #### Multiple drivers for net: DATOS10
+W Sc #### Loadless net: DATOS10
+W Sc #### Multiple drivers for net: DATOS9
+W Sc #### Loadless net: DATOS9
+W Sc #### Multiple drivers for net: DATOS8
+W Sc #### Loadless net: DATOS8
+W Sc #### Multiple drivers for net: DATOS7
+W Sc #### Loadless net: DATOS7
+W Sc #### Multiple drivers for net: DATOS6
+W Sc #### Loadless net: DATOS6
+W Sc #### Multiple drivers for net: DATOS5
+W Sc #### Loadless net: DATOS5
+W Sc #### Multiple drivers for net: DATOS4
+W Sc #### Loadless net: DATOS4
+W Sc #### Multiple drivers for net: DATOS3
+W Sc #### Loadless net: DATOS3
+W Sc #### Multiple drivers for net: DATOS2
+W Sc #### Loadless net: DATOS2
+W Sc #### Multiple drivers for net: DATOS1
+W Sc #### Loadless net: DATOS1
+W Sc #### Multiple drivers for net: DATOS0
+W Sc #### Loadless net: DATOS0
+W Sc #### --------------------------
+W Sc 1036 Warning: bus hierarchy connectors on top level schematics detected
+W Sc 1036 Bus terminal: BUSIO[15:0]
+C Sc #### Netlist created successfully
+C Conv #### Scanning design for HDL macros and LogiBLOX symbols
+C Conv #### C:\FNDTN\ACTIVE\PROJECTS\IB04\IB04.alb
+3 Pcm #### Application SC send message Update Sheet
+C Conv #### TG00MEM
+C Conv #### TG00CPU
+C Conv #### TG00UDATOS
+C Conv #### TG00CONTROL
+C Conv #### TG00ALU
+C Conv #### TG00BR
+C Conv #### TG00REG16
+C Conv #### BARRELSHIFTER
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### Loading - C:\FNDTN\ACTIVE\PROJECTS\IB04\ib04.alb
+1 Simul ####    Loading library default timing values
+1 Simul #### ===============================
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 697 (0)
+1 Simul ####     Total number of memory reallocations: 4
+1 Simul ####     Total length of memory used to load the netlist: 3115 kB (0)
+1 Simul ####     Number of system memory blocks (total/long): 11/1
+1 Simul #### Netlist loaded in: 13 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 60ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 65ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 70ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 75ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 80ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 85ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 90ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 95ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 100ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 105ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 110ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 115ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 120ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 125ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 130ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 135ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 140ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 145ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 150ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 155ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 160ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 165ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 170ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 175ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 180ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 185ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 190ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 195ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 200ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 205ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 210ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 215ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 220ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 225ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 230ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 235ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 240ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_0.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_0.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_0.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_0.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_0.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_0.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_1.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_1.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_1.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_1.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_1.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_1.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_2.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_2.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_2.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_2.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_2.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_2.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_3.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_3.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_3.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_3.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_3.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_3.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_4.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_4.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_4.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_4.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_4.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_4.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_5.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_5.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_5.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_5.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_5.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_5.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_6.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_6.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_6.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_6.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_6.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_6.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_7.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_7.ADR1 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_7.ADR2 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_7.ADR3 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_7.ADR4 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM0_7.WE - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM1_0.ADR0 - undetermined input pin state 
+W Simul #### 245ns:  MEMORIA/RAM/MEM1_0.ADR1 - undetermined input pin state 
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [ib04]
+0 Pcm #### EXIT: Schematic Editor
+0 Pcm #### Execute: zip32.exe A "C:\FNDTN\ACTIVE\PROJECTS\IB04.pdf"

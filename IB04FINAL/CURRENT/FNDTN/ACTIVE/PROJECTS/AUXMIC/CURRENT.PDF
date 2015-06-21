@@ -1,0 +1,104 @@
+[project]
+name=tg00proc
+netlist=tg00proc
+contents=tg00proc
+date=01/26/04
+time=17:29:20
+version=3.1.5.00.33
+generics=MAX
+Type=F21i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+directory=Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC
+lib_order=1005 133 153
+pdf_dir=y:\misdoc\xilin~zg\alumn~ki\poda\
+
+[libraries]
+1005= 
+133=c:\fndtn\active\syslib\simprims
+153=c:\fndtn\active\syslib\xc4000e
+
+[xilinx]
+libraries=unified
+family=2
+xact9=On
+xfam=XC4000E
+
+[device]
+xilinx=4003EPC84-1
+part=4003EPC84-1
+
+[netlist]
+external=FALSE
+
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+
+[sheets]
+RMIPS=
+
+[Log]
+imp_EDIF.log=Import EDIF netlist
+
+[designs]
+
+[timings]
+
+[sim_config]
+Lower Bound=2048
+Upper Bound=2048
+B0 Period=50
+Transport Delay=On
+Enable Global Netlist Analysis=On
+Forced State=Default
+Output Waveform=Overwrite
+Global Reset=On
+Keep Comments=Off
+Execute Preset=Off
+Models Stabilization=On
+Pulse Global Reset Net Enabled=On
+Pulse Global Reset Net=1000
+
+
+
+
+
+
+[mem_contents]
+
+[SIMULATE]
+
+[sc_config]
+Firm Name=Lab. Tecnología de Computadores
+Table Data 1=Depto. Arquitectura de Computadores
+Table Data 2=Universidad de Málaga
+Table Data 3=
+
+
+
+
+
+[LOGI_MACRO]
+ROMMP=ROMMP.mod
+ROMPROY=ROMPROY.mod
+MUX8X32LB=MUX8X32LB.mod
+ROM64X32=ROM64X32.mod
+NOR32=NOR32.mod
+XOR1X16=XOR1X16.mod
+OR2X32=OR2X32.mod
+AND2X32=AND2X32.mod
+[FILE7]
+scan_time=1074796777
+[OPEN32]
+lpstrInitialDir=c:\fndtn\active\projects\
+lpstrTitle=Destination Directory...
+Flags=3
+cmdLine=-b -h 860 -hp 664 -m PCM_BROWSE32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+[APP_95]
+lid=1005
+oid=65
+source=MEMMIPS

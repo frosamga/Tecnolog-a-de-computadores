@@ -1,0 +1,5014 @@
+(edif ram256x16
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2010 2 18 13 10 44)
+      (program "Xilinx NGD2EDIF" (version "C.16"))
+      (comment "Command line: -v fndtn -w -n C:/temp/ram256x16.ngd ram256x16 ")))
+  (external SIMPRIMS
+    (edifLevel 0)
+    (technology (numberDefinition
+      (scale 1 (E 1 -12) (unit TIME))))
+    (cell x_and3
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN0
+            (direction INPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_rams32
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port ADR0
+            (direction INPUT))
+          (port ADR1
+            (direction INPUT))
+          (port ADR2
+            (direction INPUT))
+          (port ADR3
+            (direction INPUT))
+          (port ADR4
+            (direction INPUT))
+          (port IN
+            (direction INPUT))
+          (port CLK
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_tri
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+          (port CTL
+            (direction INPUT))
+      )))
+    (cell x_and4
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN0
+            (direction INPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (port IN3
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_inv
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+  )
+  (library ram256x16_lib
+    (edifLevel 0)
+    (technology (numberDefinition
+      (scale 1 (E 1 -12) (unit TIME))))
+    (cell ram256x16
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port (rename A_0_ "A<0>")
+            (direction INPUT)
+            )
+          (port (rename A_1_ "A<1>")
+            (direction INPUT)
+            )
+          (port (rename A_2_ "A<2>")
+            (direction INPUT)
+            )
+          (port (rename A_3_ "A<3>")
+            (direction INPUT)
+            )
+          (port (rename A_4_ "A<4>")
+            (direction INPUT)
+            )
+          (port (rename A_5_ "A<5>")
+            (direction INPUT)
+            )
+          (port (rename A_6_ "A<6>")
+            (direction INPUT)
+            )
+          (port (rename A_7_ "A<7>")
+            (direction INPUT)
+            )
+          (port (rename DO_0_ "DO<0>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_1_ "DO<1>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_2_ "DO<2>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_3_ "DO<3>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_4_ "DO<4>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_5_ "DO<5>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_6_ "DO<6>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_7_ "DO<7>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_8_ "DO<8>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_9_ "DO<9>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_10_ "DO<10>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_11_ "DO<11>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_12_ "DO<12>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_13_ "DO<13>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_14_ "DO<14>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_15_ "DO<15>")
+            (direction OUTPUT)
+            )
+          (port (rename DI_0_ "DI<0>")
+            (direction INPUT)
+            )
+          (port (rename DI_1_ "DI<1>")
+            (direction INPUT)
+            )
+          (port (rename DI_2_ "DI<2>")
+            (direction INPUT)
+            )
+          (port (rename DI_3_ "DI<3>")
+            (direction INPUT)
+            )
+          (port (rename DI_4_ "DI<4>")
+            (direction INPUT)
+            )
+          (port (rename DI_5_ "DI<5>")
+            (direction INPUT)
+            )
+          (port (rename DI_6_ "DI<6>")
+            (direction INPUT)
+            )
+          (port (rename DI_7_ "DI<7>")
+            (direction INPUT)
+            )
+          (port (rename DI_8_ "DI<8>")
+            (direction INPUT)
+            )
+          (port (rename DI_9_ "DI<9>")
+            (direction INPUT)
+            )
+          (port (rename DI_10_ "DI<10>")
+            (direction INPUT)
+            )
+          (port (rename DI_11_ "DI<11>")
+            (direction INPUT)
+            )
+          (port (rename DI_12_ "DI<12>")
+            (direction INPUT)
+            )
+          (port (rename DI_13_ "DI<13>")
+            (direction INPUT)
+            )
+          (port (rename DI_14_ "DI<14>")
+            (direction INPUT)
+            )
+          (port (rename DI_15_ "DI<15>")
+            (direction INPUT)
+            )
+          (port WR_EN
+            (direction INPUT)
+            )
+          (port WR_CLK
+            (direction INPUT)
+            )
+          (designator "xc4000e")
+        )
+        (contents
+          (instance AND0
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND1
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND2
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND3
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND4
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND5
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND6
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance AND7
+            (viewRef view_1 (cellRef x_and3 (libraryRef SIMPRIMS)))
+          )
+          (instance MEM0_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM0_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT0_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM1_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM1_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT1_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM2_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM2_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT2_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM3_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM3_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT3_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM4_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM4_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT4_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM5_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM5_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT5_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM6_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM6_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT6_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM7_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM7_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT7_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM8_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM8_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT8_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM9_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM9_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT9_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM10_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM10_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT10_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM11_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM11_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT11_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM12_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM12_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT12_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM13_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM13_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT13_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM14_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM14_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT14_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance MEM15_0
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_1
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_2
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_3
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_4
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_5
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_6
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance MEM15_7
+            (viewRef view_1 (cellRef x_rams32 (libraryRef SIMPRIMS)))
+            (property INIT (string "00000000"))
+          )
+          (instance BUFT15_0
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_1
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_2
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_3
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_4
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_5
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_6
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_7
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_0 "dec_/AND_0")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_1 "dec_/AND_1")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_2 "dec_/AND_2")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_3 "dec_/AND_3")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_4 "dec_/AND_4")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_5 "dec_/AND_5")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_6 "dec_/AND_6")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_7 "dec_/AND_7")
+            (viewRef view_1 (cellRef x_and4 (libraryRef SIMPRIMS)))
+          )
+          (instance AND0_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND0_1_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND0_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND1_1_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND1_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND2_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND2_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND3_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND4_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND4_1_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND4_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND5_1_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND5_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND6_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND6_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance AND7_3_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT0_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT1_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT2_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT3_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT4_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT5_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT6_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT7_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT8_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT9_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT10_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT11_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT12_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT13_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT14_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_1_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_2_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_3_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_4_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_5_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_6_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance BUFT15_7_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_0_0_INV "dec_/AND_0_0_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_0_1_INV "dec_/AND_0_1_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_0_2_INV "dec_/AND_0_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_1_1_INV "dec_/AND_1_1_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_1_2_INV "dec_/AND_1_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_2_0_INV "dec_/AND_2_0_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_2_2_INV "dec_/AND_2_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_3_2_INV "dec_/AND_3_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_4_0_INV "dec_/AND_4_0_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_4_1_INV "dec_/AND_4_1_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_5_1_INV "dec_/AND_5_1_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (instance (rename dec__AND_6_0_INV "dec_/AND_6_0_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+          )
+          (net WR_EN
+            (joined
+              (portRef WR_EN)
+              (portRef IN3 (instanceRef dec__AND_0))
+              (portRef IN3 (instanceRef dec__AND_1))
+              (portRef IN3 (instanceRef dec__AND_2))
+              (portRef IN3 (instanceRef dec__AND_3))
+              (portRef IN3 (instanceRef dec__AND_4))
+              (portRef IN3 (instanceRef dec__AND_5))
+              (portRef IN3 (instanceRef dec__AND_6))
+              (portRef IN3 (instanceRef dec__AND_7))
+            )
+          )
+          (net (rename A_0_ "A<0>")
+            (joined
+              (portRef A_0_)
+              (portRef ADR0 (instanceRef MEM0_0))
+              (portRef ADR0 (instanceRef MEM0_1))
+              (portRef ADR0 (instanceRef MEM0_2))
+              (portRef ADR0 (instanceRef MEM0_3))
+              (portRef ADR0 (instanceRef MEM0_4))
+              (portRef ADR0 (instanceRef MEM0_5))
+              (portRef ADR0 (instanceRef MEM0_6))
+              (portRef ADR0 (instanceRef MEM0_7))
+              (portRef ADR0 (instanceRef MEM1_0))
+              (portRef ADR0 (instanceRef MEM1_1))
+              (portRef ADR0 (instanceRef MEM1_2))
+              (portRef ADR0 (instanceRef MEM1_3))
+              (portRef ADR0 (instanceRef MEM1_4))
+              (portRef ADR0 (instanceRef MEM1_5))
+              (portRef ADR0 (instanceRef MEM1_6))
+              (portRef ADR0 (instanceRef MEM1_7))
+              (portRef ADR0 (instanceRef MEM2_0))
+              (portRef ADR0 (instanceRef MEM2_1))
+              (portRef ADR0 (instanceRef MEM2_2))
+              (portRef ADR0 (instanceRef MEM2_3))
+              (portRef ADR0 (instanceRef MEM2_4))
+              (portRef ADR0 (instanceRef MEM2_5))
+              (portRef ADR0 (instanceRef MEM2_6))
+              (portRef ADR0 (instanceRef MEM2_7))
+              (portRef ADR0 (instanceRef MEM3_0))
+              (portRef ADR0 (instanceRef MEM3_1))
+              (portRef ADR0 (instanceRef MEM3_2))
+              (portRef ADR0 (instanceRef MEM3_3))
+              (portRef ADR0 (instanceRef MEM3_4))
+              (portRef ADR0 (instanceRef MEM3_5))
+              (portRef ADR0 (instanceRef MEM3_6))
+              (portRef ADR0 (instanceRef MEM3_7))
+              (portRef ADR0 (instanceRef MEM4_0))
+              (portRef ADR0 (instanceRef MEM4_1))
+              (portRef ADR0 (instanceRef MEM4_2))
+              (portRef ADR0 (instanceRef MEM4_3))
+              (portRef ADR0 (instanceRef MEM4_4))
+              (portRef ADR0 (instanceRef MEM4_5))
+              (portRef ADR0 (instanceRef MEM4_6))
+              (portRef ADR0 (instanceRef MEM4_7))
+              (portRef ADR0 (instanceRef MEM5_0))
+              (portRef ADR0 (instanceRef MEM5_1))
+              (portRef ADR0 (instanceRef MEM5_2))
+              (portRef ADR0 (instanceRef MEM5_3))
+              (portRef ADR0 (instanceRef MEM5_4))
+              (portRef ADR0 (instanceRef MEM5_5))
+              (portRef ADR0 (instanceRef MEM5_6))
+              (portRef ADR0 (instanceRef MEM5_7))
+              (portRef ADR0 (instanceRef MEM6_0))
+              (portRef ADR0 (instanceRef MEM6_1))
+              (portRef ADR0 (instanceRef MEM6_2))
+              (portRef ADR0 (instanceRef MEM6_3))
+              (portRef ADR0 (instanceRef MEM6_4))
+              (portRef ADR0 (instanceRef MEM6_5))
+              (portRef ADR0 (instanceRef MEM6_6))
+              (portRef ADR0 (instanceRef MEM6_7))
+              (portRef ADR0 (instanceRef MEM7_0))
+              (portRef ADR0 (instanceRef MEM7_1))
+              (portRef ADR0 (instanceRef MEM7_2))
+              (portRef ADR0 (instanceRef MEM7_3))
+              (portRef ADR0 (instanceRef MEM7_4))
+              (portRef ADR0 (instanceRef MEM7_5))
+              (portRef ADR0 (instanceRef MEM7_6))
+              (portRef ADR0 (instanceRef MEM7_7))
+              (portRef ADR0 (instanceRef MEM8_0))
+              (portRef ADR0 (instanceRef MEM8_1))
+              (portRef ADR0 (instanceRef MEM8_2))
+              (portRef ADR0 (instanceRef MEM8_3))
+              (portRef ADR0 (instanceRef MEM8_4))
+              (portRef ADR0 (instanceRef MEM8_5))
+              (portRef ADR0 (instanceRef MEM8_6))
+              (portRef ADR0 (instanceRef MEM8_7))
+              (portRef ADR0 (instanceRef MEM9_0))
+              (portRef ADR0 (instanceRef MEM9_1))
+              (portRef ADR0 (instanceRef MEM9_2))
+              (portRef ADR0 (instanceRef MEM9_3))
+              (portRef ADR0 (instanceRef MEM9_4))
+              (portRef ADR0 (instanceRef MEM9_5))
+              (portRef ADR0 (instanceRef MEM9_6))
+              (portRef ADR0 (instanceRef MEM9_7))
+              (portRef ADR0 (instanceRef MEM10_0))
+              (portRef ADR0 (instanceRef MEM10_1))
+              (portRef ADR0 (instanceRef MEM10_2))
+              (portRef ADR0 (instanceRef MEM10_3))
+              (portRef ADR0 (instanceRef MEM10_4))
+              (portRef ADR0 (instanceRef MEM10_5))
+              (portRef ADR0 (instanceRef MEM10_6))
+              (portRef ADR0 (instanceRef MEM10_7))
+              (portRef ADR0 (instanceRef MEM11_0))
+              (portRef ADR0 (instanceRef MEM11_1))
+              (portRef ADR0 (instanceRef MEM11_2))
+              (portRef ADR0 (instanceRef MEM11_3))
+              (portRef ADR0 (instanceRef MEM11_4))
+              (portRef ADR0 (instanceRef MEM11_5))
+              (portRef ADR0 (instanceRef MEM11_6))
+              (portRef ADR0 (instanceRef MEM11_7))
+              (portRef ADR0 (instanceRef MEM12_0))
+              (portRef ADR0 (instanceRef MEM12_1))
+              (portRef ADR0 (instanceRef MEM12_2))
+              (portRef ADR0 (instanceRef MEM12_3))
+              (portRef ADR0 (instanceRef MEM12_4))
+              (portRef ADR0 (instanceRef MEM12_5))
+              (portRef ADR0 (instanceRef MEM12_6))
+              (portRef ADR0 (instanceRef MEM12_7))
+              (portRef ADR0 (instanceRef MEM13_0))
+              (portRef ADR0 (instanceRef MEM13_1))
+              (portRef ADR0 (instanceRef MEM13_2))
+              (portRef ADR0 (instanceRef MEM13_3))
+              (portRef ADR0 (instanceRef MEM13_4))
+              (portRef ADR0 (instanceRef MEM13_5))
+              (portRef ADR0 (instanceRef MEM13_6))
+              (portRef ADR0 (instanceRef MEM13_7))
+              (portRef ADR0 (instanceRef MEM14_0))
+              (portRef ADR0 (instanceRef MEM14_1))
+              (portRef ADR0 (instanceRef MEM14_2))
+              (portRef ADR0 (instanceRef MEM14_3))
+              (portRef ADR0 (instanceRef MEM14_4))
+              (portRef ADR0 (instanceRef MEM14_5))
+              (portRef ADR0 (instanceRef MEM14_6))
+              (portRef ADR0 (instanceRef MEM14_7))
+              (portRef ADR0 (instanceRef MEM15_0))
+              (portRef ADR0 (instanceRef MEM15_1))
+              (portRef ADR0 (instanceRef MEM15_2))
+              (portRef ADR0 (instanceRef MEM15_3))
+              (portRef ADR0 (instanceRef MEM15_4))
+              (portRef ADR0 (instanceRef MEM15_5))
+              (portRef ADR0 (instanceRef MEM15_6))
+              (portRef ADR0 (instanceRef MEM15_7))
+            )
+          )
+          (net (rename A_1_ "A<1>")
+            (joined
+              (portRef A_1_)
+              (portRef ADR1 (instanceRef MEM0_0))
+              (portRef ADR1 (instanceRef MEM0_1))
+              (portRef ADR1 (instanceRef MEM0_2))
+              (portRef ADR1 (instanceRef MEM0_3))
+              (portRef ADR1 (instanceRef MEM0_4))
+              (portRef ADR1 (instanceRef MEM0_5))
+              (portRef ADR1 (instanceRef MEM0_6))
+              (portRef ADR1 (instanceRef MEM0_7))
+              (portRef ADR1 (instanceRef MEM1_0))
+              (portRef ADR1 (instanceRef MEM1_1))
+              (portRef ADR1 (instanceRef MEM1_2))
+              (portRef ADR1 (instanceRef MEM1_3))
+              (portRef ADR1 (instanceRef MEM1_4))
+              (portRef ADR1 (instanceRef MEM1_5))
+              (portRef ADR1 (instanceRef MEM1_6))
+              (portRef ADR1 (instanceRef MEM1_7))
+              (portRef ADR1 (instanceRef MEM2_0))
+              (portRef ADR1 (instanceRef MEM2_1))
+              (portRef ADR1 (instanceRef MEM2_2))
+              (portRef ADR1 (instanceRef MEM2_3))
+              (portRef ADR1 (instanceRef MEM2_4))
+              (portRef ADR1 (instanceRef MEM2_5))
+              (portRef ADR1 (instanceRef MEM2_6))
+              (portRef ADR1 (instanceRef MEM2_7))
+              (portRef ADR1 (instanceRef MEM3_0))
+              (portRef ADR1 (instanceRef MEM3_1))
+              (portRef ADR1 (instanceRef MEM3_2))
+              (portRef ADR1 (instanceRef MEM3_3))
+              (portRef ADR1 (instanceRef MEM3_4))
+              (portRef ADR1 (instanceRef MEM3_5))
+              (portRef ADR1 (instanceRef MEM3_6))
+              (portRef ADR1 (instanceRef MEM3_7))
+              (portRef ADR1 (instanceRef MEM4_0))
+              (portRef ADR1 (instanceRef MEM4_1))
+              (portRef ADR1 (instanceRef MEM4_2))
+              (portRef ADR1 (instanceRef MEM4_3))
+              (portRef ADR1 (instanceRef MEM4_4))
+              (portRef ADR1 (instanceRef MEM4_5))
+              (portRef ADR1 (instanceRef MEM4_6))
+              (portRef ADR1 (instanceRef MEM4_7))
+              (portRef ADR1 (instanceRef MEM5_0))
+              (portRef ADR1 (instanceRef MEM5_1))
+              (portRef ADR1 (instanceRef MEM5_2))
+              (portRef ADR1 (instanceRef MEM5_3))
+              (portRef ADR1 (instanceRef MEM5_4))
+              (portRef ADR1 (instanceRef MEM5_5))
+              (portRef ADR1 (instanceRef MEM5_6))
+              (portRef ADR1 (instanceRef MEM5_7))
+              (portRef ADR1 (instanceRef MEM6_0))
+              (portRef ADR1 (instanceRef MEM6_1))
+              (portRef ADR1 (instanceRef MEM6_2))
+              (portRef ADR1 (instanceRef MEM6_3))
+              (portRef ADR1 (instanceRef MEM6_4))
+              (portRef ADR1 (instanceRef MEM6_5))
+              (portRef ADR1 (instanceRef MEM6_6))
+              (portRef ADR1 (instanceRef MEM6_7))
+              (portRef ADR1 (instanceRef MEM7_0))
+              (portRef ADR1 (instanceRef MEM7_1))
+              (portRef ADR1 (instanceRef MEM7_2))
+              (portRef ADR1 (instanceRef MEM7_3))
+              (portRef ADR1 (instanceRef MEM7_4))
+              (portRef ADR1 (instanceRef MEM7_5))
+              (portRef ADR1 (instanceRef MEM7_6))
+              (portRef ADR1 (instanceRef MEM7_7))
+              (portRef ADR1 (instanceRef MEM8_0))
+              (portRef ADR1 (instanceRef MEM8_1))
+              (portRef ADR1 (instanceRef MEM8_2))
+              (portRef ADR1 (instanceRef MEM8_3))
+              (portRef ADR1 (instanceRef MEM8_4))
+              (portRef ADR1 (instanceRef MEM8_5))
+              (portRef ADR1 (instanceRef MEM8_6))
+              (portRef ADR1 (instanceRef MEM8_7))
+              (portRef ADR1 (instanceRef MEM9_0))
+              (portRef ADR1 (instanceRef MEM9_1))
+              (portRef ADR1 (instanceRef MEM9_2))
+              (portRef ADR1 (instanceRef MEM9_3))
+              (portRef ADR1 (instanceRef MEM9_4))
+              (portRef ADR1 (instanceRef MEM9_5))
+              (portRef ADR1 (instanceRef MEM9_6))
+              (portRef ADR1 (instanceRef MEM9_7))
+              (portRef ADR1 (instanceRef MEM10_0))
+              (portRef ADR1 (instanceRef MEM10_1))
+              (portRef ADR1 (instanceRef MEM10_2))
+              (portRef ADR1 (instanceRef MEM10_3))
+              (portRef ADR1 (instanceRef MEM10_4))
+              (portRef ADR1 (instanceRef MEM10_5))
+              (portRef ADR1 (instanceRef MEM10_6))
+              (portRef ADR1 (instanceRef MEM10_7))
+              (portRef ADR1 (instanceRef MEM11_0))
+              (portRef ADR1 (instanceRef MEM11_1))
+              (portRef ADR1 (instanceRef MEM11_2))
+              (portRef ADR1 (instanceRef MEM11_3))
+              (portRef ADR1 (instanceRef MEM11_4))
+              (portRef ADR1 (instanceRef MEM11_5))
+              (portRef ADR1 (instanceRef MEM11_6))
+              (portRef ADR1 (instanceRef MEM11_7))
+              (portRef ADR1 (instanceRef MEM12_0))
+              (portRef ADR1 (instanceRef MEM12_1))
+              (portRef ADR1 (instanceRef MEM12_2))
+              (portRef ADR1 (instanceRef MEM12_3))
+              (portRef ADR1 (instanceRef MEM12_4))
+              (portRef ADR1 (instanceRef MEM12_5))
+              (portRef ADR1 (instanceRef MEM12_6))
+              (portRef ADR1 (instanceRef MEM12_7))
+              (portRef ADR1 (instanceRef MEM13_0))
+              (portRef ADR1 (instanceRef MEM13_1))
+              (portRef ADR1 (instanceRef MEM13_2))
+              (portRef ADR1 (instanceRef MEM13_3))
+              (portRef ADR1 (instanceRef MEM13_4))
+              (portRef ADR1 (instanceRef MEM13_5))
+              (portRef ADR1 (instanceRef MEM13_6))
+              (portRef ADR1 (instanceRef MEM13_7))
+              (portRef ADR1 (instanceRef MEM14_0))
+              (portRef ADR1 (instanceRef MEM14_1))
+              (portRef ADR1 (instanceRef MEM14_2))
+              (portRef ADR1 (instanceRef MEM14_3))
+              (portRef ADR1 (instanceRef MEM14_4))
+              (portRef ADR1 (instanceRef MEM14_5))
+              (portRef ADR1 (instanceRef MEM14_6))
+              (portRef ADR1 (instanceRef MEM14_7))
+              (portRef ADR1 (instanceRef MEM15_0))
+              (portRef ADR1 (instanceRef MEM15_1))
+              (portRef ADR1 (instanceRef MEM15_2))
+              (portRef ADR1 (instanceRef MEM15_3))
+              (portRef ADR1 (instanceRef MEM15_4))
+              (portRef ADR1 (instanceRef MEM15_5))
+              (portRef ADR1 (instanceRef MEM15_6))
+              (portRef ADR1 (instanceRef MEM15_7))
+            )
+          )
+          (net (rename A_2_ "A<2>")
+            (joined
+              (portRef A_2_)
+              (portRef ADR2 (instanceRef MEM0_0))
+              (portRef ADR2 (instanceRef MEM0_1))
+              (portRef ADR2 (instanceRef MEM0_2))
+              (portRef ADR2 (instanceRef MEM0_3))
+              (portRef ADR2 (instanceRef MEM0_4))
+              (portRef ADR2 (instanceRef MEM0_5))
+              (portRef ADR2 (instanceRef MEM0_6))
+              (portRef ADR2 (instanceRef MEM0_7))
+              (portRef ADR2 (instanceRef MEM1_0))
+              (portRef ADR2 (instanceRef MEM1_1))
+              (portRef ADR2 (instanceRef MEM1_2))
+              (portRef ADR2 (instanceRef MEM1_3))
+              (portRef ADR2 (instanceRef MEM1_4))
+              (portRef ADR2 (instanceRef MEM1_5))
+              (portRef ADR2 (instanceRef MEM1_6))
+              (portRef ADR2 (instanceRef MEM1_7))
+              (portRef ADR2 (instanceRef MEM2_0))
+              (portRef ADR2 (instanceRef MEM2_1))
+              (portRef ADR2 (instanceRef MEM2_2))
+              (portRef ADR2 (instanceRef MEM2_3))
+              (portRef ADR2 (instanceRef MEM2_4))
+              (portRef ADR2 (instanceRef MEM2_5))
+              (portRef ADR2 (instanceRef MEM2_6))
+              (portRef ADR2 (instanceRef MEM2_7))
+              (portRef ADR2 (instanceRef MEM3_0))
+              (portRef ADR2 (instanceRef MEM3_1))
+              (portRef ADR2 (instanceRef MEM3_2))
+              (portRef ADR2 (instanceRef MEM3_3))
+              (portRef ADR2 (instanceRef MEM3_4))
+              (portRef ADR2 (instanceRef MEM3_5))
+              (portRef ADR2 (instanceRef MEM3_6))
+              (portRef ADR2 (instanceRef MEM3_7))
+              (portRef ADR2 (instanceRef MEM4_0))
+              (portRef ADR2 (instanceRef MEM4_1))
+              (portRef ADR2 (instanceRef MEM4_2))
+              (portRef ADR2 (instanceRef MEM4_3))
+              (portRef ADR2 (instanceRef MEM4_4))
+              (portRef ADR2 (instanceRef MEM4_5))
+              (portRef ADR2 (instanceRef MEM4_6))
+              (portRef ADR2 (instanceRef MEM4_7))
+              (portRef ADR2 (instanceRef MEM5_0))
+              (portRef ADR2 (instanceRef MEM5_1))
+              (portRef ADR2 (instanceRef MEM5_2))
+              (portRef ADR2 (instanceRef MEM5_3))
+              (portRef ADR2 (instanceRef MEM5_4))
+              (portRef ADR2 (instanceRef MEM5_5))
+              (portRef ADR2 (instanceRef MEM5_6))
+              (portRef ADR2 (instanceRef MEM5_7))
+              (portRef ADR2 (instanceRef MEM6_0))
+              (portRef ADR2 (instanceRef MEM6_1))
+              (portRef ADR2 (instanceRef MEM6_2))
+              (portRef ADR2 (instanceRef MEM6_3))
+              (portRef ADR2 (instanceRef MEM6_4))
+              (portRef ADR2 (instanceRef MEM6_5))
+              (portRef ADR2 (instanceRef MEM6_6))
+              (portRef ADR2 (instanceRef MEM6_7))
+              (portRef ADR2 (instanceRef MEM7_0))
+              (portRef ADR2 (instanceRef MEM7_1))
+              (portRef ADR2 (instanceRef MEM7_2))
+              (portRef ADR2 (instanceRef MEM7_3))
+              (portRef ADR2 (instanceRef MEM7_4))
+              (portRef ADR2 (instanceRef MEM7_5))
+              (portRef ADR2 (instanceRef MEM7_6))
+              (portRef ADR2 (instanceRef MEM7_7))
+              (portRef ADR2 (instanceRef MEM8_0))
+              (portRef ADR2 (instanceRef MEM8_1))
+              (portRef ADR2 (instanceRef MEM8_2))
+              (portRef ADR2 (instanceRef MEM8_3))
+              (portRef ADR2 (instanceRef MEM8_4))
+              (portRef ADR2 (instanceRef MEM8_5))
+              (portRef ADR2 (instanceRef MEM8_6))
+              (portRef ADR2 (instanceRef MEM8_7))
+              (portRef ADR2 (instanceRef MEM9_0))
+              (portRef ADR2 (instanceRef MEM9_1))
+              (portRef ADR2 (instanceRef MEM9_2))
+              (portRef ADR2 (instanceRef MEM9_3))
+              (portRef ADR2 (instanceRef MEM9_4))
+              (portRef ADR2 (instanceRef MEM9_5))
+              (portRef ADR2 (instanceRef MEM9_6))
+              (portRef ADR2 (instanceRef MEM9_7))
+              (portRef ADR2 (instanceRef MEM10_0))
+              (portRef ADR2 (instanceRef MEM10_1))
+              (portRef ADR2 (instanceRef MEM10_2))
+              (portRef ADR2 (instanceRef MEM10_3))
+              (portRef ADR2 (instanceRef MEM10_4))
+              (portRef ADR2 (instanceRef MEM10_5))
+              (portRef ADR2 (instanceRef MEM10_6))
+              (portRef ADR2 (instanceRef MEM10_7))
+              (portRef ADR2 (instanceRef MEM11_0))
+              (portRef ADR2 (instanceRef MEM11_1))
+              (portRef ADR2 (instanceRef MEM11_2))
+              (portRef ADR2 (instanceRef MEM11_3))
+              (portRef ADR2 (instanceRef MEM11_4))
+              (portRef ADR2 (instanceRef MEM11_5))
+              (portRef ADR2 (instanceRef MEM11_6))
+              (portRef ADR2 (instanceRef MEM11_7))
+              (portRef ADR2 (instanceRef MEM12_0))
+              (portRef ADR2 (instanceRef MEM12_1))
+              (portRef ADR2 (instanceRef MEM12_2))
+              (portRef ADR2 (instanceRef MEM12_3))
+              (portRef ADR2 (instanceRef MEM12_4))
+              (portRef ADR2 (instanceRef MEM12_5))
+              (portRef ADR2 (instanceRef MEM12_6))
+              (portRef ADR2 (instanceRef MEM12_7))
+              (portRef ADR2 (instanceRef MEM13_0))
+              (portRef ADR2 (instanceRef MEM13_1))
+              (portRef ADR2 (instanceRef MEM13_2))
+              (portRef ADR2 (instanceRef MEM13_3))
+              (portRef ADR2 (instanceRef MEM13_4))
+              (portRef ADR2 (instanceRef MEM13_5))
+              (portRef ADR2 (instanceRef MEM13_6))
+              (portRef ADR2 (instanceRef MEM13_7))
+              (portRef ADR2 (instanceRef MEM14_0))
+              (portRef ADR2 (instanceRef MEM14_1))
+              (portRef ADR2 (instanceRef MEM14_2))
+              (portRef ADR2 (instanceRef MEM14_3))
+              (portRef ADR2 (instanceRef MEM14_4))
+              (portRef ADR2 (instanceRef MEM14_5))
+              (portRef ADR2 (instanceRef MEM14_6))
+              (portRef ADR2 (instanceRef MEM14_7))
+              (portRef ADR2 (instanceRef MEM15_0))
+              (portRef ADR2 (instanceRef MEM15_1))
+              (portRef ADR2 (instanceRef MEM15_2))
+              (portRef ADR2 (instanceRef MEM15_3))
+              (portRef ADR2 (instanceRef MEM15_4))
+              (portRef ADR2 (instanceRef MEM15_5))
+              (portRef ADR2 (instanceRef MEM15_6))
+              (portRef ADR2 (instanceRef MEM15_7))
+            )
+          )
+          (net (rename A_3_ "A<3>")
+            (joined
+              (portRef A_3_)
+              (portRef ADR3 (instanceRef MEM0_0))
+              (portRef ADR3 (instanceRef MEM0_1))
+              (portRef ADR3 (instanceRef MEM0_2))
+              (portRef ADR3 (instanceRef MEM0_3))
+              (portRef ADR3 (instanceRef MEM0_4))
+              (portRef ADR3 (instanceRef MEM0_5))
+              (portRef ADR3 (instanceRef MEM0_6))
+              (portRef ADR3 (instanceRef MEM0_7))
+              (portRef ADR3 (instanceRef MEM1_0))
+              (portRef ADR3 (instanceRef MEM1_1))
+              (portRef ADR3 (instanceRef MEM1_2))
+              (portRef ADR3 (instanceRef MEM1_3))
+              (portRef ADR3 (instanceRef MEM1_4))
+              (portRef ADR3 (instanceRef MEM1_5))
+              (portRef ADR3 (instanceRef MEM1_6))
+              (portRef ADR3 (instanceRef MEM1_7))
+              (portRef ADR3 (instanceRef MEM2_0))
+              (portRef ADR3 (instanceRef MEM2_1))
+              (portRef ADR3 (instanceRef MEM2_2))
+              (portRef ADR3 (instanceRef MEM2_3))
+              (portRef ADR3 (instanceRef MEM2_4))
+              (portRef ADR3 (instanceRef MEM2_5))
+              (portRef ADR3 (instanceRef MEM2_6))
+              (portRef ADR3 (instanceRef MEM2_7))
+              (portRef ADR3 (instanceRef MEM3_0))
+              (portRef ADR3 (instanceRef MEM3_1))
+              (portRef ADR3 (instanceRef MEM3_2))
+              (portRef ADR3 (instanceRef MEM3_3))
+              (portRef ADR3 (instanceRef MEM3_4))
+              (portRef ADR3 (instanceRef MEM3_5))
+              (portRef ADR3 (instanceRef MEM3_6))
+              (portRef ADR3 (instanceRef MEM3_7))
+              (portRef ADR3 (instanceRef MEM4_0))
+              (portRef ADR3 (instanceRef MEM4_1))
+              (portRef ADR3 (instanceRef MEM4_2))
+              (portRef ADR3 (instanceRef MEM4_3))
+              (portRef ADR3 (instanceRef MEM4_4))
+              (portRef ADR3 (instanceRef MEM4_5))
+              (portRef ADR3 (instanceRef MEM4_6))
+              (portRef ADR3 (instanceRef MEM4_7))
+              (portRef ADR3 (instanceRef MEM5_0))
+              (portRef ADR3 (instanceRef MEM5_1))
+              (portRef ADR3 (instanceRef MEM5_2))
+              (portRef ADR3 (instanceRef MEM5_3))
+              (portRef ADR3 (instanceRef MEM5_4))
+              (portRef ADR3 (instanceRef MEM5_5))
+              (portRef ADR3 (instanceRef MEM5_6))
+              (portRef ADR3 (instanceRef MEM5_7))
+              (portRef ADR3 (instanceRef MEM6_0))
+              (portRef ADR3 (instanceRef MEM6_1))
+              (portRef ADR3 (instanceRef MEM6_2))
+              (portRef ADR3 (instanceRef MEM6_3))
+              (portRef ADR3 (instanceRef MEM6_4))
+              (portRef ADR3 (instanceRef MEM6_5))
+              (portRef ADR3 (instanceRef MEM6_6))
+              (portRef ADR3 (instanceRef MEM6_7))
+              (portRef ADR3 (instanceRef MEM7_0))
+              (portRef ADR3 (instanceRef MEM7_1))
+              (portRef ADR3 (instanceRef MEM7_2))
+              (portRef ADR3 (instanceRef MEM7_3))
+              (portRef ADR3 (instanceRef MEM7_4))
+              (portRef ADR3 (instanceRef MEM7_5))
+              (portRef ADR3 (instanceRef MEM7_6))
+              (portRef ADR3 (instanceRef MEM7_7))
+              (portRef ADR3 (instanceRef MEM8_0))
+              (portRef ADR3 (instanceRef MEM8_1))
+              (portRef ADR3 (instanceRef MEM8_2))
+              (portRef ADR3 (instanceRef MEM8_3))
+              (portRef ADR3 (instanceRef MEM8_4))
+              (portRef ADR3 (instanceRef MEM8_5))
+              (portRef ADR3 (instanceRef MEM8_6))
+              (portRef ADR3 (instanceRef MEM8_7))
+              (portRef ADR3 (instanceRef MEM9_0))
+              (portRef ADR3 (instanceRef MEM9_1))
+              (portRef ADR3 (instanceRef MEM9_2))
+              (portRef ADR3 (instanceRef MEM9_3))
+              (portRef ADR3 (instanceRef MEM9_4))
+              (portRef ADR3 (instanceRef MEM9_5))
+              (portRef ADR3 (instanceRef MEM9_6))
+              (portRef ADR3 (instanceRef MEM9_7))
+              (portRef ADR3 (instanceRef MEM10_0))
+              (portRef ADR3 (instanceRef MEM10_1))
+              (portRef ADR3 (instanceRef MEM10_2))
+              (portRef ADR3 (instanceRef MEM10_3))
+              (portRef ADR3 (instanceRef MEM10_4))
+              (portRef ADR3 (instanceRef MEM10_5))
+              (portRef ADR3 (instanceRef MEM10_6))
+              (portRef ADR3 (instanceRef MEM10_7))
+              (portRef ADR3 (instanceRef MEM11_0))
+              (portRef ADR3 (instanceRef MEM11_1))
+              (portRef ADR3 (instanceRef MEM11_2))
+              (portRef ADR3 (instanceRef MEM11_3))
+              (portRef ADR3 (instanceRef MEM11_4))
+              (portRef ADR3 (instanceRef MEM11_5))
+              (portRef ADR3 (instanceRef MEM11_6))
+              (portRef ADR3 (instanceRef MEM11_7))
+              (portRef ADR3 (instanceRef MEM12_0))
+              (portRef ADR3 (instanceRef MEM12_1))
+              (portRef ADR3 (instanceRef MEM12_2))
+              (portRef ADR3 (instanceRef MEM12_3))
+              (portRef ADR3 (instanceRef MEM12_4))
+              (portRef ADR3 (instanceRef MEM12_5))
+              (portRef ADR3 (instanceRef MEM12_6))
+              (portRef ADR3 (instanceRef MEM12_7))
+              (portRef ADR3 (instanceRef MEM13_0))
+              (portRef ADR3 (instanceRef MEM13_1))
+              (portRef ADR3 (instanceRef MEM13_2))
+              (portRef ADR3 (instanceRef MEM13_3))
+              (portRef ADR3 (instanceRef MEM13_4))
+              (portRef ADR3 (instanceRef MEM13_5))
+              (portRef ADR3 (instanceRef MEM13_6))
+              (portRef ADR3 (instanceRef MEM13_7))
+              (portRef ADR3 (instanceRef MEM14_0))
+              (portRef ADR3 (instanceRef MEM14_1))
+              (portRef ADR3 (instanceRef MEM14_2))
+              (portRef ADR3 (instanceRef MEM14_3))
+              (portRef ADR3 (instanceRef MEM14_4))
+              (portRef ADR3 (instanceRef MEM14_5))
+              (portRef ADR3 (instanceRef MEM14_6))
+              (portRef ADR3 (instanceRef MEM14_7))
+              (portRef ADR3 (instanceRef MEM15_0))
+              (portRef ADR3 (instanceRef MEM15_1))
+              (portRef ADR3 (instanceRef MEM15_2))
+              (portRef ADR3 (instanceRef MEM15_3))
+              (portRef ADR3 (instanceRef MEM15_4))
+              (portRef ADR3 (instanceRef MEM15_5))
+              (portRef ADR3 (instanceRef MEM15_6))
+              (portRef ADR3 (instanceRef MEM15_7))
+            )
+          )
+          (net (rename A_4_ "A<4>")
+            (joined
+              (portRef A_4_)
+              (portRef ADR4 (instanceRef MEM0_0))
+              (portRef ADR4 (instanceRef MEM0_1))
+              (portRef ADR4 (instanceRef MEM0_2))
+              (portRef ADR4 (instanceRef MEM0_3))
+              (portRef ADR4 (instanceRef MEM0_4))
+              (portRef ADR4 (instanceRef MEM0_5))
+              (portRef ADR4 (instanceRef MEM0_6))
+              (portRef ADR4 (instanceRef MEM0_7))
+              (portRef ADR4 (instanceRef MEM1_0))
+              (portRef ADR4 (instanceRef MEM1_1))
+              (portRef ADR4 (instanceRef MEM1_2))
+              (portRef ADR4 (instanceRef MEM1_3))
+              (portRef ADR4 (instanceRef MEM1_4))
+              (portRef ADR4 (instanceRef MEM1_5))
+              (portRef ADR4 (instanceRef MEM1_6))
+              (portRef ADR4 (instanceRef MEM1_7))
+              (portRef ADR4 (instanceRef MEM2_0))
+              (portRef ADR4 (instanceRef MEM2_1))
+              (portRef ADR4 (instanceRef MEM2_2))
+              (portRef ADR4 (instanceRef MEM2_3))
+              (portRef ADR4 (instanceRef MEM2_4))
+              (portRef ADR4 (instanceRef MEM2_5))
+              (portRef ADR4 (instanceRef MEM2_6))
+              (portRef ADR4 (instanceRef MEM2_7))
+              (portRef ADR4 (instanceRef MEM3_0))
+              (portRef ADR4 (instanceRef MEM3_1))
+              (portRef ADR4 (instanceRef MEM3_2))
+              (portRef ADR4 (instanceRef MEM3_3))
+              (portRef ADR4 (instanceRef MEM3_4))
+              (portRef ADR4 (instanceRef MEM3_5))
+              (portRef ADR4 (instanceRef MEM3_6))
+              (portRef ADR4 (instanceRef MEM3_7))
+              (portRef ADR4 (instanceRef MEM4_0))
+              (portRef ADR4 (instanceRef MEM4_1))
+              (portRef ADR4 (instanceRef MEM4_2))
+              (portRef ADR4 (instanceRef MEM4_3))
+              (portRef ADR4 (instanceRef MEM4_4))
+              (portRef ADR4 (instanceRef MEM4_5))
+              (portRef ADR4 (instanceRef MEM4_6))
+              (portRef ADR4 (instanceRef MEM4_7))
+              (portRef ADR4 (instanceRef MEM5_0))
+              (portRef ADR4 (instanceRef MEM5_1))
+              (portRef ADR4 (instanceRef MEM5_2))
+              (portRef ADR4 (instanceRef MEM5_3))
+              (portRef ADR4 (instanceRef MEM5_4))
+              (portRef ADR4 (instanceRef MEM5_5))
+              (portRef ADR4 (instanceRef MEM5_6))
+              (portRef ADR4 (instanceRef MEM5_7))
+              (portRef ADR4 (instanceRef MEM6_0))
+              (portRef ADR4 (instanceRef MEM6_1))
+              (portRef ADR4 (instanceRef MEM6_2))
+              (portRef ADR4 (instanceRef MEM6_3))
+              (portRef ADR4 (instanceRef MEM6_4))
+              (portRef ADR4 (instanceRef MEM6_5))
+              (portRef ADR4 (instanceRef MEM6_6))
+              (portRef ADR4 (instanceRef MEM6_7))
+              (portRef ADR4 (instanceRef MEM7_0))
+              (portRef ADR4 (instanceRef MEM7_1))
+              (portRef ADR4 (instanceRef MEM7_2))
+              (portRef ADR4 (instanceRef MEM7_3))
+              (portRef ADR4 (instanceRef MEM7_4))
+              (portRef ADR4 (instanceRef MEM7_5))
+              (portRef ADR4 (instanceRef MEM7_6))
+              (portRef ADR4 (instanceRef MEM7_7))
+              (portRef ADR4 (instanceRef MEM8_0))
+              (portRef ADR4 (instanceRef MEM8_1))
+              (portRef ADR4 (instanceRef MEM8_2))
+              (portRef ADR4 (instanceRef MEM8_3))
+              (portRef ADR4 (instanceRef MEM8_4))
+              (portRef ADR4 (instanceRef MEM8_5))
+              (portRef ADR4 (instanceRef MEM8_6))
+              (portRef ADR4 (instanceRef MEM8_7))
+              (portRef ADR4 (instanceRef MEM9_0))
+              (portRef ADR4 (instanceRef MEM9_1))
+              (portRef ADR4 (instanceRef MEM9_2))
+              (portRef ADR4 (instanceRef MEM9_3))
+              (portRef ADR4 (instanceRef MEM9_4))
+              (portRef ADR4 (instanceRef MEM9_5))
+              (portRef ADR4 (instanceRef MEM9_6))
+              (portRef ADR4 (instanceRef MEM9_7))
+              (portRef ADR4 (instanceRef MEM10_0))
+              (portRef ADR4 (instanceRef MEM10_1))
+              (portRef ADR4 (instanceRef MEM10_2))
+              (portRef ADR4 (instanceRef MEM10_3))
+              (portRef ADR4 (instanceRef MEM10_4))
+              (portRef ADR4 (instanceRef MEM10_5))
+              (portRef ADR4 (instanceRef MEM10_6))
+              (portRef ADR4 (instanceRef MEM10_7))
+              (portRef ADR4 (instanceRef MEM11_0))
+              (portRef ADR4 (instanceRef MEM11_1))
+              (portRef ADR4 (instanceRef MEM11_2))
+              (portRef ADR4 (instanceRef MEM11_3))
+              (portRef ADR4 (instanceRef MEM11_4))
+              (portRef ADR4 (instanceRef MEM11_5))
+              (portRef ADR4 (instanceRef MEM11_6))
+              (portRef ADR4 (instanceRef MEM11_7))
+              (portRef ADR4 (instanceRef MEM12_0))
+              (portRef ADR4 (instanceRef MEM12_1))
+              (portRef ADR4 (instanceRef MEM12_2))
+              (portRef ADR4 (instanceRef MEM12_3))
+              (portRef ADR4 (instanceRef MEM12_4))
+              (portRef ADR4 (instanceRef MEM12_5))
+              (portRef ADR4 (instanceRef MEM12_6))
+              (portRef ADR4 (instanceRef MEM12_7))
+              (portRef ADR4 (instanceRef MEM13_0))
+              (portRef ADR4 (instanceRef MEM13_1))
+              (portRef ADR4 (instanceRef MEM13_2))
+              (portRef ADR4 (instanceRef MEM13_3))
+              (portRef ADR4 (instanceRef MEM13_4))
+              (portRef ADR4 (instanceRef MEM13_5))
+              (portRef ADR4 (instanceRef MEM13_6))
+              (portRef ADR4 (instanceRef MEM13_7))
+              (portRef ADR4 (instanceRef MEM14_0))
+              (portRef ADR4 (instanceRef MEM14_1))
+              (portRef ADR4 (instanceRef MEM14_2))
+              (portRef ADR4 (instanceRef MEM14_3))
+              (portRef ADR4 (instanceRef MEM14_4))
+              (portRef ADR4 (instanceRef MEM14_5))
+              (portRef ADR4 (instanceRef MEM14_6))
+              (portRef ADR4 (instanceRef MEM14_7))
+              (portRef ADR4 (instanceRef MEM15_0))
+              (portRef ADR4 (instanceRef MEM15_1))
+              (portRef ADR4 (instanceRef MEM15_2))
+              (portRef ADR4 (instanceRef MEM15_3))
+              (portRef ADR4 (instanceRef MEM15_4))
+              (portRef ADR4 (instanceRef MEM15_5))
+              (portRef ADR4 (instanceRef MEM15_6))
+              (portRef ADR4 (instanceRef MEM15_7))
+            )
+          )
+          (net (rename A_5_ "A<5>")
+            (joined
+              (portRef A_5_)
+              (portRef IN0 (instanceRef AND1))
+              (portRef IN0 (instanceRef AND3))
+              (portRef IN0 (instanceRef AND5))
+              (portRef IN0 (instanceRef AND7))
+              (portRef IN0 (instanceRef dec__AND_1))
+              (portRef IN0 (instanceRef dec__AND_3))
+              (portRef IN0 (instanceRef dec__AND_5))
+              (portRef IN0 (instanceRef dec__AND_7))
+              (portRef IN (instanceRef AND0_0_INV))
+              (portRef IN (instanceRef AND2_0_INV))
+              (portRef IN (instanceRef AND4_0_INV))
+              (portRef IN (instanceRef AND6_0_INV))
+              (portRef IN (instanceRef dec__AND_0_0_INV))
+              (portRef IN (instanceRef dec__AND_2_0_INV))
+              (portRef IN (instanceRef dec__AND_4_0_INV))
+              (portRef IN (instanceRef dec__AND_6_0_INV))
+            )
+          )
+          (net (rename A_6_ "A<6>")
+            (joined
+              (portRef A_6_)
+              (portRef IN1 (instanceRef AND2))
+              (portRef IN1 (instanceRef AND3))
+              (portRef IN1 (instanceRef AND6))
+              (portRef IN1 (instanceRef AND7))
+              (portRef IN1 (instanceRef dec__AND_2))
+              (portRef IN1 (instanceRef dec__AND_3))
+              (portRef IN1 (instanceRef dec__AND_6))
+              (portRef IN1 (instanceRef dec__AND_7))
+              (portRef IN (instanceRef AND0_1_INV))
+              (portRef IN (instanceRef AND1_1_INV))
+              (portRef IN (instanceRef AND4_1_INV))
+              (portRef IN (instanceRef AND5_1_INV))
+              (portRef IN (instanceRef dec__AND_0_1_INV))
+              (portRef IN (instanceRef dec__AND_1_1_INV))
+              (portRef IN (instanceRef dec__AND_4_1_INV))
+              (portRef IN (instanceRef dec__AND_5_1_INV))
+            )
+          )
+          (net (rename A_7_ "A<7>")
+            (joined
+              (portRef A_7_)
+              (portRef IN2 (instanceRef AND4))
+              (portRef IN2 (instanceRef AND5))
+              (portRef IN2 (instanceRef AND6))
+              (portRef IN2 (instanceRef AND7))
+              (portRef IN2 (instanceRef dec__AND_4))
+              (portRef IN2 (instanceRef dec__AND_5))
+              (portRef IN2 (instanceRef dec__AND_6))
+              (portRef IN2 (instanceRef dec__AND_7))
+              (portRef IN (instanceRef AND0_2_INV))
+              (portRef IN (instanceRef AND1_2_INV))
+              (portRef IN (instanceRef AND2_2_INV))
+              (portRef IN (instanceRef AND3_2_INV))
+              (portRef IN (instanceRef dec__AND_0_2_INV))
+              (portRef IN (instanceRef dec__AND_1_2_INV))
+              (portRef IN (instanceRef dec__AND_2_2_INV))
+              (portRef IN (instanceRef dec__AND_3_2_INV))
+            )
+          )
+          (net (rename DI_0_ "DI<0>")
+            (joined
+              (portRef DI_0_)
+              (portRef IN (instanceRef MEM0_0))
+              (portRef IN (instanceRef MEM0_1))
+              (portRef IN (instanceRef MEM0_2))
+              (portRef IN (instanceRef MEM0_3))
+              (portRef IN (instanceRef MEM0_4))
+              (portRef IN (instanceRef MEM0_5))
+              (portRef IN (instanceRef MEM0_6))
+              (portRef IN (instanceRef MEM0_7))
+            )
+          )
+          (net (rename DI_1_ "DI<1>")
+            (joined
+              (portRef DI_1_)
+              (portRef IN (instanceRef MEM1_0))
+              (portRef IN (instanceRef MEM1_1))
+              (portRef IN (instanceRef MEM1_2))
+              (portRef IN (instanceRef MEM1_3))
+              (portRef IN (instanceRef MEM1_4))
+              (portRef IN (instanceRef MEM1_5))
+              (portRef IN (instanceRef MEM1_6))
+              (portRef IN (instanceRef MEM1_7))
+            )
+          )
+          (net (rename DI_2_ "DI<2>")
+            (joined
+              (portRef DI_2_)
+              (portRef IN (instanceRef MEM2_0))
+              (portRef IN (instanceRef MEM2_1))
+              (portRef IN (instanceRef MEM2_2))
+              (portRef IN (instanceRef MEM2_3))
+              (portRef IN (instanceRef MEM2_4))
+              (portRef IN (instanceRef MEM2_5))
+              (portRef IN (instanceRef MEM2_6))
+              (portRef IN (instanceRef MEM2_7))
+            )
+          )
+          (net (rename DI_3_ "DI<3>")
+            (joined
+              (portRef DI_3_)
+              (portRef IN (instanceRef MEM3_0))
+              (portRef IN (instanceRef MEM3_1))
+              (portRef IN (instanceRef MEM3_2))
+              (portRef IN (instanceRef MEM3_3))
+              (portRef IN (instanceRef MEM3_4))
+              (portRef IN (instanceRef MEM3_5))
+              (portRef IN (instanceRef MEM3_6))
+              (portRef IN (instanceRef MEM3_7))
+            )
+          )
+          (net (rename DI_4_ "DI<4>")
+            (joined
+              (portRef DI_4_)
+              (portRef IN (instanceRef MEM4_0))
+              (portRef IN (instanceRef MEM4_1))
+              (portRef IN (instanceRef MEM4_2))
+              (portRef IN (instanceRef MEM4_3))
+              (portRef IN (instanceRef MEM4_4))
+              (portRef IN (instanceRef MEM4_5))
+              (portRef IN (instanceRef MEM4_6))
+              (portRef IN (instanceRef MEM4_7))
+            )
+          )
+          (net (rename DI_5_ "DI<5>")
+            (joined
+              (portRef DI_5_)
+              (portRef IN (instanceRef MEM5_0))
+              (portRef IN (instanceRef MEM5_1))
+              (portRef IN (instanceRef MEM5_2))
+              (portRef IN (instanceRef MEM5_3))
+              (portRef IN (instanceRef MEM5_4))
+              (portRef IN (instanceRef MEM5_5))
+              (portRef IN (instanceRef MEM5_6))
+              (portRef IN (instanceRef MEM5_7))
+            )
+          )
+          (net (rename DI_6_ "DI<6>")
+            (joined
+              (portRef DI_6_)
+              (portRef IN (instanceRef MEM6_0))
+              (portRef IN (instanceRef MEM6_1))
+              (portRef IN (instanceRef MEM6_2))
+              (portRef IN (instanceRef MEM6_3))
+              (portRef IN (instanceRef MEM6_4))
+              (portRef IN (instanceRef MEM6_5))
+              (portRef IN (instanceRef MEM6_6))
+              (portRef IN (instanceRef MEM6_7))
+            )
+          )
+          (net (rename DI_7_ "DI<7>")
+            (joined
+              (portRef DI_7_)
+              (portRef IN (instanceRef MEM7_0))
+              (portRef IN (instanceRef MEM7_1))
+              (portRef IN (instanceRef MEM7_2))
+              (portRef IN (instanceRef MEM7_3))
+              (portRef IN (instanceRef MEM7_4))
+              (portRef IN (instanceRef MEM7_5))
+              (portRef IN (instanceRef MEM7_6))
+              (portRef IN (instanceRef MEM7_7))
+            )
+          )
+          (net (rename DI_8_ "DI<8>")
+            (joined
+              (portRef DI_8_)
+              (portRef IN (instanceRef MEM8_0))
+              (portRef IN (instanceRef MEM8_1))
+              (portRef IN (instanceRef MEM8_2))
+              (portRef IN (instanceRef MEM8_3))
+              (portRef IN (instanceRef MEM8_4))
+              (portRef IN (instanceRef MEM8_5))
+              (portRef IN (instanceRef MEM8_6))
+              (portRef IN (instanceRef MEM8_7))
+            )
+          )
+          (net (rename DI_9_ "DI<9>")
+            (joined
+              (portRef DI_9_)
+              (portRef IN (instanceRef MEM9_0))
+              (portRef IN (instanceRef MEM9_1))
+              (portRef IN (instanceRef MEM9_2))
+              (portRef IN (instanceRef MEM9_3))
+              (portRef IN (instanceRef MEM9_4))
+              (portRef IN (instanceRef MEM9_5))
+              (portRef IN (instanceRef MEM9_6))
+              (portRef IN (instanceRef MEM9_7))
+            )
+          )
+          (net (rename DI_10_ "DI<10>")
+            (joined
+              (portRef DI_10_)
+              (portRef IN (instanceRef MEM10_0))
+              (portRef IN (instanceRef MEM10_1))
+              (portRef IN (instanceRef MEM10_2))
+              (portRef IN (instanceRef MEM10_3))
+              (portRef IN (instanceRef MEM10_4))
+              (portRef IN (instanceRef MEM10_5))
+              (portRef IN (instanceRef MEM10_6))
+              (portRef IN (instanceRef MEM10_7))
+            )
+          )
+          (net (rename DI_11_ "DI<11>")
+            (joined
+              (portRef DI_11_)
+              (portRef IN (instanceRef MEM11_0))
+              (portRef IN (instanceRef MEM11_1))
+              (portRef IN (instanceRef MEM11_2))
+              (portRef IN (instanceRef MEM11_3))
+              (portRef IN (instanceRef MEM11_4))
+              (portRef IN (instanceRef MEM11_5))
+              (portRef IN (instanceRef MEM11_6))
+              (portRef IN (instanceRef MEM11_7))
+            )
+          )
+          (net (rename DI_12_ "DI<12>")
+            (joined
+              (portRef DI_12_)
+              (portRef IN (instanceRef MEM12_0))
+              (portRef IN (instanceRef MEM12_1))
+              (portRef IN (instanceRef MEM12_2))
+              (portRef IN (instanceRef MEM12_3))
+              (portRef IN (instanceRef MEM12_4))
+              (portRef IN (instanceRef MEM12_5))
+              (portRef IN (instanceRef MEM12_6))
+              (portRef IN (instanceRef MEM12_7))
+            )
+          )
+          (net (rename DI_13_ "DI<13>")
+            (joined
+              (portRef DI_13_)
+              (portRef IN (instanceRef MEM13_0))
+              (portRef IN (instanceRef MEM13_1))
+              (portRef IN (instanceRef MEM13_2))
+              (portRef IN (instanceRef MEM13_3))
+              (portRef IN (instanceRef MEM13_4))
+              (portRef IN (instanceRef MEM13_5))
+              (portRef IN (instanceRef MEM13_6))
+              (portRef IN (instanceRef MEM13_7))
+            )
+          )
+          (net (rename DI_14_ "DI<14>")
+            (joined
+              (portRef DI_14_)
+              (portRef IN (instanceRef MEM14_0))
+              (portRef IN (instanceRef MEM14_1))
+              (portRef IN (instanceRef MEM14_2))
+              (portRef IN (instanceRef MEM14_3))
+              (portRef IN (instanceRef MEM14_4))
+              (portRef IN (instanceRef MEM14_5))
+              (portRef IN (instanceRef MEM14_6))
+              (portRef IN (instanceRef MEM14_7))
+            )
+          )
+          (net (rename DI_15_ "DI<15>")
+            (joined
+              (portRef DI_15_)
+              (portRef IN (instanceRef MEM15_0))
+              (portRef IN (instanceRef MEM15_1))
+              (portRef IN (instanceRef MEM15_2))
+              (portRef IN (instanceRef MEM15_3))
+              (portRef IN (instanceRef MEM15_4))
+              (portRef IN (instanceRef MEM15_5))
+              (portRef IN (instanceRef MEM15_6))
+              (portRef IN (instanceRef MEM15_7))
+            )
+          )
+          (net WR_CLK
+            (joined
+              (portRef WR_CLK)
+              (portRef CLK (instanceRef MEM0_0))
+              (portRef CLK (instanceRef MEM0_1))
+              (portRef CLK (instanceRef MEM0_2))
+              (portRef CLK (instanceRef MEM0_3))
+              (portRef CLK (instanceRef MEM0_4))
+              (portRef CLK (instanceRef MEM0_5))
+              (portRef CLK (instanceRef MEM0_6))
+              (portRef CLK (instanceRef MEM0_7))
+              (portRef CLK (instanceRef MEM1_0))
+              (portRef CLK (instanceRef MEM1_1))
+              (portRef CLK (instanceRef MEM1_2))
+              (portRef CLK (instanceRef MEM1_3))
+              (portRef CLK (instanceRef MEM1_4))
+              (portRef CLK (instanceRef MEM1_5))
+              (portRef CLK (instanceRef MEM1_6))
+              (portRef CLK (instanceRef MEM1_7))
+              (portRef CLK (instanceRef MEM2_0))
+              (portRef CLK (instanceRef MEM2_1))
+              (portRef CLK (instanceRef MEM2_2))
+              (portRef CLK (instanceRef MEM2_3))
+              (portRef CLK (instanceRef MEM2_4))
+              (portRef CLK (instanceRef MEM2_5))
+              (portRef CLK (instanceRef MEM2_6))
+              (portRef CLK (instanceRef MEM2_7))
+              (portRef CLK (instanceRef MEM3_0))
+              (portRef CLK (instanceRef MEM3_1))
+              (portRef CLK (instanceRef MEM3_2))
+              (portRef CLK (instanceRef MEM3_3))
+              (portRef CLK (instanceRef MEM3_4))
+              (portRef CLK (instanceRef MEM3_5))
+              (portRef CLK (instanceRef MEM3_6))
+              (portRef CLK (instanceRef MEM3_7))
+              (portRef CLK (instanceRef MEM4_0))
+              (portRef CLK (instanceRef MEM4_1))
+              (portRef CLK (instanceRef MEM4_2))
+              (portRef CLK (instanceRef MEM4_3))
+              (portRef CLK (instanceRef MEM4_4))
+              (portRef CLK (instanceRef MEM4_5))
+              (portRef CLK (instanceRef MEM4_6))
+              (portRef CLK (instanceRef MEM4_7))
+              (portRef CLK (instanceRef MEM5_0))
+              (portRef CLK (instanceRef MEM5_1))
+              (portRef CLK (instanceRef MEM5_2))
+              (portRef CLK (instanceRef MEM5_3))
+              (portRef CLK (instanceRef MEM5_4))
+              (portRef CLK (instanceRef MEM5_5))
+              (portRef CLK (instanceRef MEM5_6))
+              (portRef CLK (instanceRef MEM5_7))
+              (portRef CLK (instanceRef MEM6_0))
+              (portRef CLK (instanceRef MEM6_1))
+              (portRef CLK (instanceRef MEM6_2))
+              (portRef CLK (instanceRef MEM6_3))
+              (portRef CLK (instanceRef MEM6_4))
+              (portRef CLK (instanceRef MEM6_5))
+              (portRef CLK (instanceRef MEM6_6))
+              (portRef CLK (instanceRef MEM6_7))
+              (portRef CLK (instanceRef MEM7_0))
+              (portRef CLK (instanceRef MEM7_1))
+              (portRef CLK (instanceRef MEM7_2))
+              (portRef CLK (instanceRef MEM7_3))
+              (portRef CLK (instanceRef MEM7_4))
+              (portRef CLK (instanceRef MEM7_5))
+              (portRef CLK (instanceRef MEM7_6))
+              (portRef CLK (instanceRef MEM7_7))
+              (portRef CLK (instanceRef MEM8_0))
+              (portRef CLK (instanceRef MEM8_1))
+              (portRef CLK (instanceRef MEM8_2))
+              (portRef CLK (instanceRef MEM8_3))
+              (portRef CLK (instanceRef MEM8_4))
+              (portRef CLK (instanceRef MEM8_5))
+              (portRef CLK (instanceRef MEM8_6))
+              (portRef CLK (instanceRef MEM8_7))
+              (portRef CLK (instanceRef MEM9_0))
+              (portRef CLK (instanceRef MEM9_1))
+              (portRef CLK (instanceRef MEM9_2))
+              (portRef CLK (instanceRef MEM9_3))
+              (portRef CLK (instanceRef MEM9_4))
+              (portRef CLK (instanceRef MEM9_5))
+              (portRef CLK (instanceRef MEM9_6))
+              (portRef CLK (instanceRef MEM9_7))
+              (portRef CLK (instanceRef MEM10_0))
+              (portRef CLK (instanceRef MEM10_1))
+              (portRef CLK (instanceRef MEM10_2))
+              (portRef CLK (instanceRef MEM10_3))
+              (portRef CLK (instanceRef MEM10_4))
+              (portRef CLK (instanceRef MEM10_5))
+              (portRef CLK (instanceRef MEM10_6))
+              (portRef CLK (instanceRef MEM10_7))
+              (portRef CLK (instanceRef MEM11_0))
+              (portRef CLK (instanceRef MEM11_1))
+              (portRef CLK (instanceRef MEM11_2))
+              (portRef CLK (instanceRef MEM11_3))
+              (portRef CLK (instanceRef MEM11_4))
+              (portRef CLK (instanceRef MEM11_5))
+              (portRef CLK (instanceRef MEM11_6))
+              (portRef CLK (instanceRef MEM11_7))
+              (portRef CLK (instanceRef MEM12_0))
+              (portRef CLK (instanceRef MEM12_1))
+              (portRef CLK (instanceRef MEM12_2))
+              (portRef CLK (instanceRef MEM12_3))
+              (portRef CLK (instanceRef MEM12_4))
+              (portRef CLK (instanceRef MEM12_5))
+              (portRef CLK (instanceRef MEM12_6))
+              (portRef CLK (instanceRef MEM12_7))
+              (portRef CLK (instanceRef MEM13_0))
+              (portRef CLK (instanceRef MEM13_1))
+              (portRef CLK (instanceRef MEM13_2))
+              (portRef CLK (instanceRef MEM13_3))
+              (portRef CLK (instanceRef MEM13_4))
+              (portRef CLK (instanceRef MEM13_5))
+              (portRef CLK (instanceRef MEM13_6))
+              (portRef CLK (instanceRef MEM13_7))
+              (portRef CLK (instanceRef MEM14_0))
+              (portRef CLK (instanceRef MEM14_1))
+              (portRef CLK (instanceRef MEM14_2))
+              (portRef CLK (instanceRef MEM14_3))
+              (portRef CLK (instanceRef MEM14_4))
+              (portRef CLK (instanceRef MEM14_5))
+              (portRef CLK (instanceRef MEM14_6))
+              (portRef CLK (instanceRef MEM14_7))
+              (portRef CLK (instanceRef MEM15_0))
+              (portRef CLK (instanceRef MEM15_1))
+              (portRef CLK (instanceRef MEM15_2))
+              (portRef CLK (instanceRef MEM15_3))
+              (portRef CLK (instanceRef MEM15_4))
+              (portRef CLK (instanceRef MEM15_5))
+              (portRef CLK (instanceRef MEM15_6))
+              (portRef CLK (instanceRef MEM15_7))
+            )
+          )
+          (net WE__0
+            (joined
+              (portRef WE (instanceRef MEM0_0))
+              (portRef WE (instanceRef MEM1_0))
+              (portRef WE (instanceRef MEM2_0))
+              (portRef WE (instanceRef MEM3_0))
+              (portRef WE (instanceRef MEM4_0))
+              (portRef WE (instanceRef MEM5_0))
+              (portRef WE (instanceRef MEM6_0))
+              (portRef WE (instanceRef MEM7_0))
+              (portRef WE (instanceRef MEM8_0))
+              (portRef WE (instanceRef MEM9_0))
+              (portRef WE (instanceRef MEM10_0))
+              (portRef WE (instanceRef MEM11_0))
+              (portRef WE (instanceRef MEM12_0))
+              (portRef WE (instanceRef MEM13_0))
+              (portRef WE (instanceRef MEM14_0))
+              (portRef WE (instanceRef MEM15_0))
+              (portRef OUT (instanceRef dec__AND_0))
+            )
+          )
+          (net WE__1
+            (joined
+              (portRef WE (instanceRef MEM0_1))
+              (portRef WE (instanceRef MEM1_1))
+              (portRef WE (instanceRef MEM2_1))
+              (portRef WE (instanceRef MEM3_1))
+              (portRef WE (instanceRef MEM4_1))
+              (portRef WE (instanceRef MEM5_1))
+              (portRef WE (instanceRef MEM6_1))
+              (portRef WE (instanceRef MEM7_1))
+              (portRef WE (instanceRef MEM8_1))
+              (portRef WE (instanceRef MEM9_1))
+              (portRef WE (instanceRef MEM10_1))
+              (portRef WE (instanceRef MEM11_1))
+              (portRef WE (instanceRef MEM12_1))
+              (portRef WE (instanceRef MEM13_1))
+              (portRef WE (instanceRef MEM14_1))
+              (portRef WE (instanceRef MEM15_1))
+              (portRef OUT (instanceRef dec__AND_1))
+            )
+          )
+          (net WE__2
+            (joined
+              (portRef WE (instanceRef MEM0_2))
+              (portRef WE (instanceRef MEM1_2))
+              (portRef WE (instanceRef MEM2_2))
+              (portRef WE (instanceRef MEM3_2))
+              (portRef WE (instanceRef MEM4_2))
+              (portRef WE (instanceRef MEM5_2))
+              (portRef WE (instanceRef MEM6_2))
+              (portRef WE (instanceRef MEM7_2))
+              (portRef WE (instanceRef MEM8_2))
+              (portRef WE (instanceRef MEM9_2))
+              (portRef WE (instanceRef MEM10_2))
+              (portRef WE (instanceRef MEM11_2))
+              (portRef WE (instanceRef MEM12_2))
+              (portRef WE (instanceRef MEM13_2))
+              (portRef WE (instanceRef MEM14_2))
+              (portRef WE (instanceRef MEM15_2))
+              (portRef OUT (instanceRef dec__AND_2))
+            )
+          )
+          (net WE__3
+            (joined
+              (portRef WE (instanceRef MEM0_3))
+              (portRef WE (instanceRef MEM1_3))
+              (portRef WE (instanceRef MEM2_3))
+              (portRef WE (instanceRef MEM3_3))
+              (portRef WE (instanceRef MEM4_3))
+              (portRef WE (instanceRef MEM5_3))
+              (portRef WE (instanceRef MEM6_3))
+              (portRef WE (instanceRef MEM7_3))
+              (portRef WE (instanceRef MEM8_3))
+              (portRef WE (instanceRef MEM9_3))
+              (portRef WE (instanceRef MEM10_3))
+              (portRef WE (instanceRef MEM11_3))
+              (portRef WE (instanceRef MEM12_3))
+              (portRef WE (instanceRef MEM13_3))
+              (portRef WE (instanceRef MEM14_3))
+              (portRef WE (instanceRef MEM15_3))
+              (portRef OUT (instanceRef dec__AND_3))
+            )
+          )
+          (net WE__4
+            (joined
+              (portRef WE (instanceRef MEM0_4))
+              (portRef WE (instanceRef MEM1_4))
+              (portRef WE (instanceRef MEM2_4))
+              (portRef WE (instanceRef MEM3_4))
+              (portRef WE (instanceRef MEM4_4))
+              (portRef WE (instanceRef MEM5_4))
+              (portRef WE (instanceRef MEM6_4))
+              (portRef WE (instanceRef MEM7_4))
+              (portRef WE (instanceRef MEM8_4))
+              (portRef WE (instanceRef MEM9_4))
+              (portRef WE (instanceRef MEM10_4))
+              (portRef WE (instanceRef MEM11_4))
+              (portRef WE (instanceRef MEM12_4))
+              (portRef WE (instanceRef MEM13_4))
+              (portRef WE (instanceRef MEM14_4))
+              (portRef WE (instanceRef MEM15_4))
+              (portRef OUT (instanceRef dec__AND_4))
+            )
+          )
+          (net WE__5
+            (joined
+              (portRef WE (instanceRef MEM0_5))
+              (portRef WE (instanceRef MEM1_5))
+              (portRef WE (instanceRef MEM2_5))
+              (portRef WE (instanceRef MEM3_5))
+              (portRef WE (instanceRef MEM4_5))
+              (portRef WE (instanceRef MEM5_5))
+              (portRef WE (instanceRef MEM6_5))
+              (portRef WE (instanceRef MEM7_5))
+              (portRef WE (instanceRef MEM8_5))
+              (portRef WE (instanceRef MEM9_5))
+              (portRef WE (instanceRef MEM10_5))
+              (portRef WE (instanceRef MEM11_5))
+              (portRef WE (instanceRef MEM12_5))
+              (portRef WE (instanceRef MEM13_5))
+              (portRef WE (instanceRef MEM14_5))
+              (portRef WE (instanceRef MEM15_5))
+              (portRef OUT (instanceRef dec__AND_5))
+            )
+          )
+          (net WE__6
+            (joined
+              (portRef WE (instanceRef MEM0_6))
+              (portRef WE (instanceRef MEM1_6))
+              (portRef WE (instanceRef MEM2_6))
+              (portRef WE (instanceRef MEM3_6))
+              (portRef WE (instanceRef MEM4_6))
+              (portRef WE (instanceRef MEM5_6))
+              (portRef WE (instanceRef MEM6_6))
+              (portRef WE (instanceRef MEM7_6))
+              (portRef WE (instanceRef MEM8_6))
+              (portRef WE (instanceRef MEM9_6))
+              (portRef WE (instanceRef MEM10_6))
+              (portRef WE (instanceRef MEM11_6))
+              (portRef WE (instanceRef MEM12_6))
+              (portRef WE (instanceRef MEM13_6))
+              (portRef WE (instanceRef MEM14_6))
+              (portRef WE (instanceRef MEM15_6))
+              (portRef OUT (instanceRef dec__AND_6))
+            )
+          )
+          (net WE__7
+            (joined
+              (portRef WE (instanceRef MEM0_7))
+              (portRef WE (instanceRef MEM1_7))
+              (portRef WE (instanceRef MEM2_7))
+              (portRef WE (instanceRef MEM3_7))
+              (portRef WE (instanceRef MEM4_7))
+              (portRef WE (instanceRef MEM5_7))
+              (portRef WE (instanceRef MEM6_7))
+              (portRef WE (instanceRef MEM7_7))
+              (portRef WE (instanceRef MEM8_7))
+              (portRef WE (instanceRef MEM9_7))
+              (portRef WE (instanceRef MEM10_7))
+              (portRef WE (instanceRef MEM11_7))
+              (portRef WE (instanceRef MEM12_7))
+              (portRef WE (instanceRef MEM13_7))
+              (portRef WE (instanceRef MEM14_7))
+              (portRef WE (instanceRef MEM15_7))
+              (portRef OUT (instanceRef dec__AND_7))
+            )
+          )
+          (net TRI_SEL0
+            (joined
+              (portRef OUT (instanceRef AND0_3_INV))
+              (portRef IN (instanceRef BUFT0_0_2_INV))
+              (portRef IN (instanceRef BUFT1_0_2_INV))
+              (portRef IN (instanceRef BUFT2_0_2_INV))
+              (portRef IN (instanceRef BUFT3_0_2_INV))
+              (portRef IN (instanceRef BUFT4_0_2_INV))
+              (portRef IN (instanceRef BUFT5_0_2_INV))
+              (portRef IN (instanceRef BUFT6_0_2_INV))
+              (portRef IN (instanceRef BUFT7_0_2_INV))
+              (portRef IN (instanceRef BUFT8_0_2_INV))
+              (portRef IN (instanceRef BUFT9_0_2_INV))
+              (portRef IN (instanceRef BUFT10_0_2_INV))
+              (portRef IN (instanceRef BUFT11_0_2_INV))
+              (portRef IN (instanceRef BUFT12_0_2_INV))
+              (portRef IN (instanceRef BUFT13_0_2_INV))
+              (portRef IN (instanceRef BUFT14_0_2_INV))
+              (portRef IN (instanceRef BUFT15_0_2_INV))
+            )
+          )
+          (net TRI_SEL1
+            (joined
+              (portRef OUT (instanceRef AND1_3_INV))
+              (portRef IN (instanceRef BUFT0_1_2_INV))
+              (portRef IN (instanceRef BUFT1_1_2_INV))
+              (portRef IN (instanceRef BUFT2_1_2_INV))
+              (portRef IN (instanceRef BUFT3_1_2_INV))
+              (portRef IN (instanceRef BUFT4_1_2_INV))
+              (portRef IN (instanceRef BUFT5_1_2_INV))
+              (portRef IN (instanceRef BUFT6_1_2_INV))
+              (portRef IN (instanceRef BUFT7_1_2_INV))
+              (portRef IN (instanceRef BUFT8_1_2_INV))
+              (portRef IN (instanceRef BUFT9_1_2_INV))
+              (portRef IN (instanceRef BUFT10_1_2_INV))
+              (portRef IN (instanceRef BUFT11_1_2_INV))
+              (portRef IN (instanceRef BUFT12_1_2_INV))
+              (portRef IN (instanceRef BUFT13_1_2_INV))
+              (portRef IN (instanceRef BUFT14_1_2_INV))
+              (portRef IN (instanceRef BUFT15_1_2_INV))
+            )
+          )
+          (net TRI_SEL2
+            (joined
+              (portRef OUT (instanceRef AND2_3_INV))
+              (portRef IN (instanceRef BUFT0_2_2_INV))
+              (portRef IN (instanceRef BUFT1_2_2_INV))
+              (portRef IN (instanceRef BUFT2_2_2_INV))
+              (portRef IN (instanceRef BUFT3_2_2_INV))
+              (portRef IN (instanceRef BUFT4_2_2_INV))
+              (portRef IN (instanceRef BUFT5_2_2_INV))
+              (portRef IN (instanceRef BUFT6_2_2_INV))
+              (portRef IN (instanceRef BUFT7_2_2_INV))
+              (portRef IN (instanceRef BUFT8_2_2_INV))
+              (portRef IN (instanceRef BUFT9_2_2_INV))
+              (portRef IN (instanceRef BUFT10_2_2_INV))
+              (portRef IN (instanceRef BUFT11_2_2_INV))
+              (portRef IN (instanceRef BUFT12_2_2_INV))
+              (portRef IN (instanceRef BUFT13_2_2_INV))
+              (portRef IN (instanceRef BUFT14_2_2_INV))
+              (portRef IN (instanceRef BUFT15_2_2_INV))
+            )
+          )
+          (net TRI_SEL3
+            (joined
+              (portRef OUT (instanceRef AND3_3_INV))
+              (portRef IN (instanceRef BUFT0_3_2_INV))
+              (portRef IN (instanceRef BUFT1_3_2_INV))
+              (portRef IN (instanceRef BUFT2_3_2_INV))
+              (portRef IN (instanceRef BUFT3_3_2_INV))
+              (portRef IN (instanceRef BUFT4_3_2_INV))
+              (portRef IN (instanceRef BUFT5_3_2_INV))
+              (portRef IN (instanceRef BUFT6_3_2_INV))
+              (portRef IN (instanceRef BUFT7_3_2_INV))
+              (portRef IN (instanceRef BUFT8_3_2_INV))
+              (portRef IN (instanceRef BUFT9_3_2_INV))
+              (portRef IN (instanceRef BUFT10_3_2_INV))
+              (portRef IN (instanceRef BUFT11_3_2_INV))
+              (portRef IN (instanceRef BUFT12_3_2_INV))
+              (portRef IN (instanceRef BUFT13_3_2_INV))
+              (portRef IN (instanceRef BUFT14_3_2_INV))
+              (portRef IN (instanceRef BUFT15_3_2_INV))
+            )
+          )
+          (net TRI_SEL4
+            (joined
+              (portRef OUT (instanceRef AND4_3_INV))
+              (portRef IN (instanceRef BUFT0_4_2_INV))
+              (portRef IN (instanceRef BUFT1_4_2_INV))
+              (portRef IN (instanceRef BUFT2_4_2_INV))
+              (portRef IN (instanceRef BUFT3_4_2_INV))
+              (portRef IN (instanceRef BUFT4_4_2_INV))
+              (portRef IN (instanceRef BUFT5_4_2_INV))
+              (portRef IN (instanceRef BUFT6_4_2_INV))
+              (portRef IN (instanceRef BUFT7_4_2_INV))
+              (portRef IN (instanceRef BUFT8_4_2_INV))
+              (portRef IN (instanceRef BUFT9_4_2_INV))
+              (portRef IN (instanceRef BUFT10_4_2_INV))
+              (portRef IN (instanceRef BUFT11_4_2_INV))
+              (portRef IN (instanceRef BUFT12_4_2_INV))
+              (portRef IN (instanceRef BUFT13_4_2_INV))
+              (portRef IN (instanceRef BUFT14_4_2_INV))
+              (portRef IN (instanceRef BUFT15_4_2_INV))
+            )
+          )
+          (net TRI_SEL5
+            (joined
+              (portRef OUT (instanceRef AND5_3_INV))
+              (portRef IN (instanceRef BUFT0_5_2_INV))
+              (portRef IN (instanceRef BUFT1_5_2_INV))
+              (portRef IN (instanceRef BUFT2_5_2_INV))
+              (portRef IN (instanceRef BUFT3_5_2_INV))
+              (portRef IN (instanceRef BUFT4_5_2_INV))
+              (portRef IN (instanceRef BUFT5_5_2_INV))
+              (portRef IN (instanceRef BUFT6_5_2_INV))
+              (portRef IN (instanceRef BUFT7_5_2_INV))
+              (portRef IN (instanceRef BUFT8_5_2_INV))
+              (portRef IN (instanceRef BUFT9_5_2_INV))
+              (portRef IN (instanceRef BUFT10_5_2_INV))
+              (portRef IN (instanceRef BUFT11_5_2_INV))
+              (portRef IN (instanceRef BUFT12_5_2_INV))
+              (portRef IN (instanceRef BUFT13_5_2_INV))
+              (portRef IN (instanceRef BUFT14_5_2_INV))
+              (portRef IN (instanceRef BUFT15_5_2_INV))
+            )
+          )
+          (net TRI_SEL6
+            (joined
+              (portRef OUT (instanceRef AND6_3_INV))
+              (portRef IN (instanceRef BUFT0_6_2_INV))
+              (portRef IN (instanceRef BUFT1_6_2_INV))
+              (portRef IN (instanceRef BUFT2_6_2_INV))
+              (portRef IN (instanceRef BUFT3_6_2_INV))
+              (portRef IN (instanceRef BUFT4_6_2_INV))
+              (portRef IN (instanceRef BUFT5_6_2_INV))
+              (portRef IN (instanceRef BUFT6_6_2_INV))
+              (portRef IN (instanceRef BUFT7_6_2_INV))
+              (portRef IN (instanceRef BUFT8_6_2_INV))
+              (portRef IN (instanceRef BUFT9_6_2_INV))
+              (portRef IN (instanceRef BUFT10_6_2_INV))
+              (portRef IN (instanceRef BUFT11_6_2_INV))
+              (portRef IN (instanceRef BUFT12_6_2_INV))
+              (portRef IN (instanceRef BUFT13_6_2_INV))
+              (portRef IN (instanceRef BUFT14_6_2_INV))
+              (portRef IN (instanceRef BUFT15_6_2_INV))
+            )
+          )
+          (net TRI_SEL7
+            (joined
+              (portRef OUT (instanceRef AND7_3_INV))
+              (portRef IN (instanceRef BUFT0_7_2_INV))
+              (portRef IN (instanceRef BUFT1_7_2_INV))
+              (portRef IN (instanceRef BUFT2_7_2_INV))
+              (portRef IN (instanceRef BUFT3_7_2_INV))
+              (portRef IN (instanceRef BUFT4_7_2_INV))
+              (portRef IN (instanceRef BUFT5_7_2_INV))
+              (portRef IN (instanceRef BUFT6_7_2_INV))
+              (portRef IN (instanceRef BUFT7_7_2_INV))
+              (portRef IN (instanceRef BUFT8_7_2_INV))
+              (portRef IN (instanceRef BUFT9_7_2_INV))
+              (portRef IN (instanceRef BUFT10_7_2_INV))
+              (portRef IN (instanceRef BUFT11_7_2_INV))
+              (portRef IN (instanceRef BUFT12_7_2_INV))
+              (portRef IN (instanceRef BUFT13_7_2_INV))
+              (portRef IN (instanceRef BUFT14_7_2_INV))
+              (portRef IN (instanceRef BUFT15_7_2_INV))
+            )
+          )
+          (net MO0_0
+            (joined
+              (portRef OUT (instanceRef MEM0_0))
+              (portRef IN (instanceRef BUFT0_0))
+            )
+          )
+          (net MO1_0
+            (joined
+              (portRef OUT (instanceRef MEM0_1))
+              (portRef IN (instanceRef BUFT0_1))
+            )
+          )
+          (net MO2_0
+            (joined
+              (portRef OUT (instanceRef MEM0_2))
+              (portRef IN (instanceRef BUFT0_2))
+            )
+          )
+          (net MO3_0
+            (joined
+              (portRef OUT (instanceRef MEM0_3))
+              (portRef IN (instanceRef BUFT0_3))
+            )
+          )
+          (net MO4_0
+            (joined
+              (portRef OUT (instanceRef MEM0_4))
+              (portRef IN (instanceRef BUFT0_4))
+            )
+          )
+          (net MO5_0
+            (joined
+              (portRef OUT (instanceRef MEM0_5))
+              (portRef IN (instanceRef BUFT0_5))
+            )
+          )
+          (net MO6_0
+            (joined
+              (portRef OUT (instanceRef MEM0_6))
+              (portRef IN (instanceRef BUFT0_6))
+            )
+          )
+          (net MO7_0
+            (joined
+              (portRef OUT (instanceRef MEM0_7))
+              (portRef IN (instanceRef BUFT0_7))
+            )
+          )
+          (net TRI_MOUT0
+            (joined
+              (portRef DO_0_)
+              (portRef OUT (instanceRef BUFT0_0))
+              (portRef OUT (instanceRef BUFT0_1))
+              (portRef OUT (instanceRef BUFT0_2))
+              (portRef OUT (instanceRef BUFT0_3))
+              (portRef OUT (instanceRef BUFT0_4))
+              (portRef OUT (instanceRef BUFT0_5))
+              (portRef OUT (instanceRef BUFT0_6))
+              (portRef OUT (instanceRef BUFT0_7))
+            )
+          )
+          (net MO0_1
+            (joined
+              (portRef OUT (instanceRef MEM1_0))
+              (portRef IN (instanceRef BUFT1_0))
+            )
+          )
+          (net MO1_1
+            (joined
+              (portRef OUT (instanceRef MEM1_1))
+              (portRef IN (instanceRef BUFT1_1))
+            )
+          )
+          (net MO2_1
+            (joined
+              (portRef OUT (instanceRef MEM1_2))
+              (portRef IN (instanceRef BUFT1_2))
+            )
+          )
+          (net MO3_1
+            (joined
+              (portRef OUT (instanceRef MEM1_3))
+              (portRef IN (instanceRef BUFT1_3))
+            )
+          )
+          (net MO4_1
+            (joined
+              (portRef OUT (instanceRef MEM1_4))
+              (portRef IN (instanceRef BUFT1_4))
+            )
+          )
+          (net MO5_1
+            (joined
+              (portRef OUT (instanceRef MEM1_5))
+              (portRef IN (instanceRef BUFT1_5))
+            )
+          )
+          (net MO6_1
+            (joined
+              (portRef OUT (instanceRef MEM1_6))
+              (portRef IN (instanceRef BUFT1_6))
+            )
+          )
+          (net MO7_1
+            (joined
+              (portRef OUT (instanceRef MEM1_7))
+              (portRef IN (instanceRef BUFT1_7))
+            )
+          )
+          (net TRI_MOUT1
+            (joined
+              (portRef DO_1_)
+              (portRef OUT (instanceRef BUFT1_0))
+              (portRef OUT (instanceRef BUFT1_1))
+              (portRef OUT (instanceRef BUFT1_2))
+              (portRef OUT (instanceRef BUFT1_3))
+              (portRef OUT (instanceRef BUFT1_4))
+              (portRef OUT (instanceRef BUFT1_5))
+              (portRef OUT (instanceRef BUFT1_6))
+              (portRef OUT (instanceRef BUFT1_7))
+            )
+          )
+          (net MO0_2
+            (joined
+              (portRef OUT (instanceRef MEM2_0))
+              (portRef IN (instanceRef BUFT2_0))
+            )
+          )
+          (net MO1_2
+            (joined
+              (portRef OUT (instanceRef MEM2_1))
+              (portRef IN (instanceRef BUFT2_1))
+            )
+          )
+          (net MO2_2
+            (joined
+              (portRef OUT (instanceRef MEM2_2))
+              (portRef IN (instanceRef BUFT2_2))
+            )
+          )
+          (net MO3_2
+            (joined
+              (portRef OUT (instanceRef MEM2_3))
+              (portRef IN (instanceRef BUFT2_3))
+            )
+          )
+          (net MO4_2
+            (joined
+              (portRef OUT (instanceRef MEM2_4))
+              (portRef IN (instanceRef BUFT2_4))
+            )
+          )
+          (net MO5_2
+            (joined
+              (portRef OUT (instanceRef MEM2_5))
+              (portRef IN (instanceRef BUFT2_5))
+            )
+          )
+          (net MO6_2
+            (joined
+              (portRef OUT (instanceRef MEM2_6))
+              (portRef IN (instanceRef BUFT2_6))
+            )
+          )
+          (net MO7_2
+            (joined
+              (portRef OUT (instanceRef MEM2_7))
+              (portRef IN (instanceRef BUFT2_7))
+            )
+          )
+          (net TRI_MOUT2
+            (joined
+              (portRef DO_2_)
+              (portRef OUT (instanceRef BUFT2_0))
+              (portRef OUT (instanceRef BUFT2_1))
+              (portRef OUT (instanceRef BUFT2_2))
+              (portRef OUT (instanceRef BUFT2_3))
+              (portRef OUT (instanceRef BUFT2_4))
+              (portRef OUT (instanceRef BUFT2_5))
+              (portRef OUT (instanceRef BUFT2_6))
+              (portRef OUT (instanceRef BUFT2_7))
+            )
+          )
+          (net MO0_3
+            (joined
+              (portRef OUT (instanceRef MEM3_0))
+              (portRef IN (instanceRef BUFT3_0))
+            )
+          )
+          (net MO1_3
+            (joined
+              (portRef OUT (instanceRef MEM3_1))
+              (portRef IN (instanceRef BUFT3_1))
+            )
+          )
+          (net MO2_3
+            (joined
+              (portRef OUT (instanceRef MEM3_2))
+              (portRef IN (instanceRef BUFT3_2))
+            )
+          )
+          (net MO3_3
+            (joined
+              (portRef OUT (instanceRef MEM3_3))
+              (portRef IN (instanceRef BUFT3_3))
+            )
+          )
+          (net MO4_3
+            (joined
+              (portRef OUT (instanceRef MEM3_4))
+              (portRef IN (instanceRef BUFT3_4))
+            )
+          )
+          (net MO5_3
+            (joined
+              (portRef OUT (instanceRef MEM3_5))
+              (portRef IN (instanceRef BUFT3_5))
+            )
+          )
+          (net MO6_3
+            (joined
+              (portRef OUT (instanceRef MEM3_6))
+              (portRef IN (instanceRef BUFT3_6))
+            )
+          )
+          (net MO7_3
+            (joined
+              (portRef OUT (instanceRef MEM3_7))
+              (portRef IN (instanceRef BUFT3_7))
+            )
+          )
+          (net TRI_MOUT3
+            (joined
+              (portRef DO_3_)
+              (portRef OUT (instanceRef BUFT3_0))
+              (portRef OUT (instanceRef BUFT3_1))
+              (portRef OUT (instanceRef BUFT3_2))
+              (portRef OUT (instanceRef BUFT3_3))
+              (portRef OUT (instanceRef BUFT3_4))
+              (portRef OUT (instanceRef BUFT3_5))
+              (portRef OUT (instanceRef BUFT3_6))
+              (portRef OUT (instanceRef BUFT3_7))
+            )
+          )
+          (net MO0_4
+            (joined
+              (portRef OUT (instanceRef MEM4_0))
+              (portRef IN (instanceRef BUFT4_0))
+            )
+          )
+          (net MO1_4
+            (joined
+              (portRef OUT (instanceRef MEM4_1))
+              (portRef IN (instanceRef BUFT4_1))
+            )
+          )
+          (net MO2_4
+            (joined
+              (portRef OUT (instanceRef MEM4_2))
+              (portRef IN (instanceRef BUFT4_2))
+            )
+          )
+          (net MO3_4
+            (joined
+              (portRef OUT (instanceRef MEM4_3))
+              (portRef IN (instanceRef BUFT4_3))
+            )
+          )
+          (net MO4_4
+            (joined
+              (portRef OUT (instanceRef MEM4_4))
+              (portRef IN (instanceRef BUFT4_4))
+            )
+          )
+          (net MO5_4
+            (joined
+              (portRef OUT (instanceRef MEM4_5))
+              (portRef IN (instanceRef BUFT4_5))
+            )
+          )
+          (net MO6_4
+            (joined
+              (portRef OUT (instanceRef MEM4_6))
+              (portRef IN (instanceRef BUFT4_6))
+            )
+          )
+          (net MO7_4
+            (joined
+              (portRef OUT (instanceRef MEM4_7))
+              (portRef IN (instanceRef BUFT4_7))
+            )
+          )
+          (net TRI_MOUT4
+            (joined
+              (portRef DO_4_)
+              (portRef OUT (instanceRef BUFT4_0))
+              (portRef OUT (instanceRef BUFT4_1))
+              (portRef OUT (instanceRef BUFT4_2))
+              (portRef OUT (instanceRef BUFT4_3))
+              (portRef OUT (instanceRef BUFT4_4))
+              (portRef OUT (instanceRef BUFT4_5))
+              (portRef OUT (instanceRef BUFT4_6))
+              (portRef OUT (instanceRef BUFT4_7))
+            )
+          )
+          (net MO0_5
+            (joined
+              (portRef OUT (instanceRef MEM5_0))
+              (portRef IN (instanceRef BUFT5_0))
+            )
+          )
+          (net MO1_5
+            (joined
+              (portRef OUT (instanceRef MEM5_1))
+              (portRef IN (instanceRef BUFT5_1))
+            )
+          )
+          (net MO2_5
+            (joined
+              (portRef OUT (instanceRef MEM5_2))
+              (portRef IN (instanceRef BUFT5_2))
+            )
+          )
+          (net MO3_5
+            (joined
+              (portRef OUT (instanceRef MEM5_3))
+              (portRef IN (instanceRef BUFT5_3))
+            )
+          )
+          (net MO4_5
+            (joined
+              (portRef OUT (instanceRef MEM5_4))
+              (portRef IN (instanceRef BUFT5_4))
+            )
+          )
+          (net MO5_5
+            (joined
+              (portRef OUT (instanceRef MEM5_5))
+              (portRef IN (instanceRef BUFT5_5))
+            )
+          )
+          (net MO6_5
+            (joined
+              (portRef OUT (instanceRef MEM5_6))
+              (portRef IN (instanceRef BUFT5_6))
+            )
+          )
+          (net MO7_5
+            (joined
+              (portRef OUT (instanceRef MEM5_7))
+              (portRef IN (instanceRef BUFT5_7))
+            )
+          )
+          (net TRI_MOUT5
+            (joined
+              (portRef DO_5_)
+              (portRef OUT (instanceRef BUFT5_0))
+              (portRef OUT (instanceRef BUFT5_1))
+              (portRef OUT (instanceRef BUFT5_2))
+              (portRef OUT (instanceRef BUFT5_3))
+              (portRef OUT (instanceRef BUFT5_4))
+              (portRef OUT (instanceRef BUFT5_5))
+              (portRef OUT (instanceRef BUFT5_6))
+              (portRef OUT (instanceRef BUFT5_7))
+            )
+          )
+          (net MO0_6
+            (joined
+              (portRef OUT (instanceRef MEM6_0))
+              (portRef IN (instanceRef BUFT6_0))
+            )
+          )
+          (net MO1_6
+            (joined
+              (portRef OUT (instanceRef MEM6_1))
+              (portRef IN (instanceRef BUFT6_1))
+            )
+          )
+          (net MO2_6
+            (joined
+              (portRef OUT (instanceRef MEM6_2))
+              (portRef IN (instanceRef BUFT6_2))
+            )
+          )
+          (net MO3_6
+            (joined
+              (portRef OUT (instanceRef MEM6_3))
+              (portRef IN (instanceRef BUFT6_3))
+            )
+          )
+          (net MO4_6
+            (joined
+              (portRef OUT (instanceRef MEM6_4))
+              (portRef IN (instanceRef BUFT6_4))
+            )
+          )
+          (net MO5_6
+            (joined
+              (portRef OUT (instanceRef MEM6_5))
+              (portRef IN (instanceRef BUFT6_5))
+            )
+          )
+          (net MO6_6
+            (joined
+              (portRef OUT (instanceRef MEM6_6))
+              (portRef IN (instanceRef BUFT6_6))
+            )
+          )
+          (net MO7_6
+            (joined
+              (portRef OUT (instanceRef MEM6_7))
+              (portRef IN (instanceRef BUFT6_7))
+            )
+          )
+          (net TRI_MOUT6
+            (joined
+              (portRef DO_6_)
+              (portRef OUT (instanceRef BUFT6_0))
+              (portRef OUT (instanceRef BUFT6_1))
+              (portRef OUT (instanceRef BUFT6_2))
+              (portRef OUT (instanceRef BUFT6_3))
+              (portRef OUT (instanceRef BUFT6_4))
+              (portRef OUT (instanceRef BUFT6_5))
+              (portRef OUT (instanceRef BUFT6_6))
+              (portRef OUT (instanceRef BUFT6_7))
+            )
+          )
+          (net MO0_7
+            (joined
+              (portRef OUT (instanceRef MEM7_0))
+              (portRef IN (instanceRef BUFT7_0))
+            )
+          )
+          (net MO1_7
+            (joined
+              (portRef OUT (instanceRef MEM7_1))
+              (portRef IN (instanceRef BUFT7_1))
+            )
+          )
+          (net MO2_7
+            (joined
+              (portRef OUT (instanceRef MEM7_2))
+              (portRef IN (instanceRef BUFT7_2))
+            )
+          )
+          (net MO3_7
+            (joined
+              (portRef OUT (instanceRef MEM7_3))
+              (portRef IN (instanceRef BUFT7_3))
+            )
+          )
+          (net MO4_7
+            (joined
+              (portRef OUT (instanceRef MEM7_4))
+              (portRef IN (instanceRef BUFT7_4))
+            )
+          )
+          (net MO5_7
+            (joined
+              (portRef OUT (instanceRef MEM7_5))
+              (portRef IN (instanceRef BUFT7_5))
+            )
+          )
+          (net MO6_7
+            (joined
+              (portRef OUT (instanceRef MEM7_6))
+              (portRef IN (instanceRef BUFT7_6))
+            )
+          )
+          (net MO7_7
+            (joined
+              (portRef OUT (instanceRef MEM7_7))
+              (portRef IN (instanceRef BUFT7_7))
+            )
+          )
+          (net TRI_MOUT7
+            (joined
+              (portRef DO_7_)
+              (portRef OUT (instanceRef BUFT7_0))
+              (portRef OUT (instanceRef BUFT7_1))
+              (portRef OUT (instanceRef BUFT7_2))
+              (portRef OUT (instanceRef BUFT7_3))
+              (portRef OUT (instanceRef BUFT7_4))
+              (portRef OUT (instanceRef BUFT7_5))
+              (portRef OUT (instanceRef BUFT7_6))
+              (portRef OUT (instanceRef BUFT7_7))
+            )
+          )
+          (net MO0_8
+            (joined
+              (portRef OUT (instanceRef MEM8_0))
+              (portRef IN (instanceRef BUFT8_0))
+            )
+          )
+          (net MO1_8
+            (joined
+              (portRef OUT (instanceRef MEM8_1))
+              (portRef IN (instanceRef BUFT8_1))
+            )
+          )
+          (net MO2_8
+            (joined
+              (portRef OUT (instanceRef MEM8_2))
+              (portRef IN (instanceRef BUFT8_2))
+            )
+          )
+          (net MO3_8
+            (joined
+              (portRef OUT (instanceRef MEM8_3))
+              (portRef IN (instanceRef BUFT8_3))
+            )
+          )
+          (net MO4_8
+            (joined
+              (portRef OUT (instanceRef MEM8_4))
+              (portRef IN (instanceRef BUFT8_4))
+            )
+          )
+          (net MO5_8
+            (joined
+              (portRef OUT (instanceRef MEM8_5))
+              (portRef IN (instanceRef BUFT8_5))
+            )
+          )
+          (net MO6_8
+            (joined
+              (portRef OUT (instanceRef MEM8_6))
+              (portRef IN (instanceRef BUFT8_6))
+            )
+          )
+          (net MO7_8
+            (joined
+              (portRef OUT (instanceRef MEM8_7))
+              (portRef IN (instanceRef BUFT8_7))
+            )
+          )
+          (net TRI_MOUT8
+            (joined
+              (portRef DO_8_)
+              (portRef OUT (instanceRef BUFT8_0))
+              (portRef OUT (instanceRef BUFT8_1))
+              (portRef OUT (instanceRef BUFT8_2))
+              (portRef OUT (instanceRef BUFT8_3))
+              (portRef OUT (instanceRef BUFT8_4))
+              (portRef OUT (instanceRef BUFT8_5))
+              (portRef OUT (instanceRef BUFT8_6))
+              (portRef OUT (instanceRef BUFT8_7))
+            )
+          )
+          (net MO0_9
+            (joined
+              (portRef OUT (instanceRef MEM9_0))
+              (portRef IN (instanceRef BUFT9_0))
+            )
+          )
+          (net MO1_9
+            (joined
+              (portRef OUT (instanceRef MEM9_1))
+              (portRef IN (instanceRef BUFT9_1))
+            )
+          )
+          (net MO2_9
+            (joined
+              (portRef OUT (instanceRef MEM9_2))
+              (portRef IN (instanceRef BUFT9_2))
+            )
+          )
+          (net MO3_9
+            (joined
+              (portRef OUT (instanceRef MEM9_3))
+              (portRef IN (instanceRef BUFT9_3))
+            )
+          )
+          (net MO4_9
+            (joined
+              (portRef OUT (instanceRef MEM9_4))
+              (portRef IN (instanceRef BUFT9_4))
+            )
+          )
+          (net MO5_9
+            (joined
+              (portRef OUT (instanceRef MEM9_5))
+              (portRef IN (instanceRef BUFT9_5))
+            )
+          )
+          (net MO6_9
+            (joined
+              (portRef OUT (instanceRef MEM9_6))
+              (portRef IN (instanceRef BUFT9_6))
+            )
+          )
+          (net MO7_9
+            (joined
+              (portRef OUT (instanceRef MEM9_7))
+              (portRef IN (instanceRef BUFT9_7))
+            )
+          )
+          (net TRI_MOUT9
+            (joined
+              (portRef DO_9_)
+              (portRef OUT (instanceRef BUFT9_0))
+              (portRef OUT (instanceRef BUFT9_1))
+              (portRef OUT (instanceRef BUFT9_2))
+              (portRef OUT (instanceRef BUFT9_3))
+              (portRef OUT (instanceRef BUFT9_4))
+              (portRef OUT (instanceRef BUFT9_5))
+              (portRef OUT (instanceRef BUFT9_6))
+              (portRef OUT (instanceRef BUFT9_7))
+            )
+          )
+          (net MO0_10
+            (joined
+              (portRef OUT (instanceRef MEM10_0))
+              (portRef IN (instanceRef BUFT10_0))
+            )
+          )
+          (net MO1_10
+            (joined
+              (portRef OUT (instanceRef MEM10_1))
+              (portRef IN (instanceRef BUFT10_1))
+            )
+          )
+          (net MO2_10
+            (joined
+              (portRef OUT (instanceRef MEM10_2))
+              (portRef IN (instanceRef BUFT10_2))
+            )
+          )
+          (net MO3_10
+            (joined
+              (portRef OUT (instanceRef MEM10_3))
+              (portRef IN (instanceRef BUFT10_3))
+            )
+          )
+          (net MO4_10
+            (joined
+              (portRef OUT (instanceRef MEM10_4))
+              (portRef IN (instanceRef BUFT10_4))
+            )
+          )
+          (net MO5_10
+            (joined
+              (portRef OUT (instanceRef MEM10_5))
+              (portRef IN (instanceRef BUFT10_5))
+            )
+          )
+          (net MO6_10
+            (joined
+              (portRef OUT (instanceRef MEM10_6))
+              (portRef IN (instanceRef BUFT10_6))
+            )
+          )
+          (net MO7_10
+            (joined
+              (portRef OUT (instanceRef MEM10_7))
+              (portRef IN (instanceRef BUFT10_7))
+            )
+          )
+          (net TRI_MOUT10
+            (joined
+              (portRef DO_10_)
+              (portRef OUT (instanceRef BUFT10_0))
+              (portRef OUT (instanceRef BUFT10_1))
+              (portRef OUT (instanceRef BUFT10_2))
+              (portRef OUT (instanceRef BUFT10_3))
+              (portRef OUT (instanceRef BUFT10_4))
+              (portRef OUT (instanceRef BUFT10_5))
+              (portRef OUT (instanceRef BUFT10_6))
+              (portRef OUT (instanceRef BUFT10_7))
+            )
+          )
+          (net MO0_11
+            (joined
+              (portRef OUT (instanceRef MEM11_0))
+              (portRef IN (instanceRef BUFT11_0))
+            )
+          )
+          (net MO1_11
+            (joined
+              (portRef OUT (instanceRef MEM11_1))
+              (portRef IN (instanceRef BUFT11_1))
+            )
+          )
+          (net MO2_11
+            (joined
+              (portRef OUT (instanceRef MEM11_2))
+              (portRef IN (instanceRef BUFT11_2))
+            )
+          )
+          (net MO3_11
+            (joined
+              (portRef OUT (instanceRef MEM11_3))
+              (portRef IN (instanceRef BUFT11_3))
+            )
+          )
+          (net MO4_11
+            (joined
+              (portRef OUT (instanceRef MEM11_4))
+              (portRef IN (instanceRef BUFT11_4))
+            )
+          )
+          (net MO5_11
+            (joined
+              (portRef OUT (instanceRef MEM11_5))
+              (portRef IN (instanceRef BUFT11_5))
+            )
+          )
+          (net MO6_11
+            (joined
+              (portRef OUT (instanceRef MEM11_6))
+              (portRef IN (instanceRef BUFT11_6))
+            )
+          )
+          (net MO7_11
+            (joined
+              (portRef OUT (instanceRef MEM11_7))
+              (portRef IN (instanceRef BUFT11_7))
+            )
+          )
+          (net TRI_MOUT11
+            (joined
+              (portRef DO_11_)
+              (portRef OUT (instanceRef BUFT11_0))
+              (portRef OUT (instanceRef BUFT11_1))
+              (portRef OUT (instanceRef BUFT11_2))
+              (portRef OUT (instanceRef BUFT11_3))
+              (portRef OUT (instanceRef BUFT11_4))
+              (portRef OUT (instanceRef BUFT11_5))
+              (portRef OUT (instanceRef BUFT11_6))
+              (portRef OUT (instanceRef BUFT11_7))
+            )
+          )
+          (net MO0_12
+            (joined
+              (portRef OUT (instanceRef MEM12_0))
+              (portRef IN (instanceRef BUFT12_0))
+            )
+          )
+          (net MO1_12
+            (joined
+              (portRef OUT (instanceRef MEM12_1))
+              (portRef IN (instanceRef BUFT12_1))
+            )
+          )
+          (net MO2_12
+            (joined
+              (portRef OUT (instanceRef MEM12_2))
+              (portRef IN (instanceRef BUFT12_2))
+            )
+          )
+          (net MO3_12
+            (joined
+              (portRef OUT (instanceRef MEM12_3))
+              (portRef IN (instanceRef BUFT12_3))
+            )
+          )
+          (net MO4_12
+            (joined
+              (portRef OUT (instanceRef MEM12_4))
+              (portRef IN (instanceRef BUFT12_4))
+            )
+          )
+          (net MO5_12
+            (joined
+              (portRef OUT (instanceRef MEM12_5))
+              (portRef IN (instanceRef BUFT12_5))
+            )
+          )
+          (net MO6_12
+            (joined
+              (portRef OUT (instanceRef MEM12_6))
+              (portRef IN (instanceRef BUFT12_6))
+            )
+          )
+          (net MO7_12
+            (joined
+              (portRef OUT (instanceRef MEM12_7))
+              (portRef IN (instanceRef BUFT12_7))
+            )
+          )
+          (net TRI_MOUT12
+            (joined
+              (portRef DO_12_)
+              (portRef OUT (instanceRef BUFT12_0))
+              (portRef OUT (instanceRef BUFT12_1))
+              (portRef OUT (instanceRef BUFT12_2))
+              (portRef OUT (instanceRef BUFT12_3))
+              (portRef OUT (instanceRef BUFT12_4))
+              (portRef OUT (instanceRef BUFT12_5))
+              (portRef OUT (instanceRef BUFT12_6))
+              (portRef OUT (instanceRef BUFT12_7))
+            )
+          )
+          (net MO0_13
+            (joined
+              (portRef OUT (instanceRef MEM13_0))
+              (portRef IN (instanceRef BUFT13_0))
+            )
+          )
+          (net MO1_13
+            (joined
+              (portRef OUT (instanceRef MEM13_1))
+              (portRef IN (instanceRef BUFT13_1))
+            )
+          )
+          (net MO2_13
+            (joined
+              (portRef OUT (instanceRef MEM13_2))
+              (portRef IN (instanceRef BUFT13_2))
+            )
+          )
+          (net MO3_13
+            (joined
+              (portRef OUT (instanceRef MEM13_3))
+              (portRef IN (instanceRef BUFT13_3))
+            )
+          )
+          (net MO4_13
+            (joined
+              (portRef OUT (instanceRef MEM13_4))
+              (portRef IN (instanceRef BUFT13_4))
+            )
+          )
+          (net MO5_13
+            (joined
+              (portRef OUT (instanceRef MEM13_5))
+              (portRef IN (instanceRef BUFT13_5))
+            )
+          )
+          (net MO6_13
+            (joined
+              (portRef OUT (instanceRef MEM13_6))
+              (portRef IN (instanceRef BUFT13_6))
+            )
+          )
+          (net MO7_13
+            (joined
+              (portRef OUT (instanceRef MEM13_7))
+              (portRef IN (instanceRef BUFT13_7))
+            )
+          )
+          (net TRI_MOUT13
+            (joined
+              (portRef DO_13_)
+              (portRef OUT (instanceRef BUFT13_0))
+              (portRef OUT (instanceRef BUFT13_1))
+              (portRef OUT (instanceRef BUFT13_2))
+              (portRef OUT (instanceRef BUFT13_3))
+              (portRef OUT (instanceRef BUFT13_4))
+              (portRef OUT (instanceRef BUFT13_5))
+              (portRef OUT (instanceRef BUFT13_6))
+              (portRef OUT (instanceRef BUFT13_7))
+            )
+          )
+          (net MO0_14
+            (joined
+              (portRef OUT (instanceRef MEM14_0))
+              (portRef IN (instanceRef BUFT14_0))
+            )
+          )
+          (net MO1_14
+            (joined
+              (portRef OUT (instanceRef MEM14_1))
+              (portRef IN (instanceRef BUFT14_1))
+            )
+          )
+          (net MO2_14
+            (joined
+              (portRef OUT (instanceRef MEM14_2))
+              (portRef IN (instanceRef BUFT14_2))
+            )
+          )
+          (net MO3_14
+            (joined
+              (portRef OUT (instanceRef MEM14_3))
+              (portRef IN (instanceRef BUFT14_3))
+            )
+          )
+          (net MO4_14
+            (joined
+              (portRef OUT (instanceRef MEM14_4))
+              (portRef IN (instanceRef BUFT14_4))
+            )
+          )
+          (net MO5_14
+            (joined
+              (portRef OUT (instanceRef MEM14_5))
+              (portRef IN (instanceRef BUFT14_5))
+            )
+          )
+          (net MO6_14
+            (joined
+              (portRef OUT (instanceRef MEM14_6))
+              (portRef IN (instanceRef BUFT14_6))
+            )
+          )
+          (net MO7_14
+            (joined
+              (portRef OUT (instanceRef MEM14_7))
+              (portRef IN (instanceRef BUFT14_7))
+            )
+          )
+          (net TRI_MOUT14
+            (joined
+              (portRef DO_14_)
+              (portRef OUT (instanceRef BUFT14_0))
+              (portRef OUT (instanceRef BUFT14_1))
+              (portRef OUT (instanceRef BUFT14_2))
+              (portRef OUT (instanceRef BUFT14_3))
+              (portRef OUT (instanceRef BUFT14_4))
+              (portRef OUT (instanceRef BUFT14_5))
+              (portRef OUT (instanceRef BUFT14_6))
+              (portRef OUT (instanceRef BUFT14_7))
+            )
+          )
+          (net MO0_15
+            (joined
+              (portRef OUT (instanceRef MEM15_0))
+              (portRef IN (instanceRef BUFT15_0))
+            )
+          )
+          (net MO1_15
+            (joined
+              (portRef OUT (instanceRef MEM15_1))
+              (portRef IN (instanceRef BUFT15_1))
+            )
+          )
+          (net MO2_15
+            (joined
+              (portRef OUT (instanceRef MEM15_2))
+              (portRef IN (instanceRef BUFT15_2))
+            )
+          )
+          (net MO3_15
+            (joined
+              (portRef OUT (instanceRef MEM15_3))
+              (portRef IN (instanceRef BUFT15_3))
+            )
+          )
+          (net MO4_15
+            (joined
+              (portRef OUT (instanceRef MEM15_4))
+              (portRef IN (instanceRef BUFT15_4))
+            )
+          )
+          (net MO5_15
+            (joined
+              (portRef OUT (instanceRef MEM15_5))
+              (portRef IN (instanceRef BUFT15_5))
+            )
+          )
+          (net MO6_15
+            (joined
+              (portRef OUT (instanceRef MEM15_6))
+              (portRef IN (instanceRef BUFT15_6))
+            )
+          )
+          (net MO7_15
+            (joined
+              (portRef OUT (instanceRef MEM15_7))
+              (portRef IN (instanceRef BUFT15_7))
+            )
+          )
+          (net TRI_MOUT15
+            (joined
+              (portRef DO_15_)
+              (portRef OUT (instanceRef BUFT15_0))
+              (portRef OUT (instanceRef BUFT15_1))
+              (portRef OUT (instanceRef BUFT15_2))
+              (portRef OUT (instanceRef BUFT15_3))
+              (portRef OUT (instanceRef BUFT15_4))
+              (portRef OUT (instanceRef BUFT15_5))
+              (portRef OUT (instanceRef BUFT15_6))
+              (portRef OUT (instanceRef BUFT15_7))
+            )
+          )
+          (net AND0_0_INV
+            (joined
+              (portRef OUT (instanceRef AND0_0_INV))
+              (portRef IN0 (instanceRef AND0))
+            )
+          )
+          (net AND0_1_INV
+            (joined
+              (portRef OUT (instanceRef AND0_1_INV))
+              (portRef IN1 (instanceRef AND0))
+            )
+          )
+          (net AND0_2_INV
+            (joined
+              (portRef OUT (instanceRef AND0_2_INV))
+              (portRef IN2 (instanceRef AND0))
+            )
+          )
+          (net AND0_3_INV
+            (joined
+              (portRef IN (instanceRef AND0_3_INV))
+              (portRef OUT (instanceRef AND0))
+            )
+          )
+          (net AND1_1_INV
+            (joined
+              (portRef OUT (instanceRef AND1_1_INV))
+              (portRef IN1 (instanceRef AND1))
+            )
+          )
+          (net AND1_2_INV
+            (joined
+              (portRef OUT (instanceRef AND1_2_INV))
+              (portRef IN2 (instanceRef AND1))
+            )
+          )
+          (net AND1_3_INV
+            (joined
+              (portRef IN (instanceRef AND1_3_INV))
+              (portRef OUT (instanceRef AND1))
+            )
+          )
+          (net AND2_0_INV
+            (joined
+              (portRef OUT (instanceRef AND2_0_INV))
+              (portRef IN0 (instanceRef AND2))
+            )
+          )
+          (net AND2_2_INV
+            (joined
+              (portRef OUT (instanceRef AND2_2_INV))
+              (portRef IN2 (instanceRef AND2))
+            )
+          )
+          (net AND2_3_INV
+            (joined
+              (portRef IN (instanceRef AND2_3_INV))
+              (portRef OUT (instanceRef AND2))
+            )
+          )
+          (net AND3_2_INV
+            (joined
+              (portRef OUT (instanceRef AND3_2_INV))
+              (portRef IN2 (instanceRef AND3))
+            )
+          )
+          (net AND3_3_INV
+            (joined
+              (portRef IN (instanceRef AND3_3_INV))
+              (portRef OUT (instanceRef AND3))
+            )
+          )
+          (net AND4_0_INV
+            (joined
+              (portRef OUT (instanceRef AND4_0_INV))
+              (portRef IN0 (instanceRef AND4))
+            )
+          )
+          (net AND4_1_INV
+            (joined
+              (portRef OUT (instanceRef AND4_1_INV))
+              (portRef IN1 (instanceRef AND4))
+            )
+          )
+          (net AND4_3_INV
+            (joined
+              (portRef IN (instanceRef AND4_3_INV))
+              (portRef OUT (instanceRef AND4))
+            )
+          )
+          (net AND5_1_INV
+            (joined
+              (portRef OUT (instanceRef AND5_1_INV))
+              (portRef IN1 (instanceRef AND5))
+            )
+          )
+          (net AND5_3_INV
+            (joined
+              (portRef IN (instanceRef AND5_3_INV))
+              (portRef OUT (instanceRef AND5))
+            )
+          )
+          (net AND6_0_INV
+            (joined
+              (portRef OUT (instanceRef AND6_0_INV))
+              (portRef IN0 (instanceRef AND6))
+            )
+          )
+          (net AND6_3_INV
+            (joined
+              (portRef IN (instanceRef AND6_3_INV))
+              (portRef OUT (instanceRef AND6))
+            )
+          )
+          (net AND7_3_INV
+            (joined
+              (portRef IN (instanceRef AND7_3_INV))
+              (portRef OUT (instanceRef AND7))
+            )
+          )
+          (net BUFT0_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_0_2_INV))
+              (portRef CTL (instanceRef BUFT0_0))
+            )
+          )
+          (net BUFT0_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_1_2_INV))
+              (portRef CTL (instanceRef BUFT0_1))
+            )
+          )
+          (net BUFT0_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_2_2_INV))
+              (portRef CTL (instanceRef BUFT0_2))
+            )
+          )
+          (net BUFT0_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_3_2_INV))
+              (portRef CTL (instanceRef BUFT0_3))
+            )
+          )
+          (net BUFT0_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_4_2_INV))
+              (portRef CTL (instanceRef BUFT0_4))
+            )
+          )
+          (net BUFT0_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_5_2_INV))
+              (portRef CTL (instanceRef BUFT0_5))
+            )
+          )
+          (net BUFT0_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_6_2_INV))
+              (portRef CTL (instanceRef BUFT0_6))
+            )
+          )
+          (net BUFT0_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT0_7_2_INV))
+              (portRef CTL (instanceRef BUFT0_7))
+            )
+          )
+          (net BUFT1_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_0_2_INV))
+              (portRef CTL (instanceRef BUFT1_0))
+            )
+          )
+          (net BUFT1_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_1_2_INV))
+              (portRef CTL (instanceRef BUFT1_1))
+            )
+          )
+          (net BUFT1_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_2_2_INV))
+              (portRef CTL (instanceRef BUFT1_2))
+            )
+          )
+          (net BUFT1_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_3_2_INV))
+              (portRef CTL (instanceRef BUFT1_3))
+            )
+          )
+          (net BUFT1_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_4_2_INV))
+              (portRef CTL (instanceRef BUFT1_4))
+            )
+          )
+          (net BUFT1_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_5_2_INV))
+              (portRef CTL (instanceRef BUFT1_5))
+            )
+          )
+          (net BUFT1_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_6_2_INV))
+              (portRef CTL (instanceRef BUFT1_6))
+            )
+          )
+          (net BUFT1_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT1_7_2_INV))
+              (portRef CTL (instanceRef BUFT1_7))
+            )
+          )
+          (net BUFT2_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_0_2_INV))
+              (portRef CTL (instanceRef BUFT2_0))
+            )
+          )
+          (net BUFT2_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_1_2_INV))
+              (portRef CTL (instanceRef BUFT2_1))
+            )
+          )
+          (net BUFT2_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_2_2_INV))
+              (portRef CTL (instanceRef BUFT2_2))
+            )
+          )
+          (net BUFT2_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_3_2_INV))
+              (portRef CTL (instanceRef BUFT2_3))
+            )
+          )
+          (net BUFT2_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_4_2_INV))
+              (portRef CTL (instanceRef BUFT2_4))
+            )
+          )
+          (net BUFT2_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_5_2_INV))
+              (portRef CTL (instanceRef BUFT2_5))
+            )
+          )
+          (net BUFT2_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_6_2_INV))
+              (portRef CTL (instanceRef BUFT2_6))
+            )
+          )
+          (net BUFT2_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT2_7_2_INV))
+              (portRef CTL (instanceRef BUFT2_7))
+            )
+          )
+          (net BUFT3_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_0_2_INV))
+              (portRef CTL (instanceRef BUFT3_0))
+            )
+          )
+          (net BUFT3_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_1_2_INV))
+              (portRef CTL (instanceRef BUFT3_1))
+            )
+          )
+          (net BUFT3_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_2_2_INV))
+              (portRef CTL (instanceRef BUFT3_2))
+            )
+          )
+          (net BUFT3_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_3_2_INV))
+              (portRef CTL (instanceRef BUFT3_3))
+            )
+          )
+          (net BUFT3_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_4_2_INV))
+              (portRef CTL (instanceRef BUFT3_4))
+            )
+          )
+          (net BUFT3_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_5_2_INV))
+              (portRef CTL (instanceRef BUFT3_5))
+            )
+          )
+          (net BUFT3_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_6_2_INV))
+              (portRef CTL (instanceRef BUFT3_6))
+            )
+          )
+          (net BUFT3_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT3_7_2_INV))
+              (portRef CTL (instanceRef BUFT3_7))
+            )
+          )
+          (net BUFT4_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_0_2_INV))
+              (portRef CTL (instanceRef BUFT4_0))
+            )
+          )
+          (net BUFT4_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_1_2_INV))
+              (portRef CTL (instanceRef BUFT4_1))
+            )
+          )
+          (net BUFT4_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_2_2_INV))
+              (portRef CTL (instanceRef BUFT4_2))
+            )
+          )
+          (net BUFT4_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_3_2_INV))
+              (portRef CTL (instanceRef BUFT4_3))
+            )
+          )
+          (net BUFT4_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_4_2_INV))
+              (portRef CTL (instanceRef BUFT4_4))
+            )
+          )
+          (net BUFT4_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_5_2_INV))
+              (portRef CTL (instanceRef BUFT4_5))
+            )
+          )
+          (net BUFT4_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_6_2_INV))
+              (portRef CTL (instanceRef BUFT4_6))
+            )
+          )
+          (net BUFT4_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT4_7_2_INV))
+              (portRef CTL (instanceRef BUFT4_7))
+            )
+          )
+          (net BUFT5_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_0_2_INV))
+              (portRef CTL (instanceRef BUFT5_0))
+            )
+          )
+          (net BUFT5_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_1_2_INV))
+              (portRef CTL (instanceRef BUFT5_1))
+            )
+          )
+          (net BUFT5_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_2_2_INV))
+              (portRef CTL (instanceRef BUFT5_2))
+            )
+          )
+          (net BUFT5_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_3_2_INV))
+              (portRef CTL (instanceRef BUFT5_3))
+            )
+          )
+          (net BUFT5_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_4_2_INV))
+              (portRef CTL (instanceRef BUFT5_4))
+            )
+          )
+          (net BUFT5_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_5_2_INV))
+              (portRef CTL (instanceRef BUFT5_5))
+            )
+          )
+          (net BUFT5_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_6_2_INV))
+              (portRef CTL (instanceRef BUFT5_6))
+            )
+          )
+          (net BUFT5_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT5_7_2_INV))
+              (portRef CTL (instanceRef BUFT5_7))
+            )
+          )
+          (net BUFT6_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_0_2_INV))
+              (portRef CTL (instanceRef BUFT6_0))
+            )
+          )
+          (net BUFT6_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_1_2_INV))
+              (portRef CTL (instanceRef BUFT6_1))
+            )
+          )
+          (net BUFT6_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_2_2_INV))
+              (portRef CTL (instanceRef BUFT6_2))
+            )
+          )
+          (net BUFT6_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_3_2_INV))
+              (portRef CTL (instanceRef BUFT6_3))
+            )
+          )
+          (net BUFT6_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_4_2_INV))
+              (portRef CTL (instanceRef BUFT6_4))
+            )
+          )
+          (net BUFT6_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_5_2_INV))
+              (portRef CTL (instanceRef BUFT6_5))
+            )
+          )
+          (net BUFT6_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_6_2_INV))
+              (portRef CTL (instanceRef BUFT6_6))
+            )
+          )
+          (net BUFT6_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT6_7_2_INV))
+              (portRef CTL (instanceRef BUFT6_7))
+            )
+          )
+          (net BUFT7_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_0_2_INV))
+              (portRef CTL (instanceRef BUFT7_0))
+            )
+          )
+          (net BUFT7_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_1_2_INV))
+              (portRef CTL (instanceRef BUFT7_1))
+            )
+          )
+          (net BUFT7_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_2_2_INV))
+              (portRef CTL (instanceRef BUFT7_2))
+            )
+          )
+          (net BUFT7_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_3_2_INV))
+              (portRef CTL (instanceRef BUFT7_3))
+            )
+          )
+          (net BUFT7_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_4_2_INV))
+              (portRef CTL (instanceRef BUFT7_4))
+            )
+          )
+          (net BUFT7_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_5_2_INV))
+              (portRef CTL (instanceRef BUFT7_5))
+            )
+          )
+          (net BUFT7_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_6_2_INV))
+              (portRef CTL (instanceRef BUFT7_6))
+            )
+          )
+          (net BUFT7_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT7_7_2_INV))
+              (portRef CTL (instanceRef BUFT7_7))
+            )
+          )
+          (net BUFT8_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_0_2_INV))
+              (portRef CTL (instanceRef BUFT8_0))
+            )
+          )
+          (net BUFT8_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_1_2_INV))
+              (portRef CTL (instanceRef BUFT8_1))
+            )
+          )
+          (net BUFT8_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_2_2_INV))
+              (portRef CTL (instanceRef BUFT8_2))
+            )
+          )
+          (net BUFT8_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_3_2_INV))
+              (portRef CTL (instanceRef BUFT8_3))
+            )
+          )
+          (net BUFT8_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_4_2_INV))
+              (portRef CTL (instanceRef BUFT8_4))
+            )
+          )
+          (net BUFT8_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_5_2_INV))
+              (portRef CTL (instanceRef BUFT8_5))
+            )
+          )
+          (net BUFT8_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_6_2_INV))
+              (portRef CTL (instanceRef BUFT8_6))
+            )
+          )
+          (net BUFT8_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT8_7_2_INV))
+              (portRef CTL (instanceRef BUFT8_7))
+            )
+          )
+          (net BUFT9_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_0_2_INV))
+              (portRef CTL (instanceRef BUFT9_0))
+            )
+          )
+          (net BUFT9_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_1_2_INV))
+              (portRef CTL (instanceRef BUFT9_1))
+            )
+          )
+          (net BUFT9_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_2_2_INV))
+              (portRef CTL (instanceRef BUFT9_2))
+            )
+          )
+          (net BUFT9_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_3_2_INV))
+              (portRef CTL (instanceRef BUFT9_3))
+            )
+          )
+          (net BUFT9_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_4_2_INV))
+              (portRef CTL (instanceRef BUFT9_4))
+            )
+          )
+          (net BUFT9_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_5_2_INV))
+              (portRef CTL (instanceRef BUFT9_5))
+            )
+          )
+          (net BUFT9_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_6_2_INV))
+              (portRef CTL (instanceRef BUFT9_6))
+            )
+          )
+          (net BUFT9_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT9_7_2_INV))
+              (portRef CTL (instanceRef BUFT9_7))
+            )
+          )
+          (net BUFT10_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_0_2_INV))
+              (portRef CTL (instanceRef BUFT10_0))
+            )
+          )
+          (net BUFT10_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_1_2_INV))
+              (portRef CTL (instanceRef BUFT10_1))
+            )
+          )
+          (net BUFT10_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_2_2_INV))
+              (portRef CTL (instanceRef BUFT10_2))
+            )
+          )
+          (net BUFT10_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_3_2_INV))
+              (portRef CTL (instanceRef BUFT10_3))
+            )
+          )
+          (net BUFT10_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_4_2_INV))
+              (portRef CTL (instanceRef BUFT10_4))
+            )
+          )
+          (net BUFT10_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_5_2_INV))
+              (portRef CTL (instanceRef BUFT10_5))
+            )
+          )
+          (net BUFT10_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_6_2_INV))
+              (portRef CTL (instanceRef BUFT10_6))
+            )
+          )
+          (net BUFT10_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT10_7_2_INV))
+              (portRef CTL (instanceRef BUFT10_7))
+            )
+          )
+          (net BUFT11_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_0_2_INV))
+              (portRef CTL (instanceRef BUFT11_0))
+            )
+          )
+          (net BUFT11_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_1_2_INV))
+              (portRef CTL (instanceRef BUFT11_1))
+            )
+          )
+          (net BUFT11_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_2_2_INV))
+              (portRef CTL (instanceRef BUFT11_2))
+            )
+          )
+          (net BUFT11_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_3_2_INV))
+              (portRef CTL (instanceRef BUFT11_3))
+            )
+          )
+          (net BUFT11_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_4_2_INV))
+              (portRef CTL (instanceRef BUFT11_4))
+            )
+          )
+          (net BUFT11_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_5_2_INV))
+              (portRef CTL (instanceRef BUFT11_5))
+            )
+          )
+          (net BUFT11_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_6_2_INV))
+              (portRef CTL (instanceRef BUFT11_6))
+            )
+          )
+          (net BUFT11_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT11_7_2_INV))
+              (portRef CTL (instanceRef BUFT11_7))
+            )
+          )
+          (net BUFT12_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_0_2_INV))
+              (portRef CTL (instanceRef BUFT12_0))
+            )
+          )
+          (net BUFT12_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_1_2_INV))
+              (portRef CTL (instanceRef BUFT12_1))
+            )
+          )
+          (net BUFT12_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_2_2_INV))
+              (portRef CTL (instanceRef BUFT12_2))
+            )
+          )
+          (net BUFT12_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_3_2_INV))
+              (portRef CTL (instanceRef BUFT12_3))
+            )
+          )
+          (net BUFT12_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_4_2_INV))
+              (portRef CTL (instanceRef BUFT12_4))
+            )
+          )
+          (net BUFT12_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_5_2_INV))
+              (portRef CTL (instanceRef BUFT12_5))
+            )
+          )
+          (net BUFT12_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_6_2_INV))
+              (portRef CTL (instanceRef BUFT12_6))
+            )
+          )
+          (net BUFT12_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT12_7_2_INV))
+              (portRef CTL (instanceRef BUFT12_7))
+            )
+          )
+          (net BUFT13_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_0_2_INV))
+              (portRef CTL (instanceRef BUFT13_0))
+            )
+          )
+          (net BUFT13_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_1_2_INV))
+              (portRef CTL (instanceRef BUFT13_1))
+            )
+          )
+          (net BUFT13_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_2_2_INV))
+              (portRef CTL (instanceRef BUFT13_2))
+            )
+          )
+          (net BUFT13_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_3_2_INV))
+              (portRef CTL (instanceRef BUFT13_3))
+            )
+          )
+          (net BUFT13_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_4_2_INV))
+              (portRef CTL (instanceRef BUFT13_4))
+            )
+          )
+          (net BUFT13_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_5_2_INV))
+              (portRef CTL (instanceRef BUFT13_5))
+            )
+          )
+          (net BUFT13_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_6_2_INV))
+              (portRef CTL (instanceRef BUFT13_6))
+            )
+          )
+          (net BUFT13_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT13_7_2_INV))
+              (portRef CTL (instanceRef BUFT13_7))
+            )
+          )
+          (net BUFT14_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_0_2_INV))
+              (portRef CTL (instanceRef BUFT14_0))
+            )
+          )
+          (net BUFT14_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_1_2_INV))
+              (portRef CTL (instanceRef BUFT14_1))
+            )
+          )
+          (net BUFT14_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_2_2_INV))
+              (portRef CTL (instanceRef BUFT14_2))
+            )
+          )
+          (net BUFT14_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_3_2_INV))
+              (portRef CTL (instanceRef BUFT14_3))
+            )
+          )
+          (net BUFT14_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_4_2_INV))
+              (portRef CTL (instanceRef BUFT14_4))
+            )
+          )
+          (net BUFT14_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_5_2_INV))
+              (portRef CTL (instanceRef BUFT14_5))
+            )
+          )
+          (net BUFT14_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_6_2_INV))
+              (portRef CTL (instanceRef BUFT14_6))
+            )
+          )
+          (net BUFT14_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT14_7_2_INV))
+              (portRef CTL (instanceRef BUFT14_7))
+            )
+          )
+          (net BUFT15_0_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_0_2_INV))
+              (portRef CTL (instanceRef BUFT15_0))
+            )
+          )
+          (net BUFT15_1_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_1_2_INV))
+              (portRef CTL (instanceRef BUFT15_1))
+            )
+          )
+          (net BUFT15_2_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_2_2_INV))
+              (portRef CTL (instanceRef BUFT15_2))
+            )
+          )
+          (net BUFT15_3_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_3_2_INV))
+              (portRef CTL (instanceRef BUFT15_3))
+            )
+          )
+          (net BUFT15_4_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_4_2_INV))
+              (portRef CTL (instanceRef BUFT15_4))
+            )
+          )
+          (net BUFT15_5_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_5_2_INV))
+              (portRef CTL (instanceRef BUFT15_5))
+            )
+          )
+          (net BUFT15_6_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_6_2_INV))
+              (portRef CTL (instanceRef BUFT15_6))
+            )
+          )
+          (net BUFT15_7_2_INV
+            (joined
+              (portRef OUT (instanceRef BUFT15_7_2_INV))
+              (portRef CTL (instanceRef BUFT15_7))
+            )
+          )
+          (net (rename dec__AND_0_0_INV "dec_/AND_0_0_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_0_0_INV))
+              (portRef IN0 (instanceRef dec__AND_0))
+            )
+          )
+          (net (rename dec__AND_0_1_INV "dec_/AND_0_1_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_0_1_INV))
+              (portRef IN1 (instanceRef dec__AND_0))
+            )
+          )
+          (net (rename dec__AND_0_2_INV "dec_/AND_0_2_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_0_2_INV))
+              (portRef IN2 (instanceRef dec__AND_0))
+            )
+          )
+          (net (rename dec__AND_1_1_INV "dec_/AND_1_1_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_1_1_INV))
+              (portRef IN1 (instanceRef dec__AND_1))
+            )
+          )
+          (net (rename dec__AND_1_2_INV "dec_/AND_1_2_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_1_2_INV))
+              (portRef IN2 (instanceRef dec__AND_1))
+            )
+          )
+          (net (rename dec__AND_2_0_INV "dec_/AND_2_0_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_2_0_INV))
+              (portRef IN0 (instanceRef dec__AND_2))
+            )
+          )
+          (net (rename dec__AND_2_2_INV "dec_/AND_2_2_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_2_2_INV))
+              (portRef IN2 (instanceRef dec__AND_2))
+            )
+          )
+          (net (rename dec__AND_3_2_INV "dec_/AND_3_2_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_3_2_INV))
+              (portRef IN2 (instanceRef dec__AND_3))
+            )
+          )
+          (net (rename dec__AND_4_0_INV "dec_/AND_4_0_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_4_0_INV))
+              (portRef IN0 (instanceRef dec__AND_4))
+            )
+          )
+          (net (rename dec__AND_4_1_INV "dec_/AND_4_1_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_4_1_INV))
+              (portRef IN1 (instanceRef dec__AND_4))
+            )
+          )
+          (net (rename dec__AND_5_1_INV "dec_/AND_5_1_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_5_1_INV))
+              (portRef IN1 (instanceRef dec__AND_5))
+            )
+          )
+          (net (rename dec__AND_6_0_INV "dec_/AND_6_0_INV")
+            (joined
+              (portRef OUT (instanceRef dec__AND_6_0_INV))
+              (portRef IN0 (instanceRef dec__AND_6))
+            )
+          )
+        )
+    ))
+  )
+  (design ram256x16
+    (cellRef ram256x16
+      (libraryRef ram256x16_lib))
+  )
+)

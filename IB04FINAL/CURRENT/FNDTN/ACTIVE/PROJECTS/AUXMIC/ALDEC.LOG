@@ -1,0 +1,1296 @@
+**** Interact v3.0.2.22 ****
+C Pcm #### Start Xilinx Foundation F2.1i - Messages -  Fri Feb 27 16:08:23 2004  
+0 Pcm #### ---------- Opening project: y:\misdoc\xilin~zg\alumn~ki\poda\tg00proc ----------
+0 Pcm #### ---------- Opening project: y:\misdoc\xilin~zg\alumn~ki\poda\tg00proc ----------
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Opening Xilinx project
+0 Pcm #### Design Type Schematic
+0 Pcm #### Reading Xilinx project
+0 Pcm #### ---------- Opening project: y:\misdoc\xilin~zg\alumn~ki\poda\tg00proc ----------
+0 Pcm #### Design Type Schematic
+0 Pcm #### Reading Xilinx project
+0 Pcm #### Execute c:\fndtn\active\exe\sc.exe
+0 Pcm #### START: Schematic Editor
+C Sc #### Loading sheet : Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\PODA\TG00PROC\RMIPS.SCH
+E Sc #### Symbol [TG00CONTROL] not found in project libraries
+C Sc #### Sheet loaded 
+E Sc #### Schematic [Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\PODA\TG00PROC\RMIPS.SCH]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00CONTROL] (library = 1003, symbol = 82)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+C Sc #### Loading sheet : Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\COPIABUENA\TG00PROC\RMIPS.SCH
+E Sc #### Symbol [TG00CONTROL] not found in project libraries
+C Sc #### Sheet loaded 
+E Sc #### Schematic [Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\COPIABUENA\TG00PROC\RMIPS.SCH]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00CONTROL] (library = 1003, symbol = 82)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+W Sc #### Symbol: [TG00CONTROL] not found in project libraries
+C Sc #### Loading sheet : SHEET - /Y:\MISDOC\XILIN~ZG\ALUMN~KI\COPIA~-I\TG00PROC\RMIPS.SCH/H20 - UDATOS
+2 Sc #### Symbol [MUX4X32] from library # 1006 found in library # 1005
+E Sc #### Symbol [TG00REGISTRO32] not found in project libraries
+2 Sc #### Symbol [MUX2X32] from library # 1006 found in library # 1005
+2 Sc #### Symbol [BANCOREG32] from library # 1006 found in library # 1005
+E Sc #### Symbol [TG00ALU] not found in project libraries
+E Sc #### Symbol [TG00CONTROLALU] not found in project libraries
+E Sc #### Symbol [TG00EXTENSION] not found in project libraries
+2 Sc #### Symbol [MUX2X5] from library # 1006 found in library # 1005
+2 Sc #### Symbol [CONCATENAR] from library # 1006 found in library # 1005
+2 Sc #### Symbol [MEMMIPS] from library # 1006 found in library # 1005
+C Sc #### Sheet loaded 
+E Sc #### Macro [UDATOS]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00REGISTRO32] (library = 1002, symbol = 74)
+2 Sc #### Temporary symbol created for [TG00ALU] (library = 1002, symbol = 76)
+2 Sc #### Temporary symbol created for [TG00CONTROLALU] (library = 1002, symbol = 75)
+2 Sc #### Temporary symbol created for [TG00EXTENSION] (library = 1002, symbol = 77)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+W Sc #### Symbol: [TG00REGISTRO32] not found in project libraries
+W Pcm #### Schematic netlist tg00proc is older than schematic
+W Pcm #### Update netlist from Schematic Editor
+C Sc #### Loading sheet : SHEET - /Y:\MISDOC\XILIN~ZG\ALUMN~KI\COPIA~-I\TG00PROC\RMIPS.SCH/H20/H9 - BANCOREG32
+2 Sc #### Symbol [TG00REGISTRO32] from library # 1002 found in library # 65535
+2 Sc #### Symbol [TG00REGISTRO32] # 74 replaced by symbol #52
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+0 Pcm #### START: Library Manager
+1 Lm #### Library Manager has been succesfully initialized.
+0 Pcm #### Execute: lm.exe -p 660 -i /simprims c:\fndtn\active\syslib\simprims
+1 Lm #### Library Manager has terminated.
+0 Pcm #### EXIT: Library Manager
+0 Pcm #### START: Library Manager
+1 Lm #### Library Manager has been succesfully initialized.
+0 Pcm #### Execute: lm.exe -p 660 -i /tg00proc y:\misdoc\xilin~zg\alumn~ki\poda\tg00proc\lib\tg00proc
+C Lm #### Object ADD16 has been deleted from library TG00PROC.
+C Sc #### Loading sheet : Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\COPIABUENA\TG00PROC\RMIPS.SCH
+E Sc #### Symbol [TG00CONTROL] not found in project libraries
+C Sc #### Sheet loaded 
+E Sc #### Schematic [Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\COPIABUENA\TG00PROC\RMIPS.SCH]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00CONTROL] (library = 1003, symbol = 82)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+0 Pcm #### EXIT: Schematic Editor
+C Lm #### Object AND2X32 has been deleted from library TG00PROC.
+C Lm #### Object NOR32 has been deleted from library TG00PROC.
+C Lm #### Object OR2X32 has been deleted from library TG00PROC.
+C Lm #### Object XOR1X16 has been deleted from library TG00PROC.
+C Lm #### Object XOR2X32 has been deleted from library TG00PROC.
+C Lm #### Object MUX2X8 has been deleted from library TG00PROC.
+C Lm #### Object MUX4X32LB has been deleted from library TG00PROC.
+C Lm #### Object MUX4X6 has been deleted from library TG00PROC.
+1 Lm #### Library Manager has terminated.
+0 Pcm #### EXIT: Library Manager
+0 Pcm #### Execute c:\fndtn\active\exe\sc.exe
+0 Pcm #### START: Schematic Editor
+C Sc #### Loading sheet : Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\PODA\TG00PROC\RMIPS.SCH
+E Sc #### Symbol [TG00CONTROL] not found in project libraries
+C Sc #### Sheet loaded 
+E Sc #### Schematic [Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\PODA\TG00PROC\RMIPS.SCH]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00CONTROL] (library = 1003, symbol = 82)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+C Sc #### Loading sheet : Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\COPIABUENA\TG00PROC\RMIPS.SCH
+E Sc #### Symbol [TG00CONTROL] not found in project libraries
+C Sc #### Sheet loaded 
+E Sc #### Schematic [Y:\MISDOC\XILINX PROYECTOS\ALUMNO LIMPIO\COPIABUENA\TG00PROC\RMIPS.SCH]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00CONTROL] (library = 1003, symbol = 82)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+C Sc #### Loading sheet : SHEET - /Y:\MISDOC\XILIN~ZG\ALUMN~KI\COPIA~-I\TG00PROC\RMIPS.SCH/H20 - UDATOS
+2 Sc #### Symbol [MUX4X32] from library # 1006 found in library # 1005
+E Sc #### Symbol [TG00REGISTRO32] not found in project libraries
+2 Sc #### Symbol [MUX2X32] from library # 1006 found in library # 1005
+2 Sc #### Symbol [BANCOREG32] from library # 1006 found in library # 1005
+E Sc #### Symbol [TG00ALU] not found in project libraries
+E Sc #### Symbol [TG00CONTROLALU] not found in project libraries
+E Sc #### Symbol [TG00EXTENSION] not found in project libraries
+2 Sc #### Symbol [MUX2X5] from library # 1006 found in library # 1005
+2 Sc #### Symbol [CONCATENAR] from library # 1006 found in library # 1005
+2 Sc #### Symbol [MEMMIPS] from library # 1006 found in library # 1005
+C Sc #### Sheet loaded 
+E Sc #### Macro [UDATOS]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00REGISTRO32] (library = 1002, symbol = 74)
+2 Sc #### Temporary symbol created for [TG00ALU] (library = 1002, symbol = 76)
+2 Sc #### Temporary symbol created for [TG00CONTROLALU] (library = 1002, symbol = 75)
+2 Sc #### Temporary symbol created for [TG00EXTENSION] (library = 1002, symbol = 77)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+C Sc #### Loading sheet : SHEET - /Y:\MISDOC\XILIN~ZG\ALUMN~KI\COPIA~-I\TG00PROC\RMIPS.SCH/H20/H25 - MEMMIPS
+2 Sc #### Symbol [ROM64X32] from library # 1006 found in library # 1005
+E Sc #### Symbol [TG00RAM] not found in project libraries
+2 Sc #### Symbol [MUX2X32] from library # 1006 found in library # 1005
+C Sc #### Sheet loaded 
+E Sc #### Macro [MEMMIPS]: some symbols are missing. Creating temporary symbols.
+2 Sc #### Temporary symbol created for [TG00RAM] (library = 1002, symbol = 78)
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X32
+1 ?? #### LogiBLOX canceled.
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X32
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'ROM64X32'....
+0 ?? #### Creating VHDL Simulation Model 'ROM64X32.vhd'....
+0 ?? #### Creating NGC Netlist 'ROM64X32.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "ROM64X32"...
+0 ?? #### Creating EDIF Simulation Model 'ROM64X32.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'ROM64X32.edn' ...
+0 ?? #### Creating Module File 'ROM64X32.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'ROM64X32' created successfully
+0 ?? #### EDIF netlist 'Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\ROM64X32.edn' conversion
+C Conv #### Import EDIF netlist 'Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\ROM64X32.edn'
+C Conv #### Symbol 'ROM64X32', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'ROM64X32', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'ROM64X32', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'ROM64X32', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'ROM64X32', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'ROM64X32', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'ROM64X32', port 'DO<0>' has been renamed to 'DO0'
+C Conv #### Symbol 'ROM64X32', port 'DO<1>' has been renamed to 'DO1'
+C Conv #### Symbol 'ROM64X32', port 'DO<2>' has been renamed to 'DO2'
+C Conv #### Symbol 'ROM64X32', port 'DO<3>' has been renamed to 'DO3'
+C Conv #### Symbol 'ROM64X32', port 'DO<4>' has been renamed to 'DO4'
+C Conv #### Symbol 'ROM64X32', port 'DO<5>' has been renamed to 'DO5'
+C Conv #### Symbol 'ROM64X32', port 'DO<6>' has been renamed to 'DO6'
+C Conv #### Symbol 'ROM64X32', port 'DO<7>' has been renamed to 'DO7'
+C Conv #### Symbol 'ROM64X32', port 'DO<8>' has been renamed to 'DO8'
+C Conv #### Symbol 'ROM64X32', port 'DO<9>' has been renamed to 'DO9'
+C Conv #### Symbol 'ROM64X32', port 'DO<10>' has been renamed to 'DO10'
+C Conv #### Symbol 'ROM64X32', port 'DO<11>' has been renamed to 'DO11'
+C Conv #### Symbol 'ROM64X32', port 'DO<12>' has been renamed to 'DO12'
+C Conv #### Symbol 'ROM64X32', port 'DO<13>' has been renamed to 'DO13'
+C Conv #### Symbol 'ROM64X32', port 'DO<14>' has been renamed to 'DO14'
+C Conv #### Symbol 'ROM64X32', port 'DO<15>' has been renamed to 'DO15'
+C Conv #### Symbol 'ROM64X32', port 'DO<16>' has been renamed to 'DO16'
+C Conv #### Symbol 'ROM64X32', port 'DO<17>' has been renamed to 'DO17'
+C Conv #### Symbol 'ROM64X32', port 'DO<18>' has been renamed to 'DO18'
+C Conv #### Symbol 'ROM64X32', port 'DO<19>' has been renamed to 'DO19'
+C Conv #### Symbol 'ROM64X32', port 'DO<20>' has been renamed to 'DO20'
+C Conv #### Symbol 'ROM64X32', port 'DO<21>' has been renamed to 'DO21'
+C Conv #### Symbol 'ROM64X32', port 'DO<22>' has been renamed to 'DO22'
+C Conv #### Symbol 'ROM64X32', port 'DO<23>' has been renamed to 'DO23'
+C Conv #### Symbol 'ROM64X32', port 'DO<24>' has been renamed to 'DO24'
+C Conv #### Symbol 'ROM64X32', port 'DO<25>' has been renamed to 'DO25'
+C Conv #### Symbol 'ROM64X32', port 'DO<26>' has been renamed to 'DO26'
+C Conv #### Symbol 'ROM64X32', port 'DO<27>' has been renamed to 'DO27'
+C Conv #### Symbol 'ROM64X32', port 'DO<28>' has been renamed to 'DO28'
+C Conv #### Symbol 'ROM64X32', port 'DO<29>' has been renamed to 'DO29'
+C Conv #### Symbol 'ROM64X32', port 'DO<30>' has been renamed to 'DO30'
+C Conv #### Symbol 'ROM64X32', port 'DO<31>' has been renamed to 'DO31'
+C Conv #### Symbol 'ROM64X32', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'ROM64X32', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'ROM64X32', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'ROM64X32', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'ROM64X32', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'ROM64X32', port 'A<5>' has been renamed to 'A5'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'ROM64X32' successfully created/updated
+1 ?? #### File Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\ROM64X32.edn extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f ROM64X32
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'rom64x32'....
+0 ?? #### Creating VHDL Simulation Model 'rom64x32.vhd'....
+0 ?? #### Creating NGC Netlist 'rom64x32.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "rom64x32"...
+0 ?? #### Creating EDIF Simulation Model 'rom64x32.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'rom64x32.edn' ...
+0 ?? #### Creating Module File 'rom64x32.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'rom64x32' created successfully
+0 ?? #### EDIF netlist 'Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\rom64x32.edn' conversion
+C Conv #### Import EDIF netlist 'Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\rom64x32.edn'
+C Conv #### Symbol 'rom64x32', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom64x32', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom64x32', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom64x32', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom64x32', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom64x32', port 'A<5>' has been renamed to 'A5'
+C Conv #### Symbol 'rom64x32', port 'DO<0>' has been renamed to 'DO0'
+C Conv #### Symbol 'rom64x32', port 'DO<1>' has been renamed to 'DO1'
+C Conv #### Symbol 'rom64x32', port 'DO<2>' has been renamed to 'DO2'
+C Conv #### Symbol 'rom64x32', port 'DO<3>' has been renamed to 'DO3'
+C Conv #### Symbol 'rom64x32', port 'DO<4>' has been renamed to 'DO4'
+C Conv #### Symbol 'rom64x32', port 'DO<5>' has been renamed to 'DO5'
+C Conv #### Symbol 'rom64x32', port 'DO<6>' has been renamed to 'DO6'
+C Conv #### Symbol 'rom64x32', port 'DO<7>' has been renamed to 'DO7'
+C Conv #### Symbol 'rom64x32', port 'DO<8>' has been renamed to 'DO8'
+C Conv #### Symbol 'rom64x32', port 'DO<9>' has been renamed to 'DO9'
+C Conv #### Symbol 'rom64x32', port 'DO<10>' has been renamed to 'DO10'
+C Conv #### Symbol 'rom64x32', port 'DO<11>' has been renamed to 'DO11'
+C Conv #### Symbol 'rom64x32', port 'DO<12>' has been renamed to 'DO12'
+C Conv #### Symbol 'rom64x32', port 'DO<13>' has been renamed to 'DO13'
+C Conv #### Symbol 'rom64x32', port 'DO<14>' has been renamed to 'DO14'
+C Conv #### Symbol 'rom64x32', port 'DO<15>' has been renamed to 'DO15'
+C Conv #### Symbol 'rom64x32', port 'DO<16>' has been renamed to 'DO16'
+C Conv #### Symbol 'rom64x32', port 'DO<17>' has been renamed to 'DO17'
+C Conv #### Symbol 'rom64x32', port 'DO<18>' has been renamed to 'DO18'
+C Conv #### Symbol 'rom64x32', port 'DO<19>' has been renamed to 'DO19'
+C Conv #### Symbol 'rom64x32', port 'DO<20>' has been renamed to 'DO20'
+C Conv #### Symbol 'rom64x32', port 'DO<21>' has been renamed to 'DO21'
+C Conv #### Symbol 'rom64x32', port 'DO<22>' has been renamed to 'DO22'
+C Conv #### Symbol 'rom64x32', port 'DO<23>' has been renamed to 'DO23'
+C Conv #### Symbol 'rom64x32', port 'DO<24>' has been renamed to 'DO24'
+C Conv #### Symbol 'rom64x32', port 'DO<25>' has been renamed to 'DO25'
+C Conv #### Symbol 'rom64x32', port 'DO<26>' has been renamed to 'DO26'
+C Conv #### Symbol 'rom64x32', port 'DO<27>' has been renamed to 'DO27'
+C Conv #### Symbol 'rom64x32', port 'DO<28>' has been renamed to 'DO28'
+C Conv #### Symbol 'rom64x32', port 'DO<29>' has been renamed to 'DO29'
+C Conv #### Symbol 'rom64x32', port 'DO<30>' has been renamed to 'DO30'
+C Conv #### Symbol 'rom64x32', port 'DO<31>' has been renamed to 'DO31'
+C Conv #### Symbol 'rom64x32', port 'A<0>' has been renamed to 'A0'
+C Conv #### Symbol 'rom64x32', port 'A<1>' has been renamed to 'A1'
+C Conv #### Symbol 'rom64x32', port 'A<2>' has been renamed to 'A2'
+C Conv #### Symbol 'rom64x32', port 'A<3>' has been renamed to 'A3'
+C Conv #### Symbol 'rom64x32', port 'A<4>' has been renamed to 'A4'
+C Conv #### Symbol 'rom64x32', port 'A<5>' has been renamed to 'A5'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'rom64x32' successfully created/updated
+1 ?? #### File Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\rom64x32.edn extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+C Sc #### Loading sheet : SHEET - /Y:\MISDOC\XILIN~ZG\ALUMN~KI\COPIA~-I\TG00PROC\RMIPS.SCH/H20/H9 - BANCOREG32
+2 Sc #### Symbol [TG00REGISTRO32] from library # 1002 found in library # 65535
+2 Sc #### Symbol [TG00REGISTRO32] # 74 replaced by symbol #52
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f MUX8X32LB
+0 ?? #### LogiBLOX Version C.16
+0 ?? #### Copyright (c) 1998, Xilinx Inc.
+0 ?? #### Running LogiBLOX DRC for Module 'MUX8X32LB'....
+0 ?? #### Creating VHDL Simulation Model 'MUX8X32LB.vhd'....
+0 ?? #### Creating NGC Netlist 'MUX8X32LB.ngc'....
+0 ?? #### Running LogiBLOX expansion on symbol "MUX8X32LB"...
+0 ?? #### Creating EDIF Simulation Model 'MUX8X32LB.edn'....
+0 ?? #### ngd2edif:  version C.16
+0 ?? #### Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+0 ?? ####    writing only delay properties to EDIF file
+0 ?? ####    dedicated signals will be given global scope
+0 ?? ####    running NGD DRC ...
+0 ?? ####    writing  EDIF file to 'MUX8X32LB.edn' ...
+0 ?? #### Creating Module File 'MUX8X32LB.mod'....
+0 ?? #### Done.
+0 Pcm #### LogiBLOX symbol 'MUX8X32LB' created successfully
+0 ?? #### EDIF netlist 'Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\MUX8X32LB.edn' conversion
+C Conv #### Import EDIF netlist 'Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\MUX8X32LB.edn'
+C Conv #### Symbol 'MUX8X32LB', port 'S<0>' has been renamed to 'S0'
+C Conv #### Symbol 'MUX8X32LB', port 'S<1>' has been renamed to 'S1'
+C Conv #### Symbol 'MUX8X32LB', port 'S<2>' has been renamed to 'S2'
+C Conv #### Symbol 'MUX8X32LB', port 'O<0>' has been renamed to 'O0'
+C Conv #### Symbol 'MUX8X32LB', port 'O<1>' has been renamed to 'O1'
+C Conv #### Symbol 'MUX8X32LB', port 'O<2>' has been renamed to 'O2'
+C Conv #### Symbol 'MUX8X32LB', port 'O<3>' has been renamed to 'O3'
+C Conv #### Symbol 'MUX8X32LB', port 'O<4>' has been renamed to 'O4'
+C Conv #### Symbol 'MUX8X32LB', port 'O<5>' has been renamed to 'O5'
+C Conv #### Symbol 'MUX8X32LB', port 'O<6>' has been renamed to 'O6'
+C Conv #### Symbol 'MUX8X32LB', port 'O<7>' has been renamed to 'O7'
+C Conv #### Symbol 'MUX8X32LB', port 'O<8>' has been renamed to 'O8'
+C Conv #### Symbol 'MUX8X32LB', port 'O<9>' has been renamed to 'O9'
+C Conv #### Symbol 'MUX8X32LB', port 'O<10>' has been renamed to 'O10'
+C Conv #### Symbol 'MUX8X32LB', port 'O<11>' has been renamed to 'O11'
+C Conv #### Symbol 'MUX8X32LB', port 'O<12>' has been renamed to 'O12'
+C Conv #### Symbol 'MUX8X32LB', port 'O<13>' has been renamed to 'O13'
+C Conv #### Symbol 'MUX8X32LB', port 'O<14>' has been renamed to 'O14'
+C Conv #### Symbol 'MUX8X32LB', port 'O<15>' has been renamed to 'O15'
+C Conv #### Symbol 'MUX8X32LB', port 'O<16>' has been renamed to 'O16'
+C Conv #### Symbol 'MUX8X32LB', port 'O<17>' has been renamed to 'O17'
+C Conv #### Symbol 'MUX8X32LB', port 'O<18>' has been renamed to 'O18'
+C Conv #### Symbol 'MUX8X32LB', port 'O<19>' has been renamed to 'O19'
+C Conv #### Symbol 'MUX8X32LB', port 'O<20>' has been renamed to 'O20'
+C Conv #### Symbol 'MUX8X32LB', port 'O<21>' has been renamed to 'O21'
+C Conv #### Symbol 'MUX8X32LB', port 'O<22>' has been renamed to 'O22'
+C Conv #### Symbol 'MUX8X32LB', port 'O<23>' has been renamed to 'O23'
+C Conv #### Symbol 'MUX8X32LB', port 'O<24>' has been renamed to 'O24'
+C Conv #### Symbol 'MUX8X32LB', port 'O<25>' has been renamed to 'O25'
+C Conv #### Symbol 'MUX8X32LB', port 'O<26>' has been renamed to 'O26'
+C Conv #### Symbol 'MUX8X32LB', port 'O<27>' has been renamed to 'O27'
+C Conv #### Symbol 'MUX8X32LB', port 'O<28>' has been renamed to 'O28'
+C Conv #### Symbol 'MUX8X32LB', port 'O<29>' has been renamed to 'O29'
+C Conv #### Symbol 'MUX8X32LB', port 'O<30>' has been renamed to 'O30'
+C Conv #### Symbol 'MUX8X32LB', port 'O<31>' has been renamed to 'O31'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<0>' has been renamed to 'MA0'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<1>' has been renamed to 'MA1'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<2>' has been renamed to 'MA2'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<3>' has been renamed to 'MA3'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<4>' has been renamed to 'MA4'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<5>' has been renamed to 'MA5'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<6>' has been renamed to 'MA6'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<7>' has been renamed to 'MA7'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<8>' has been renamed to 'MA8'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<9>' has been renamed to 'MA9'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<10>' has been renamed to 'MA10'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<11>' has been renamed to 'MA11'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<12>' has been renamed to 'MA12'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<13>' has been renamed to 'MA13'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<14>' has been renamed to 'MA14'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<15>' has been renamed to 'MA15'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<16>' has been renamed to 'MA16'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<17>' has been renamed to 'MA17'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<18>' has been renamed to 'MA18'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<19>' has been renamed to 'MA19'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<20>' has been renamed to 'MA20'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<21>' has been renamed to 'MA21'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<22>' has been renamed to 'MA22'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<23>' has been renamed to 'MA23'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<24>' has been renamed to 'MA24'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<25>' has been renamed to 'MA25'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<26>' has been renamed to 'MA26'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<27>' has been renamed to 'MA27'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<28>' has been renamed to 'MA28'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<29>' has been renamed to 'MA29'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<30>' has been renamed to 'MA30'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<31>' has been renamed to 'MA31'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<0>' has been renamed to 'MB0'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<1>' has been renamed to 'MB1'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<2>' has been renamed to 'MB2'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<3>' has been renamed to 'MB3'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<4>' has been renamed to 'MB4'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<5>' has been renamed to 'MB5'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<6>' has been renamed to 'MB6'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<7>' has been renamed to 'MB7'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<8>' has been renamed to 'MB8'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<9>' has been renamed to 'MB9'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<10>' has been renamed to 'MB10'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<11>' has been renamed to 'MB11'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<12>' has been renamed to 'MB12'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<13>' has been renamed to 'MB13'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<14>' has been renamed to 'MB14'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<15>' has been renamed to 'MB15'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<16>' has been renamed to 'MB16'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<17>' has been renamed to 'MB17'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<18>' has been renamed to 'MB18'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<19>' has been renamed to 'MB19'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<20>' has been renamed to 'MB20'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<21>' has been renamed to 'MB21'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<22>' has been renamed to 'MB22'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<23>' has been renamed to 'MB23'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<24>' has been renamed to 'MB24'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<25>' has been renamed to 'MB25'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<26>' has been renamed to 'MB26'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<27>' has been renamed to 'MB27'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<28>' has been renamed to 'MB28'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<29>' has been renamed to 'MB29'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<30>' has been renamed to 'MB30'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<31>' has been renamed to 'MB31'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<0>' has been renamed to 'MC0'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<1>' has been renamed to 'MC1'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<2>' has been renamed to 'MC2'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<3>' has been renamed to 'MC3'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<4>' has been renamed to 'MC4'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<5>' has been renamed to 'MC5'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<6>' has been renamed to 'MC6'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<7>' has been renamed to 'MC7'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<8>' has been renamed to 'MC8'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<9>' has been renamed to 'MC9'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<10>' has been renamed to 'MC10'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<11>' has been renamed to 'MC11'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<12>' has been renamed to 'MC12'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<13>' has been renamed to 'MC13'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<14>' has been renamed to 'MC14'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<15>' has been renamed to 'MC15'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<16>' has been renamed to 'MC16'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<17>' has been renamed to 'MC17'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<18>' has been renamed to 'MC18'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<19>' has been renamed to 'MC19'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<20>' has been renamed to 'MC20'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<21>' has been renamed to 'MC21'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<22>' has been renamed to 'MC22'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<23>' has been renamed to 'MC23'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<24>' has been renamed to 'MC24'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<25>' has been renamed to 'MC25'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<26>' has been renamed to 'MC26'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<27>' has been renamed to 'MC27'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<28>' has been renamed to 'MC28'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<29>' has been renamed to 'MC29'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<30>' has been renamed to 'MC30'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<31>' has been renamed to 'MC31'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<0>' has been renamed to 'MD0'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<1>' has been renamed to 'MD1'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<2>' has been renamed to 'MD2'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<3>' has been renamed to 'MD3'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<4>' has been renamed to 'MD4'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<5>' has been renamed to 'MD5'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<6>' has been renamed to 'MD6'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<7>' has been renamed to 'MD7'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<8>' has been renamed to 'MD8'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<9>' has been renamed to 'MD9'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<10>' has been renamed to 'MD10'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<11>' has been renamed to 'MD11'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<12>' has been renamed to 'MD12'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<13>' has been renamed to 'MD13'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<14>' has been renamed to 'MD14'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<15>' has been renamed to 'MD15'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<16>' has been renamed to 'MD16'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<17>' has been renamed to 'MD17'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<18>' has been renamed to 'MD18'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<19>' has been renamed to 'MD19'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<20>' has been renamed to 'MD20'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<21>' has been renamed to 'MD21'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<22>' has been renamed to 'MD22'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<23>' has been renamed to 'MD23'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<24>' has been renamed to 'MD24'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<25>' has been renamed to 'MD25'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<26>' has been renamed to 'MD26'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<27>' has been renamed to 'MD27'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<28>' has been renamed to 'MD28'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<29>' has been renamed to 'MD29'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<30>' has been renamed to 'MD30'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<31>' has been renamed to 'MD31'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<0>' has been renamed to 'ME0'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<1>' has been renamed to 'ME1'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<2>' has been renamed to 'ME2'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<3>' has been renamed to 'ME3'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<4>' has been renamed to 'ME4'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<5>' has been renamed to 'ME5'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<6>' has been renamed to 'ME6'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<7>' has been renamed to 'ME7'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<8>' has been renamed to 'ME8'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<9>' has been renamed to 'ME9'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<10>' has been renamed to 'ME10'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<11>' has been renamed to 'ME11'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<12>' has been renamed to 'ME12'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<13>' has been renamed to 'ME13'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<14>' has been renamed to 'ME14'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<15>' has been renamed to 'ME15'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<16>' has been renamed to 'ME16'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<17>' has been renamed to 'ME17'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<18>' has been renamed to 'ME18'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<19>' has been renamed to 'ME19'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<20>' has been renamed to 'ME20'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<21>' has been renamed to 'ME21'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<22>' has been renamed to 'ME22'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<23>' has been renamed to 'ME23'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<24>' has been renamed to 'ME24'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<25>' has been renamed to 'ME25'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<26>' has been renamed to 'ME26'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<27>' has been renamed to 'ME27'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<28>' has been renamed to 'ME28'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<29>' has been renamed to 'ME29'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<30>' has been renamed to 'ME30'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<31>' has been renamed to 'ME31'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<0>' has been renamed to 'MF0'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<1>' has been renamed to 'MF1'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<2>' has been renamed to 'MF2'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<3>' has been renamed to 'MF3'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<4>' has been renamed to 'MF4'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<5>' has been renamed to 'MF5'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<6>' has been renamed to 'MF6'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<7>' has been renamed to 'MF7'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<8>' has been renamed to 'MF8'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<9>' has been renamed to 'MF9'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<10>' has been renamed to 'MF10'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<11>' has been renamed to 'MF11'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<12>' has been renamed to 'MF12'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<13>' has been renamed to 'MF13'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<14>' has been renamed to 'MF14'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<15>' has been renamed to 'MF15'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<16>' has been renamed to 'MF16'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<17>' has been renamed to 'MF17'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<18>' has been renamed to 'MF18'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<19>' has been renamed to 'MF19'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<20>' has been renamed to 'MF20'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<21>' has been renamed to 'MF21'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<22>' has been renamed to 'MF22'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<23>' has been renamed to 'MF23'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<24>' has been renamed to 'MF24'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<25>' has been renamed to 'MF25'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<26>' has been renamed to 'MF26'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<27>' has been renamed to 'MF27'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<28>' has been renamed to 'MF28'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<29>' has been renamed to 'MF29'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<30>' has been renamed to 'MF30'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<31>' has been renamed to 'MF31'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<0>' has been renamed to 'MG0'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<1>' has been renamed to 'MG1'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<2>' has been renamed to 'MG2'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<3>' has been renamed to 'MG3'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<4>' has been renamed to 'MG4'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<5>' has been renamed to 'MG5'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<6>' has been renamed to 'MG6'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<7>' has been renamed to 'MG7'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<8>' has been renamed to 'MG8'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<9>' has been renamed to 'MG9'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<10>' has been renamed to 'MG10'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<11>' has been renamed to 'MG11'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<12>' has been renamed to 'MG12'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<13>' has been renamed to 'MG13'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<14>' has been renamed to 'MG14'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<15>' has been renamed to 'MG15'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<16>' has been renamed to 'MG16'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<17>' has been renamed to 'MG17'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<18>' has been renamed to 'MG18'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<19>' has been renamed to 'MG19'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<20>' has been renamed to 'MG20'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<21>' has been renamed to 'MG21'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<22>' has been renamed to 'MG22'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<23>' has been renamed to 'MG23'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<24>' has been renamed to 'MG24'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<25>' has been renamed to 'MG25'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<26>' has been renamed to 'MG26'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<27>' has been renamed to 'MG27'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<28>' has been renamed to 'MG28'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<29>' has been renamed to 'MG29'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<30>' has been renamed to 'MG30'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<31>' has been renamed to 'MG31'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<0>' has been renamed to 'MH0'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<1>' has been renamed to 'MH1'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<2>' has been renamed to 'MH2'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<3>' has been renamed to 'MH3'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<4>' has been renamed to 'MH4'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<5>' has been renamed to 'MH5'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<6>' has been renamed to 'MH6'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<7>' has been renamed to 'MH7'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<8>' has been renamed to 'MH8'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<9>' has been renamed to 'MH9'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<10>' has been renamed to 'MH10'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<11>' has been renamed to 'MH11'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<12>' has been renamed to 'MH12'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<13>' has been renamed to 'MH13'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<14>' has been renamed to 'MH14'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<15>' has been renamed to 'MH15'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<16>' has been renamed to 'MH16'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<17>' has been renamed to 'MH17'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<18>' has been renamed to 'MH18'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<19>' has been renamed to 'MH19'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<20>' has been renamed to 'MH20'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<21>' has been renamed to 'MH21'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<22>' has been renamed to 'MH22'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<23>' has been renamed to 'MH23'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<24>' has been renamed to 'MH24'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<25>' has been renamed to 'MH25'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<26>' has been renamed to 'MH26'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<27>' has been renamed to 'MH27'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<28>' has been renamed to 'MH28'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<29>' has been renamed to 'MH29'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<30>' has been renamed to 'MH30'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<31>' has been renamed to 'MH31'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<0>' has been renamed to 'MA0'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<1>' has been renamed to 'MA1'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<2>' has been renamed to 'MA2'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<3>' has been renamed to 'MA3'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<4>' has been renamed to 'MA4'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<5>' has been renamed to 'MA5'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<6>' has been renamed to 'MA6'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<7>' has been renamed to 'MA7'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<8>' has been renamed to 'MA8'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<9>' has been renamed to 'MA9'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<10>' has been renamed to 'MA10'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<11>' has been renamed to 'MA11'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<12>' has been renamed to 'MA12'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<13>' has been renamed to 'MA13'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<14>' has been renamed to 'MA14'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<15>' has been renamed to 'MA15'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<16>' has been renamed to 'MA16'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<17>' has been renamed to 'MA17'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<18>' has been renamed to 'MA18'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<19>' has been renamed to 'MA19'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<20>' has been renamed to 'MA20'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<21>' has been renamed to 'MA21'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<22>' has been renamed to 'MA22'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<23>' has been renamed to 'MA23'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<24>' has been renamed to 'MA24'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<25>' has been renamed to 'MA25'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<26>' has been renamed to 'MA26'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<27>' has been renamed to 'MA27'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<28>' has been renamed to 'MA28'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<29>' has been renamed to 'MA29'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<30>' has been renamed to 'MA30'
+C Conv #### Symbol 'MUX8X32LB', port 'MA<31>' has been renamed to 'MA31'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<0>' has been renamed to 'MB0'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<1>' has been renamed to 'MB1'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<2>' has been renamed to 'MB2'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<3>' has been renamed to 'MB3'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<4>' has been renamed to 'MB4'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<5>' has been renamed to 'MB5'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<6>' has been renamed to 'MB6'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<7>' has been renamed to 'MB7'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<8>' has been renamed to 'MB8'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<9>' has been renamed to 'MB9'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<10>' has been renamed to 'MB10'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<11>' has been renamed to 'MB11'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<12>' has been renamed to 'MB12'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<13>' has been renamed to 'MB13'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<14>' has been renamed to 'MB14'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<15>' has been renamed to 'MB15'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<16>' has been renamed to 'MB16'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<17>' has been renamed to 'MB17'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<18>' has been renamed to 'MB18'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<19>' has been renamed to 'MB19'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<20>' has been renamed to 'MB20'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<21>' has been renamed to 'MB21'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<22>' has been renamed to 'MB22'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<23>' has been renamed to 'MB23'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<24>' has been renamed to 'MB24'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<25>' has been renamed to 'MB25'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<26>' has been renamed to 'MB26'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<27>' has been renamed to 'MB27'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<28>' has been renamed to 'MB28'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<29>' has been renamed to 'MB29'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<30>' has been renamed to 'MB30'
+C Conv #### Symbol 'MUX8X32LB', port 'MB<31>' has been renamed to 'MB31'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<0>' has been renamed to 'MC0'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<1>' has been renamed to 'MC1'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<2>' has been renamed to 'MC2'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<3>' has been renamed to 'MC3'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<4>' has been renamed to 'MC4'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<5>' has been renamed to 'MC5'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<6>' has been renamed to 'MC6'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<7>' has been renamed to 'MC7'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<8>' has been renamed to 'MC8'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<9>' has been renamed to 'MC9'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<10>' has been renamed to 'MC10'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<11>' has been renamed to 'MC11'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<12>' has been renamed to 'MC12'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<13>' has been renamed to 'MC13'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<14>' has been renamed to 'MC14'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<15>' has been renamed to 'MC15'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<16>' has been renamed to 'MC16'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<17>' has been renamed to 'MC17'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<18>' has been renamed to 'MC18'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<19>' has been renamed to 'MC19'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<20>' has been renamed to 'MC20'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<21>' has been renamed to 'MC21'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<22>' has been renamed to 'MC22'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<23>' has been renamed to 'MC23'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<24>' has been renamed to 'MC24'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<25>' has been renamed to 'MC25'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<26>' has been renamed to 'MC26'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<27>' has been renamed to 'MC27'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<28>' has been renamed to 'MC28'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<29>' has been renamed to 'MC29'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<30>' has been renamed to 'MC30'
+C Conv #### Symbol 'MUX8X32LB', port 'MC<31>' has been renamed to 'MC31'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<0>' has been renamed to 'MD0'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<1>' has been renamed to 'MD1'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<2>' has been renamed to 'MD2'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<3>' has been renamed to 'MD3'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<4>' has been renamed to 'MD4'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<5>' has been renamed to 'MD5'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<6>' has been renamed to 'MD6'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<7>' has been renamed to 'MD7'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<8>' has been renamed to 'MD8'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<9>' has been renamed to 'MD9'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<10>' has been renamed to 'MD10'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<11>' has been renamed to 'MD11'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<12>' has been renamed to 'MD12'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<13>' has been renamed to 'MD13'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<14>' has been renamed to 'MD14'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<15>' has been renamed to 'MD15'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<16>' has been renamed to 'MD16'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<17>' has been renamed to 'MD17'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<18>' has been renamed to 'MD18'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<19>' has been renamed to 'MD19'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<20>' has been renamed to 'MD20'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<21>' has been renamed to 'MD21'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<22>' has been renamed to 'MD22'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<23>' has been renamed to 'MD23'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<24>' has been renamed to 'MD24'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<25>' has been renamed to 'MD25'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<26>' has been renamed to 'MD26'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<27>' has been renamed to 'MD27'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<28>' has been renamed to 'MD28'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<29>' has been renamed to 'MD29'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<30>' has been renamed to 'MD30'
+C Conv #### Symbol 'MUX8X32LB', port 'MD<31>' has been renamed to 'MD31'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<0>' has been renamed to 'ME0'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<1>' has been renamed to 'ME1'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<2>' has been renamed to 'ME2'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<3>' has been renamed to 'ME3'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<4>' has been renamed to 'ME4'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<5>' has been renamed to 'ME5'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<6>' has been renamed to 'ME6'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<7>' has been renamed to 'ME7'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<8>' has been renamed to 'ME8'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<9>' has been renamed to 'ME9'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<10>' has been renamed to 'ME10'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<11>' has been renamed to 'ME11'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<12>' has been renamed to 'ME12'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<13>' has been renamed to 'ME13'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<14>' has been renamed to 'ME14'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<15>' has been renamed to 'ME15'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<16>' has been renamed to 'ME16'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<17>' has been renamed to 'ME17'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<18>' has been renamed to 'ME18'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<19>' has been renamed to 'ME19'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<20>' has been renamed to 'ME20'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<21>' has been renamed to 'ME21'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<22>' has been renamed to 'ME22'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<23>' has been renamed to 'ME23'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<24>' has been renamed to 'ME24'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<25>' has been renamed to 'ME25'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<26>' has been renamed to 'ME26'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<27>' has been renamed to 'ME27'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<28>' has been renamed to 'ME28'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<29>' has been renamed to 'ME29'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<30>' has been renamed to 'ME30'
+C Conv #### Symbol 'MUX8X32LB', port 'ME<31>' has been renamed to 'ME31'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<0>' has been renamed to 'MF0'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<1>' has been renamed to 'MF1'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<2>' has been renamed to 'MF2'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<3>' has been renamed to 'MF3'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<4>' has been renamed to 'MF4'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<5>' has been renamed to 'MF5'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<6>' has been renamed to 'MF6'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<7>' has been renamed to 'MF7'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<8>' has been renamed to 'MF8'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<9>' has been renamed to 'MF9'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<10>' has been renamed to 'MF10'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<11>' has been renamed to 'MF11'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<12>' has been renamed to 'MF12'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<13>' has been renamed to 'MF13'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<14>' has been renamed to 'MF14'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<15>' has been renamed to 'MF15'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<16>' has been renamed to 'MF16'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<17>' has been renamed to 'MF17'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<18>' has been renamed to 'MF18'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<19>' has been renamed to 'MF19'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<20>' has been renamed to 'MF20'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<21>' has been renamed to 'MF21'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<22>' has been renamed to 'MF22'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<23>' has been renamed to 'MF23'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<24>' has been renamed to 'MF24'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<25>' has been renamed to 'MF25'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<26>' has been renamed to 'MF26'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<27>' has been renamed to 'MF27'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<28>' has been renamed to 'MF28'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<29>' has been renamed to 'MF29'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<30>' has been renamed to 'MF30'
+C Conv #### Symbol 'MUX8X32LB', port 'MF<31>' has been renamed to 'MF31'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<0>' has been renamed to 'MG0'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<1>' has been renamed to 'MG1'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<2>' has been renamed to 'MG2'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<3>' has been renamed to 'MG3'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<4>' has been renamed to 'MG4'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<5>' has been renamed to 'MG5'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<6>' has been renamed to 'MG6'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<7>' has been renamed to 'MG7'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<8>' has been renamed to 'MG8'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<9>' has been renamed to 'MG9'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<10>' has been renamed to 'MG10'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<11>' has been renamed to 'MG11'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<12>' has been renamed to 'MG12'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<13>' has been renamed to 'MG13'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<14>' has been renamed to 'MG14'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<15>' has been renamed to 'MG15'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<16>' has been renamed to 'MG16'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<17>' has been renamed to 'MG17'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<18>' has been renamed to 'MG18'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<19>' has been renamed to 'MG19'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<20>' has been renamed to 'MG20'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<21>' has been renamed to 'MG21'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<22>' has been renamed to 'MG22'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<23>' has been renamed to 'MG23'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<24>' has been renamed to 'MG24'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<25>' has been renamed to 'MG25'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<26>' has been renamed to 'MG26'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<27>' has been renamed to 'MG27'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<28>' has been renamed to 'MG28'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<29>' has been renamed to 'MG29'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<30>' has been renamed to 'MG30'
+C Conv #### Symbol 'MUX8X32LB', port 'MG<31>' has been renamed to 'MG31'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<0>' has been renamed to 'MH0'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<1>' has been renamed to 'MH1'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<2>' has been renamed to 'MH2'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<3>' has been renamed to 'MH3'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<4>' has been renamed to 'MH4'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<5>' has been renamed to 'MH5'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<6>' has been renamed to 'MH6'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<7>' has been renamed to 'MH7'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<8>' has been renamed to 'MH8'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<9>' has been renamed to 'MH9'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<10>' has been renamed to 'MH10'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<11>' has been renamed to 'MH11'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<12>' has been renamed to 'MH12'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<13>' has been renamed to 'MH13'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<14>' has been renamed to 'MH14'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<15>' has been renamed to 'MH15'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<16>' has been renamed to 'MH16'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<17>' has been renamed to 'MH17'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<18>' has been renamed to 'MH18'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<19>' has been renamed to 'MH19'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<20>' has been renamed to 'MH20'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<21>' has been renamed to 'MH21'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<22>' has been renamed to 'MH22'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<23>' has been renamed to 'MH23'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<24>' has been renamed to 'MH24'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<25>' has been renamed to 'MH25'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<26>' has been renamed to 'MH26'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<27>' has been renamed to 'MH27'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<28>' has been renamed to 'MH28'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<29>' has been renamed to 'MH29'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<30>' has been renamed to 'MH30'
+C Conv #### Symbol 'MUX8X32LB', port 'MH<31>' has been renamed to 'MH31'
+C Conv #### Symbol 'MUX8X32LB', port 'S<0>' has been renamed to 'S0'
+C Conv #### Symbol 'MUX8X32LB', port 'S<1>' has been renamed to 'S1'
+C Conv #### Symbol 'MUX8X32LB', port 'S<2>' has been renamed to 'S2'
+C Conv #### Symbol 'MUX8X32LB', port 'O<0>' has been renamed to 'O0'
+C Conv #### Symbol 'MUX8X32LB', port 'O<1>' has been renamed to 'O1'
+C Conv #### Symbol 'MUX8X32LB', port 'O<2>' has been renamed to 'O2'
+C Conv #### Symbol 'MUX8X32LB', port 'O<3>' has been renamed to 'O3'
+C Conv #### Symbol 'MUX8X32LB', port 'O<4>' has been renamed to 'O4'
+C Conv #### Symbol 'MUX8X32LB', port 'O<5>' has been renamed to 'O5'
+C Conv #### Symbol 'MUX8X32LB', port 'O<6>' has been renamed to 'O6'
+C Conv #### Symbol 'MUX8X32LB', port 'O<7>' has been renamed to 'O7'
+C Conv #### Symbol 'MUX8X32LB', port 'O<8>' has been renamed to 'O8'
+C Conv #### Symbol 'MUX8X32LB', port 'O<9>' has been renamed to 'O9'
+C Conv #### Symbol 'MUX8X32LB', port 'O<10>' has been renamed to 'O10'
+C Conv #### Symbol 'MUX8X32LB', port 'O<11>' has been renamed to 'O11'
+C Conv #### Symbol 'MUX8X32LB', port 'O<12>' has been renamed to 'O12'
+C Conv #### Symbol 'MUX8X32LB', port 'O<13>' has been renamed to 'O13'
+C Conv #### Symbol 'MUX8X32LB', port 'O<14>' has been renamed to 'O14'
+C Conv #### Symbol 'MUX8X32LB', port 'O<15>' has been renamed to 'O15'
+C Conv #### Symbol 'MUX8X32LB', port 'O<16>' has been renamed to 'O16'
+C Conv #### Symbol 'MUX8X32LB', port 'O<17>' has been renamed to 'O17'
+C Conv #### Symbol 'MUX8X32LB', port 'O<18>' has been renamed to 'O18'
+C Conv #### Symbol 'MUX8X32LB', port 'O<19>' has been renamed to 'O19'
+C Conv #### Symbol 'MUX8X32LB', port 'O<20>' has been renamed to 'O20'
+C Conv #### Symbol 'MUX8X32LB', port 'O<21>' has been renamed to 'O21'
+C Conv #### Symbol 'MUX8X32LB', port 'O<22>' has been renamed to 'O22'
+C Conv #### Symbol 'MUX8X32LB', port 'O<23>' has been renamed to 'O23'
+C Conv #### Symbol 'MUX8X32LB', port 'O<24>' has been renamed to 'O24'
+C Conv #### Symbol 'MUX8X32LB', port 'O<25>' has been renamed to 'O25'
+C Conv #### Symbol 'MUX8X32LB', port 'O<26>' has been renamed to 'O26'
+C Conv #### Symbol 'MUX8X32LB', port 'O<27>' has been renamed to 'O27'
+C Conv #### Symbol 'MUX8X32LB', port 'O<28>' has been renamed to 'O28'
+C Conv #### Symbol 'MUX8X32LB', port 'O<29>' has been renamed to 'O29'
+C Conv #### Symbol 'MUX8X32LB', port 'O<30>' has been renamed to 'O30'
+C Conv #### Symbol 'MUX8X32LB', port 'O<31>' has been renamed to 'O31'
+C Conv #### Import EDIF netlist finished successfully
+0 ?? #### LogiBLOX symbol 'MUX8X32LB' successfully created/updated
+1 ?? #### File Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC\MUX8X~Z#.EDN extension has been changed to EDO
+3 Pcm #### Application CONV_ACS send message Add Report
+0 ?? #### Execute: C:\Fndtn\bin\nt\lbgui.exe -noalone -v fndtn -f MUX8X32LB
+1 ?? #### LogiBLOX canceled.
+C Sc #### Creating netlist for [BANCOREG32] macro
+2 Sc #### Symbol [TG00REGISTRO32] from library # 1002 found in library # 65535
+2 Sc #### Symbol [TG00REGISTRO32] # 74 replaced by symbol #52
+W Sc #### Warnning: multiple drivers or sourceless/loadless nets detected
+W Sc #### Multiple drivers for net: RESET
+W Sc #### Multiple drivers for net: WR2
+W Sc #### Multiple drivers for net: WR5
+W Sc #### Multiple drivers for net: CLK
+W Sc #### Multiple drivers for net: WR6
+W Sc #### Multiple drivers for net: WR3
+W Sc #### Multiple drivers for net: WR7
+W Sc #### Multiple drivers for net: WR1
+W Sc #### Multiple drivers for net: WR4
+W Sc #### Loadless net: WR0
+W Sc #### Multiple drivers for net: C31
+W Sc #### Loadless net: C30
+W Sc #### Loadless net: C29
+W Sc #### Loadless net: C28
+W Sc #### Loadless net: C27
+W Sc #### Loadless net: C26
+W Sc #### Loadless net: C25
+W Sc #### Loadless net: C24
+W Sc #### Loadless net: C23
+W Sc #### Loadless net: C22
+W Sc #### Loadless net: C21
+W Sc #### Loadless net: C20
+W Sc #### Loadless net: C19
+W Sc #### Loadless net: C18
+W Sc #### Loadless net: C17
+W Sc #### Loadless net: C16
+W Sc #### Loadless net: C15
+W Sc #### Loadless net: C14
+W Sc #### Loadless net: C13
+W Sc #### Loadless net: C12
+W Sc #### Loadless net: C11
+W Sc #### Loadless net: C10
+W Sc #### Loadless net: C9
+W Sc #### Loadless net: C8
+W Sc #### Loadless net: C7
+W Sc #### Loadless net: C6
+W Sc #### Loadless net: C5
+W Sc #### Loadless net: C4
+W Sc #### Loadless net: C3
+W Sc #### Loadless net: C2
+W Sc #### Loadless net: C1
+W Sc #### Loadless net: C0
+W Sc #### Sourceless net: R0OUT30
+W Sc #### Sourceless net: R0OUT29
+W Sc #### Sourceless net: R0OUT28
+W Sc #### Sourceless net: R0OUT27
+W Sc #### Sourceless net: R0OUT26
+W Sc #### Sourceless net: R0OUT25
+W Sc #### Sourceless net: R0OUT24
+W Sc #### Sourceless net: R0OUT23
+W Sc #### Sourceless net: R0OUT22
+W Sc #### Sourceless net: R0OUT21
+W Sc #### Sourceless net: R0OUT20
+W Sc #### Sourceless net: R0OUT19
+W Sc #### Sourceless net: R0OUT18
+W Sc #### Sourceless net: R0OUT17
+W Sc #### Sourceless net: R0OUT16
+W Sc #### Sourceless net: R0OUT15
+W Sc #### Sourceless net: R0OUT14
+W Sc #### Sourceless net: R0OUT13
+W Sc #### Sourceless net: R0OUT12
+W Sc #### Sourceless net: R0OUT11
+W Sc #### Sourceless net: R0OUT10
+W Sc #### Sourceless net: R0OUT9
+W Sc #### Sourceless net: R0OUT8
+W Sc #### Sourceless net: R0OUT7
+W Sc #### Sourceless net: R0OUT6
+W Sc #### Sourceless net: R0OUT5
+W Sc #### Sourceless net: R0OUT4
+W Sc #### Sourceless net: R0OUT3
+W Sc #### Sourceless net: R0OUT2
+W Sc #### Sourceless net: R0OUT1
+W Sc #### Sourceless net: R0OUT0
+W Sc #### Sourceless net: R1OUT30
+W Sc #### Sourceless net: R1OUT29
+W Sc #### Sourceless net: R1OUT28
+W Sc #### Sourceless net: R1OUT27
+W Sc #### Sourceless net: R1OUT26
+W Sc #### Sourceless net: R1OUT25
+W Sc #### Sourceless net: R1OUT24
+W Sc #### Sourceless net: R1OUT23
+W Sc #### Sourceless net: R1OUT22
+W Sc #### Sourceless net: R1OUT21
+W Sc #### Sourceless net: R1OUT20
+W Sc #### Sourceless net: R1OUT19
+W Sc #### Sourceless net: R1OUT18
+W Sc #### Sourceless net: R1OUT17
+W Sc #### Sourceless net: R1OUT16
+W Sc #### Sourceless net: R1OUT15
+W Sc #### Sourceless net: R1OUT14
+W Sc #### Sourceless net: R1OUT13
+W Sc #### Sourceless net: R1OUT12
+W Sc #### Sourceless net: R1OUT11
+W Sc #### Sourceless net: R1OUT10
+W Sc #### Sourceless net: R1OUT9
+W Sc #### Sourceless net: R1OUT8
+W Sc #### Sourceless net: R1OUT7
+W Sc #### Sourceless net: R1OUT6
+W Sc #### Sourceless net: R1OUT5
+W Sc #### Sourceless net: R1OUT4
+W Sc #### Sourceless net: R1OUT3
+W Sc #### Sourceless net: R1OUT2
+W Sc #### Sourceless net: R1OUT1
+W Sc #### Sourceless net: R1OUT0
+W Sc #### Sourceless net: R2OUT30
+W Sc #### Sourceless net: R2OUT29
+W Sc #### Sourceless net: R2OUT28
+W Sc #### Sourceless net: R2OUT27
+W Sc #### Sourceless net: R2OUT26
+W Sc #### Sourceless net: R2OUT25
+W Sc #### Sourceless net: R2OUT24
+W Sc #### Sourceless net: R2OUT23
+W Sc #### Sourceless net: R2OUT22
+W Sc #### Sourceless net: R2OUT21
+W Sc #### Sourceless net: R2OUT20
+W Sc #### Sourceless net: R2OUT19
+W Sc #### Sourceless net: R2OUT18
+W Sc #### Sourceless net: R2OUT17
+W Sc #### Sourceless net: R2OUT16
+W Sc #### Sourceless net: R2OUT15
+W Sc #### Sourceless net: R2OUT14
+W Sc #### Sourceless net: R2OUT13
+W Sc #### Sourceless net: R2OUT12
+W Sc #### Sourceless net: R2OUT11
+W Sc #### Sourceless net: R2OUT10
+W Sc #### Sourceless net: R2OUT9
+W Sc #### Sourceless net: R2OUT8
+W Sc #### Sourceless net: R2OUT7
+W Sc #### Sourceless net: R2OUT6
+W Sc #### Sourceless net: R2OUT5
+W Sc #### Sourceless net: R2OUT4
+W Sc #### Sourceless net: R2OUT3
+W Sc #### Sourceless net: R2OUT2
+W Sc #### Sourceless net: R2OUT1
+W Sc #### Sourceless net: R2OUT0
+W Sc #### Sourceless net: R3OUT30
+W Sc #### Sourceless net: R3OUT29
+W Sc #### Sourceless net: R3OUT28
+W Sc #### Sourceless net: R3OUT27
+W Sc #### Sourceless net: R3OUT26
+W Sc #### Sourceless net: R3OUT25
+W Sc #### Sourceless net: R3OUT24
+W Sc #### Sourceless net: R3OUT23
+W Sc #### Sourceless net: R3OUT22
+W Sc #### Sourceless net: R3OUT21
+W Sc #### Sourceless net: R3OUT20
+W Sc #### Sourceless net: R3OUT19
+W Sc #### Sourceless net: R3OUT18
+W Sc #### Sourceless net: R3OUT17
+W Sc #### Sourceless net: R3OUT16
+W Sc #### Sourceless net: R3OUT15
+W Sc #### Sourceless net: R3OUT14
+W Sc #### Sourceless net: R3OUT13
+W Sc #### Sourceless net: R3OUT12
+W Sc #### Sourceless net: R3OUT11
+W Sc #### Sourceless net: R3OUT10
+W Sc #### Sourceless net: R3OUT9
+W Sc #### Sourceless net: R3OUT8
+W Sc #### Sourceless net: R3OUT7
+W Sc #### Sourceless net: R3OUT6
+W Sc #### Sourceless net: R3OUT5
+W Sc #### Sourceless net: R3OUT4
+W Sc #### Sourceless net: R3OUT3
+W Sc #### Sourceless net: R3OUT2
+W Sc #### Sourceless net: R3OUT1
+W Sc #### Sourceless net: R3OUT0
+W Sc #### Sourceless net: R4OUT30
+W Sc #### Sourceless net: R4OUT29
+W Sc #### Sourceless net: R4OUT28
+W Sc #### Sourceless net: R4OUT27
+W Sc #### Sourceless net: R4OUT26
+W Sc #### Sourceless net: R4OUT25
+W Sc #### Sourceless net: R4OUT24
+W Sc #### Sourceless net: R4OUT23
+W Sc #### Sourceless net: R4OUT22
+W Sc #### Sourceless net: R4OUT21
+W Sc #### Sourceless net: R4OUT20
+W Sc #### Sourceless net: R4OUT19
+W Sc #### Sourceless net: R4OUT18
+W Sc #### Sourceless net: R4OUT17
+W Sc #### Sourceless net: R4OUT16
+W Sc #### Sourceless net: R4OUT15
+W Sc #### Sourceless net: R4OUT14
+W Sc #### Sourceless net: R4OUT13
+W Sc #### Sourceless net: R4OUT12
+W Sc #### Sourceless net: R4OUT11
+W Sc #### Sourceless net: R4OUT10
+W Sc #### Sourceless net: R4OUT9
+W Sc #### Sourceless net: R4OUT8
+W Sc #### Sourceless net: R4OUT7
+W Sc #### Sourceless net: R4OUT6
+W Sc #### Sourceless net: R4OUT5
+W Sc #### Sourceless net: R4OUT4
+W Sc #### Sourceless net: R4OUT3
+W Sc #### Sourceless net: R4OUT2
+W Sc #### Sourceless net: R4OUT1
+W Sc #### Sourceless net: R4OUT0
+W Sc #### Sourceless net: R5OUT30
+W Sc #### Sourceless net: R5OUT29
+W Sc #### Sourceless net: R5OUT28
+W Sc #### Sourceless net: R5OUT27
+W Sc #### Sourceless net: R5OUT26
+W Sc #### Sourceless net: R5OUT25
+W Sc #### Sourceless net: R5OUT24
+W Sc #### Sourceless net: R5OUT23
+W Sc #### Sourceless net: R5OUT22
+W Sc #### Sourceless net: R5OUT21
+W Sc #### Sourceless net: R5OUT20
+W Sc #### Sourceless net: R5OUT19
+W Sc #### Sourceless net: R5OUT18
+W Sc #### Sourceless net: R5OUT17
+W Sc #### Sourceless net: R5OUT16
+W Sc #### Sourceless net: R5OUT15
+W Sc #### Sourceless net: R5OUT14
+W Sc #### Sourceless net: R5OUT13
+W Sc #### Sourceless net: R5OUT12
+W Sc #### Sourceless net: R5OUT11
+W Sc #### Sourceless net: R5OUT10
+W Sc #### Sourceless net: R5OUT9
+W Sc #### Sourceless net: R5OUT8
+W Sc #### Sourceless net: R5OUT7
+W Sc #### Sourceless net: R5OUT6
+W Sc #### Sourceless net: R5OUT5
+W Sc #### Sourceless net: R5OUT4
+W Sc #### Sourceless net: R5OUT3
+W Sc #### Sourceless net: R5OUT2
+W Sc #### Sourceless net: R5OUT1
+W Sc #### Sourceless net: R5OUT0
+W Sc #### Sourceless net: R6OUT30
+W Sc #### Sourceless net: R6OUT29
+W Sc #### Sourceless net: R6OUT28
+W Sc #### Sourceless net: R6OUT27
+W Sc #### Sourceless net: R6OUT26
+W Sc #### Sourceless net: R6OUT25
+W Sc #### Sourceless net: R6OUT24
+W Sc #### Sourceless net: R6OUT23
+W Sc #### Sourceless net: R6OUT22
+W Sc #### Sourceless net: R6OUT21
+W Sc #### Sourceless net: R6OUT20
+W Sc #### Sourceless net: R6OUT19
+W Sc #### Sourceless net: R6OUT18
+W Sc #### Sourceless net: R6OUT17
+W Sc #### Sourceless net: R6OUT16
+W Sc #### Sourceless net: R6OUT15
+W Sc #### Sourceless net: R6OUT14
+W Sc #### Sourceless net: R6OUT13
+W Sc #### Sourceless net: R6OUT12
+W Sc #### Sourceless net: R6OUT11
+W Sc #### Sourceless net: R6OUT10
+W Sc #### Sourceless net: R6OUT9
+W Sc #### Sourceless net: R6OUT8
+W Sc #### Sourceless net: R6OUT7
+W Sc #### Sourceless net: R6OUT6
+W Sc #### Sourceless net: R6OUT5
+W Sc #### Sourceless net: R6OUT4
+W Sc #### Sourceless net: R6OUT3
+W Sc #### Sourceless net: R6OUT2
+W Sc #### Sourceless net: R6OUT1
+W Sc #### Sourceless net: R6OUT0
+W Sc #### Sourceless net: R7OUT30
+W Sc #### Sourceless net: R7OUT29
+W Sc #### Sourceless net: R7OUT28
+W Sc #### Sourceless net: R7OUT27
+W Sc #### Sourceless net: R7OUT26
+W Sc #### Sourceless net: R7OUT25
+W Sc #### Sourceless net: R7OUT24
+W Sc #### Sourceless net: R7OUT23
+W Sc #### Sourceless net: R7OUT22
+W Sc #### Sourceless net: R7OUT21
+W Sc #### Sourceless net: R7OUT20
+W Sc #### Sourceless net: R7OUT19
+W Sc #### Sourceless net: R7OUT18
+W Sc #### Sourceless net: R7OUT17
+W Sc #### Sourceless net: R7OUT16
+W Sc #### Sourceless net: R7OUT15
+W Sc #### Sourceless net: R7OUT14
+W Sc #### Sourceless net: R7OUT13
+W Sc #### Sourceless net: R7OUT12
+W Sc #### Sourceless net: R7OUT11
+W Sc #### Sourceless net: R7OUT10
+W Sc #### Sourceless net: R7OUT9
+W Sc #### Sourceless net: R7OUT8
+W Sc #### Sourceless net: R7OUT7
+W Sc #### Sourceless net: R7OUT6
+W Sc #### Sourceless net: R7OUT5
+W Sc #### Sourceless net: R7OUT4
+W Sc #### Sourceless net: R7OUT3
+W Sc #### Sourceless net: R7OUT2
+W Sc #### Sourceless net: R7OUT1
+W Sc #### Sourceless net: R7OUT0
+W Sc #### Loadless net: DC4
+W Sc #### Loadless net: DC3
+W Sc #### Loadless net: DB4
+W Sc #### Loadless net: DB3
+W Sc #### Loadless net: DA4
+W Sc #### Loadless net: DA3
+W Sc #### --------------------------
+W Sc #### Warning: connection width mismatch detected
+W Sc #### Check connection: pin A0 (H29) to C[31:0]
+W Sc #### Check connection: pin A4 (H17) to R0OUT[31:0]
+W Sc #### Check connection: pin A0 (H25) to C[31:0]
+W Sc #### Check connection: pin A4 (H21) to R1OUT[31:0]
+W Sc #### Check connection: pin A0 (H21) to C[31:0]
+W Sc #### Check connection: pin A4 (H25) to R2OUT[31:0]
+W Sc #### Check connection: pin A0 (H116) to C[31:0]
+W Sc #### Check connection: pin A4 (H29) to R3OUT[31:0]
+W Sc #### Check connection: pin A4 (H117) to R4OUT[31:0]
+W Sc #### Check connection: pin A4 (H118) to R5OUT[31:0]
+W Sc #### Check connection: pin A4 (H115) to R6OUT[31:0]
+W Sc #### Check connection: pin A0 (H117) to C[31:0]
+W Sc #### Check connection: pin A4 (H116) to R7OUT[31:0]
+W Sc #### Check connection: pin A0 (H17) to C[31:0]
+W Sc #### Check connection: pin A0 (H118) to C[31:0]
+W Sc #### Check connection: pin A0 (H115) to C[31:0]
+C Sc #### Netlist created successfully
+3 Pcm #### Application SC send message Update Sheet
+3 Pcm #### Application SC send message Update Sheet
+C Sc #### Creating netlist for [MEMMIPS] macro
+2 Sc #### Symbol [TG00RAM] from library # 1002 found in library # 65535
+2 Sc #### Symbol [TG00RAM] # 78 replaced by symbol #56
+W Sc #### Warnning: multiple drivers or sourceless/loadless nets detected
+W Sc #### Multiple drivers for net: CLK
+W Sc #### Multiple drivers for net: $Net00006_
+W Sc #### Multiple drivers for net: A5
+W Sc #### Multiple drivers for net: I31
+W Sc #### Loadless net: I30
+W Sc #### Loadless net: I29
+W Sc #### Loadless net: I28
+W Sc #### Loadless net: I27
+W Sc #### Loadless net: I26
+W Sc #### Loadless net: I25
+W Sc #### Loadless net: I24
+W Sc #### Loadless net: I23
+W Sc #### Loadless net: I22
+W Sc #### Loadless net: I21
+W Sc #### Loadless net: I20
+W Sc #### Loadless net: I19
+W Sc #### Loadless net: I18
+W Sc #### Loadless net: I17
+W Sc #### Loadless net: I16
+W Sc #### Loadless net: I15
+W Sc #### Loadless net: I14
+W Sc #### Loadless net: I13
+W Sc #### Loadless net: I12
+W Sc #### Loadless net: I11
+W Sc #### Loadless net: I10
+W Sc #### Loadless net: I9
+W Sc #### Loadless net: I8
+W Sc #### Loadless net: I7
+W Sc #### Loadless net: I6
+W Sc #### Loadless net: I5
+W Sc #### Loadless net: I4
+W Sc #### Loadless net: I3
+W Sc #### Loadless net: I2
+W Sc #### Loadless net: I1
+W Sc #### Loadless net: I0
+W Sc #### Sourceless net: RAM30
+W Sc #### Sourceless net: RAM29
+W Sc #### Sourceless net: RAM28
+W Sc #### Sourceless net: RAM27
+W Sc #### Sourceless net: RAM26
+W Sc #### Sourceless net: RAM25
+W Sc #### Sourceless net: RAM24
+W Sc #### Sourceless net: RAM23
+W Sc #### Sourceless net: RAM22
+W Sc #### Sourceless net: RAM21
+W Sc #### Sourceless net: RAM20
+W Sc #### Sourceless net: RAM19
+W Sc #### Sourceless net: RAM18
+W Sc #### Sourceless net: RAM17
+W Sc #### Sourceless net: RAM16
+W Sc #### Sourceless net: RAM15
+W Sc #### Sourceless net: RAM14
+W Sc #### Sourceless net: RAM13
+W Sc #### Sourceless net: RAM12
+W Sc #### Sourceless net: RAM11
+W Sc #### Sourceless net: RAM10
+W Sc #### Sourceless net: RAM9
+W Sc #### Sourceless net: RAM8
+W Sc #### Sourceless net: RAM7
+W Sc #### Sourceless net: RAM6
+W Sc #### Sourceless net: RAM5
+W Sc #### Sourceless net: RAM4
+W Sc #### Sourceless net: RAM3
+W Sc #### Sourceless net: RAM2
+W Sc #### Sourceless net: RAM1
+W Sc #### Sourceless net: RAM0
+W Sc #### --------------------------
+W Sc #### Warning: connection width mismatch detected
+W Sc #### Check connection: pin A4 (H23) to RAM[31:0]
+W Sc #### Check connection: pin A0 (H23) to A[5:0]
+W Sc #### Check connection: pin A1 (H23) to I[31:0]
+C Sc #### Netlist created successfully
+3 Pcm #### Application SC send message Update Sheet
+3 Pcm #### Application SC send message Update Sheet
+C Sc #### Loading sheet : SHEET - /Y:\MISDOC\XILIN~ZG\ALUMN~KI\COPIA~-I\TG00PROC\RMIPS.SCH/H20/H9 - BANCOREG32
+2 Sc #### Symbol [TG00REGISTRO32] from library # 1002 found in library # 65535
+2 Sc #### Symbol [TG00REGISTRO32] # 74 replaced by symbol #52
+C Sc #### Sheet loaded 
+3 Sc #### Checking connections with symbols
+3 Sc #### Checking terminal positions
+3 Sc #### Checking wires
+W Sc #### Symbol: [TG00REGISTRO32] not found in project libraries
+0 Pcm #### EXIT: Schematic Editor
+0 Pcm #### Execute: zip32.exe A "Y:\MISDOC\XILIN~ZG\ALUMN~KI\PODA\TG00PROC.pdf"

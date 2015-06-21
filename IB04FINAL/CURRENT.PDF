@@ -1,0 +1,107 @@
+[project]
+name=ib04
+netlist=ib04
+contents=ib04
+date=05/11/11
+time=09:20:08
+version=3.1.5.00.33
+generics=MAX
+Type=F21i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+directory=C:\FNDTN\ACTIVE\PROJECTS\IB04
+lib_order=1001 133 153
+pdf_dir=c:\fndtn\active\projects\
+[libraries]
+1001= 
+133=c:\fndtn\active\syslib\simprims
+153=c:\fndtn\active\syslib\xc4000e
+[xilinx]
+libraries=unified
+family=2
+xact9=On
+xfam=XC4000E
+[device]
+xilinx=4003EPC84-1
+part=4003EPC84-1
+[netlist]
+external=FALSE
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+[sheets]
+TG00PROC=
+[Log]
+netlist.log=Simulator Netlist Log
+imp_EDIF.log=Import EDIF netlist
+exp_EDIF.log=Export netlist to EDIF 200
+[sim_config]
+Lower Bound=2048
+Upper Bound=2048
+B0 Period=50
+Transport Delay=On
+Enable Global Netlist Analysis=On
+Forced State=Default
+Output Waveform=Overwrite
+Global Reset=On
+Keep Comments=Off
+Execute Preset=Off
+Models Stabilization=On
+Pulse Global Reset Net Enabled=On
+Pulse Global Reset Net=1000
+[SIMULATE]
+CURRENT_MACRO=TRUE
+[timings]
+tg00proc=
+[OPEN32]
+nMaxFile=255
+lpstrFile=TG00UDATOS.SCH
+lpstrFilter=Schematic (*.SCH)|*.sch||
+lpstrInitialDir=C:\DOCUME~1\TC001\MISDOC~1\IB04\
+lpstrTitle=Save As
+nFilterIndex=1
+Flags=6
+cmdLine=-h 682 -hp 764 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf -s
+[implement_HDL]
+family=2
+xfam=XC4000E
+part=4003EPC84-1
+xilinx=4003EPC84-1
+[implement_XIE]
+version=ver1
+revision=rev1
+[APP_95]
+lid=0
+oid=0
+source=C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH
+[LOGI_MACRO]
+MUX2X16=MUX2X16.mod
+RAM256X16=RAM256X16.mod
+ROM64X16=ROM64X16.mod
+TBUFF16=TBUFF16.mod
+RELLENA=RELLENA.mod
+CERO16=CERO16.mod
+MUX4X16=MUX4X16.mod
+MUX2X3=MUX2X3.mod
+MUX4X8=MUX4X8.mod
+BUFFER=BUFFER.mod
+MUX2X6=MUX2X6.mod
+MICROPC=MICROPC.mod
+ROMPRIN=ROMPRIN.mod
+ROMPRO=ROMPRO.mod
+NOR16=NOR16.mod
+OR2X16=OR2X16.mod
+AND2X16=AND2X16.mod
+XOR1X16=XOR1X16.mod
+ADD16=ADD16.mod
+MUX8X16=MUX8X16.mod
+REG16=REG16.mod
+NOR12=NOR12.mod
+AND1X16=AND1X16.mod
+[FILE7]
+scan_time=1306488116
+[sc_desk]
+desk01=C:\FNDTN\ACTIVE\PROJECTS\IB04\TG00PROC.SCH, 0, 0, 1137, 467, 0
